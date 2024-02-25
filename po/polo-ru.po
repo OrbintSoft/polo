@@ -1,21 +1,21 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Tony George (teejeetech@gmail.com)
-# This file is distributed under the same license as the polo package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Russian localization strings for Polo File Manager
+# SPDX-FileCopyrightText: © 2017, Tony George <teejeetech@gmail.com>.
+# SPDX-FileCopyrightText: © 2018, Oleg Shaposhnikov <01egshaposhnikof@gmail.com>.
 #
+# SPDX-License-Identifier: GPL-2.0-or-later
+
 msgid ""
 msgstr ""
 "Project-Id-Version: polo 1.6\n"
-"Report-Msgid-Bugs-To: teejeetech@gmail.com\n"
+"Report-Msgid-Bugs-To: <teejeetech@gmail.com>\n"
 "POT-Creation-Date: 2020-07-11 01:59+0400\n"
 "PO-Revision-Date: 2020-07-11 17:23+0400\n"
-"Last-Translator: ZIZA\n"
-"Language-Team: 01esha <01egshaposhnikof@gmail.com>\n"
+"Last-Translator: Oleg Shaposhnikov <01egshaposhnikof@gmail.com>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3.1\n"
+"X-Generator: Poedit 2.0.9\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
@@ -23,7 +23,11 @@ msgstr ""
 msgid " (locked)"
 msgstr " (заблокировано)"
 
-#: Common/Main.vala:1345
+#: Gtk/ClamScanBox.vala:252
+msgid " files moved to quarantine"
+msgstr " файл перемещен в карантин"
+
+#: Common/Main.vala:1338
 msgid ""
 "'pkexec' or 'gksu' is needed for executing admin operations. Install "
 "required packages and try again."
@@ -32,23 +36,10 @@ msgstr ""
 "пакеты и попробуйте снова."
 
 #: Gtk/FilePropertiesWindow.vala:197 Gtk/FilePropertiesWindow.vala:199
-#: Gtk/Sidebar.vala:725 Gtk/Sidebar.vala:727 Utility/Device.vala:2515
-#: Utility/Device.vala:2517 Utility/Device.vala:2519
+#: Gtk/Sidebar.vala:725 Gtk/Sidebar.vala:727 Utility/Device.vala:2507
+#: Utility/Device.vala:2509 Utility/Device.vala:2511
 msgid "(empty)"
 msgstr "(пусто)"
-
-#: Gtk/FileContextMenu.vala:1886
-msgid ""
-"+ Scan inside archives\n"
-"+ Scan all files (no size limit)\n"
-"+ Scan for potentially unwanted applications (PUAs)"
-msgstr ""
-
-#: Gtk/FileContextMenu.vala:1855
-msgid ""
-"+ Skip archives\n"
-"+ Skip large files (> 5 MB)"
-msgstr ""
 
 #: Gtk/FileContextMenu.vala:1156
 msgid "..."
@@ -70,10 +61,10 @@ msgstr "2Н"
 msgid "4"
 msgstr "4"
 
-#: Gtk/ProgressPanelArchiveTask.vala:166 Gtk/ProgressPanelArchiveTask.vala:177
-#: Gtk/ProgressPanelArchiveTask.vala:188 Gtk/ProgressPanelArchiveTask.vala:199
-#: Gtk/ProgressPanelArchiveTask.vala:213 Gtk/ProgressPanelArchiveTask.vala:225
-#: Gtk/ProgressPanelArchiveTask.vala:237 Gtk/ProgressPanelArchiveTask.vala:249
+#: Gtk/ProgressPanelArchiveTask.vala:157 Gtk/ProgressPanelArchiveTask.vala:167
+#: Gtk/ProgressPanelArchiveTask.vala:177 Gtk/ProgressPanelArchiveTask.vala:187
+#: Gtk/ProgressPanelArchiveTask.vala:200 Gtk/ProgressPanelArchiveTask.vala:211
+#: Gtk/ProgressPanelArchiveTask.vala:222 Gtk/ProgressPanelArchiveTask.vala:233
 msgid "???"
 msgstr "???"
 
@@ -86,22 +77,17 @@ msgstr ""
 "Динамически расширяемый диск будет создан с указанным размером. Размер файла "
 "будет постепенно увеличиваться по мере изменения диска."
 
-#: Gtk/MainWindow.vala:1000
+#: Gtk/MainWindow.vala:997
 msgid "A modern file manager for Linux"
 msgstr "Современный файловый менеджер для Linux"
 
-#: Gtk/FileViewToolbar.vala:518 Gtk/MainMenubar.vala:2107
+#: Gtk/FileViewToolbar.vala:518 Gtk/MainMenubar.vala:2090
 msgid "About"
 msgstr "О программе"
 
 #: Gtk/FileViewList.vala:1049
 msgid "Access"
 msgstr "Доступ"
-
-#: Gtk/ClamScanBox.vala:294 Gtk/ClamScanBox.vala:382 Gtk/ClamScanBox.vala:470
-#, c-format
-msgid "Access Denied"
-msgstr "Доступ запрещён"
 
 #: Gtk/FilePropertiesBox.vala:283
 msgid "Accessed"
@@ -144,7 +130,7 @@ msgstr "Действие"
 msgid "Add Account"
 msgstr "Добавить учетную запись"
 
-#: Gtk/BookmarksMenu.vala:74 Gtk/PlacesPopover.vala:714
+#: Gtk/BookmarksMenu.vala:74 Gtk/PlacesPopover.vala:705
 msgid "Add Bookmark"
 msgstr "Добавить закладку"
 
@@ -152,7 +138,7 @@ msgstr "Добавить закладку"
 msgid "Add Cloud Storage Account"
 msgstr "Добавить учетную запись облачного хранилища"
 
-#: Gtk/FileContextMenu.vala:2356 Gtk/Settings.vala:2730
+#: Gtk/FileContextMenu.vala:2269 Gtk/Settings.vala:2730
 msgid "Add Password"
 msgstr "Добавить пароль"
 
@@ -189,7 +175,7 @@ msgstr "Almquist shell (ash)"
 msgid "Amount of RAM to allocate for guest machine"
 msgstr "Объем ОЗУ для размещения для гостевой машины"
 
-#: Gtk/FileViewList.vala:4601
+#: Gtk/FileViewList.vala:4583
 msgid "Another file exists with this name"
 msgstr "Другой файл с этим именем уже существует"
 
@@ -197,11 +183,11 @@ msgstr "Другой файл с этим именем уже существуе
 msgid "Another instance of this application is running"
 msgstr "Другой экземпляр этого приложения запущен"
 
-#: Common/Main.vala:1019 Common/Main.vala:1169 Common/Main.vala:1258
+#: Common/Main.vala:1012 Common/Main.vala:1162 Common/Main.vala:1251
 msgid "App config loaded"
 msgstr "Настройки приложения загружены"
 
-#: Common/Main.vala:796 Common/Main.vala:1136 Common/Main.vala:1214
+#: Common/Main.vala:791 Common/Main.vala:1129 Common/Main.vala:1207
 msgid "App config saved"
 msgstr "Настройки приложения сохранены"
 
@@ -224,10 +210,6 @@ msgstr "Архив"
 #: Utility/Gtk/AboutWindow.vala:442
 msgid "Artists"
 msgstr "Исполнитель"
-
-#: Gtk/FileContextMenu.vala:1828
-msgid "As Admin"
-msgstr "Открыть от имени администратора"
 
 #: Utility/VideoDownloadTask.vala:62
 msgid "Audio"
@@ -252,12 +234,12 @@ msgstr "Авторизация запущена"
 msgid "Authors"
 msgstr "Автор"
 
-#: Gtk/FilePropertiesWindow.vala:232 Utility/Device.vala:2566
+#: Gtk/FilePropertiesWindow.vala:232 Utility/Device.vala:2558
 #, c-format
 msgid "Available"
 msgstr "Доступно"
 
-#: Gtk/DevicePopover.vala:1092
+#: Gtk/DevicePopover.vala:1088
 msgid "BZip2 Compressed Disk Image"
 msgstr "Сжатый образ диска BZip2"
 
@@ -283,9 +265,10 @@ msgstr "Резервное копирование завершено"
 msgid "Base"
 msgstr "База"
 
-#: Utility/Gtk/DonationWindow.vala:80
+#: Utility/Gtk/DonationWindow.vala:104
+#, fuzzy
 msgid "Become a Patron"
-msgstr ""
+msgstr "Become a Patron"
 
 #: Gtk/ProgressPanelVideoDownloadTask.vala:162
 msgid "Best (audio + video)"
@@ -311,7 +294,7 @@ msgstr "Размер блока"
 msgid "Blocks"
 msgstr "Блоки"
 
-#: Gtk/PlacesPopover.vala:538
+#: Gtk/PlacesPopover.vala:529
 msgid "Bookmark"
 msgstr "Закладка"
 
@@ -320,11 +303,11 @@ msgstr "Закладка"
 msgid "Bookmarks"
 msgstr "Закладки"
 
-#: Gtk/FileContextMenu.vala:2681 Gtk/Settings.vala:2885
+#: Gtk/FileContextMenu.vala:2594 Gtk/Settings.vala:2885
 msgid "Boost Color"
 msgstr "Усилить цвет"
 
-#: Gtk/FileContextMenu.vala:2682
+#: Gtk/FileContextMenu.vala:2595
 msgid ""
 "Boost color (more saturation). This can be used for correcting photos that "
 "are too dull (less color)."
@@ -332,7 +315,7 @@ msgstr ""
 "Усилить цвет (насыщенность). Можно использовать для коррекции слишком "
 "скучных (бесцветных) фотографий."
 
-#: Gtk/FileContextMenu.vala:2139
+#: Gtk/FileContextMenu.vala:2052
 msgid "Boot Disk"
 msgstr "Загрузочный диск"
 
@@ -340,7 +323,7 @@ msgstr "Загрузочный диск"
 msgid "Boot ISO file in QEMU-KVM virtual machine"
 msgstr "Загрузить ISO-файл в виртуальную машину QEMU-KVMь"
 
-#: Gtk/FileContextMenu.vala:2180
+#: Gtk/FileContextMenu.vala:2093
 msgid "Boot from an ISO file with the selected disk attached"
 msgstr "Загрузка из файла ISO с выбранным диском"
 
@@ -348,7 +331,7 @@ msgstr "Загрузка из файла ISO с выбранным диском"
 msgid "Boot in VM"
 msgstr "Загрузить в виртуальную машину"
 
-#: Gtk/FileContextMenu.vala:2140
+#: Gtk/FileContextMenu.vala:2053
 msgid "Boot the selected disk in a virtual machine"
 msgstr "Загрузите выбранный диск в виртуальную машину"
 
@@ -392,10 +375,10 @@ msgid "CPU type to emulate for guest machine"
 msgstr "Тип процессора для эмуляции гостевой машины"
 
 #: Gtk/FileContextMenu.vala:1642
-msgid "Calculate Folder Size"
-msgstr "Рассчитать размер каталога"
+msgid "Calculate Size..."
+msgstr "Рассчитать размер ..."
 
-#: Gtk/MainMenubar.vala:1899
+#: Gtk/MainMenubar.vala:1897
 msgid "Calculate directory sizes"
 msgstr "Рассчитать размер каталога"
 
@@ -403,7 +386,7 @@ msgstr "Рассчитать размер каталога"
 msgid "Calculating dir size..."
 msgstr "Расчет размера каталога ..."
 
-#: Gtk/ChecksumBox.vala:211 Gtk/ClamScanBox.vala:182
+#: Gtk/ChecksumBox.vala:211 Gtk/ClamScanBox.vala:187
 #: Gtk/CloudLoginWindow.vala:212 Gtk/ConnectServerWindow.vala:537
 #: Gtk/ConnectServerWindow.vala:582 Gtk/CreateArchiveWindow.vala:2029
 #: Gtk/FileConflictDialog.vala:274 Gtk/KvmCreateDiskWindow.vala:362
@@ -415,11 +398,11 @@ msgstr "Расчет размера каталога ..."
 #: Gtk/ProgressPanelVideoDownloadTask.vala:260
 #: Gtk/ProgressPanelVideoDownloadTask.vala:439
 #: Gtk/SimpleProgressWindow.vala:139 Utility/Gtk/CustomMessageDialog.vala:175
-#: Utility/Gtk/GtkHelper.vala:160
+#: Utility/Gtk/GtkHelper.vala:154
 msgid "Cancel"
 msgstr "Отмена"
 
-#: Gtk/FileViewTab.vala:462 Gtk/LayoutBox.vala:508 Gtk/MainWindow.vala:162
+#: Gtk/FileViewTab.vala:462 Gtk/LayoutBox.vala:508 Gtk/MainWindow.vala:166
 msgid "Cancel File Operations?"
 msgstr "Отменить операции с файлами?"
 
@@ -427,19 +410,19 @@ msgstr "Отменить операции с файлами?"
 msgid "Cancel this file operation"
 msgstr "Отменить операцию с файлом"
 
-#: Gtk/ProgressPanelArchiveTask.vala:596 Gtk/ProgressPanelArchiveTask.vala:599
+#: Gtk/ProgressPanelArchiveTask.vala:737 Gtk/ProgressPanelArchiveTask.vala:740
 msgid "Cancelled"
 msgstr "Отменено"
 
-#: Gtk/ProgressPanelArchiveTask.vala:680
+#: Gtk/ProgressPanelArchiveTask.vala:865
 msgid "Cancelled by user"
 msgstr "Отменено пользователем"
 
-#: Gtk/FileViewList.vala:6184
+#: Gtk/FileViewList.vala:6162
 msgid "Cannot create archive in this location"
 msgstr "Невозможно создать архив в этом месте"
 
-#: Gtk/FileViewList.vala:6024
+#: Gtk/FileViewList.vala:6002
 msgid "Cannot extract to this location"
 msgstr "Не удается распаковать архив в этом месте"
 
@@ -504,7 +487,7 @@ msgstr ""
 msgid "Check"
 msgstr "Проверка"
 
-#: Gtk/MainMenubar.vala:1984
+#: Gtk/MainMenubar.vala:1967
 msgid "Check external tools"
 msgstr "Проверка внешними инструментами"
 
@@ -531,7 +514,7 @@ msgid "Checking..."
 msgstr "Проверка..."
 
 #: Gtk/ChecksumBox.vala:625 Gtk/ChecksumBox.vala:1229
-#: Gtk/FileContextMenu.vala:1919 Gtk/Settings.vala:2649
+#: Gtk/FileContextMenu.vala:1832 Gtk/Settings.vala:2649
 #, c-format
 msgid "Checksum"
 msgstr "Контрольная сумма"
@@ -569,11 +552,11 @@ msgstr "Классические значки (одна панель + боко�
 msgid "Classic List (Single-Pane + SideBar + ListView)"
 msgstr "Классический список (одна панель + боковая панель + список)"
 
-#: Gtk/MainMenubar.vala:1853
+#: Gtk/MainMenubar.vala:1851
 msgid "Clean thumbnail cache"
 msgstr "Очистить кеш миниатюр"
 
-#: Gtk/MainWindow.vala:1027
+#: Gtk/MainWindow.vala:1024
 msgid "Cleaning Thumbnail Cache..."
 msgstr "Очистка кеша миниатюр..."
 
@@ -581,7 +564,7 @@ msgstr "Очистка кеша миниатюр..."
 msgid "Clear the terminal output"
 msgstr "Очистить вывод терминала"
 
-#: Gtk/MainMenubar.vala:1854
+#: Gtk/MainMenubar.vala:1852
 msgid ""
 "Clear the thumbnails in system cache. New thumbnails will be generated when "
 "folders are browsed using any file manager."
@@ -597,11 +580,11 @@ msgstr "Нажмите «Отмена», чтобы закрыть это окн
 msgid "Click 'Finish' to add the account"
 msgstr "Нажмите «Готово», чтобы добавить аккаунт"
 
-#: Gtk/PlacesPopover.vala:434
+#: Gtk/PlacesPopover.vala:425
 msgid "Click to Remove"
 msgstr "Нажмите, чтобы удалить"
 
-#: Gtk/PlacesPopover.vala:438
+#: Gtk/PlacesPopover.vala:429
 msgid "Click to Rename"
 msgstr "Нажмите, чтобы переименовать"
 
@@ -613,22 +596,25 @@ msgstr "Нажмите, чтобы скопировать контрольную
 msgid "Click to edit path"
 msgstr "Нажмите, чтобы отредактировать путь"
 
-#: Gtk/ClamScanBox.vala:482 Gtk/DevicePopoverSettingsWindow.vala:292
-#: Gtk/FileViewTab.vala:329 Gtk/MessageBar.vala:152 Gtk/SelectionBar.vala:204
+#: Gtk/ClamScanBox.vala:258 Gtk/DevicePopoverSettingsWindow.vala:292
+#: Gtk/FileViewTab.vala:329 Gtk/MessageBar.vala:149 Gtk/SelectionBar.vala:204
 #: Gtk/WizardWindow.vala:143 Utility/Gtk/AboutWindow.vala:400
-#: Utility/Gtk/DonationWindow.vala:137
 msgid "Close"
 msgstr "Закрыть"
+
+#: Utility/Gtk/DonationWindow.vala:136
+msgid "Close Window"
+msgstr "Закрыть окно"
 
 #: Gtk/Settings.vala:1131
 msgid "Close button (R)"
 msgstr "Кнопка закрытия (R)"
 
-#: Gtk/MainHeaderBar.vala:313 Gtk/ProgressPanelArchiveTask.vala:367
+#: Gtk/MainHeaderBar.vala:313 Gtk/ProgressPanelArchiveTask.vala:515
 msgid "Close this window"
 msgstr "Закрыть это окно"
 
-#: Gtk/MainWindow.vala:163
+#: Gtk/MainWindow.vala:167
 msgid ""
 "Closing the application will cancel running file operations.\n"
 "Do you want to cancel?"
@@ -687,7 +673,7 @@ msgstr "Режим значков (двойная панель + значки)"
 msgid "Commander List (Dual-Pane + ListView)"
 msgstr "Режим списка (двойная панель + список)"
 
-#: Common/Main.vala:522
+#: Common/Main.vala:520
 msgid "Commands listed below are not available on this system"
 msgstr "Команды, перечисленные ниже, недоступны в этой системе"
 
@@ -716,17 +702,13 @@ msgstr "Сжатие"
 msgid "Compress selected items and create new archive"
 msgstr "Сжатие выбранных объектов и создание нового архива"
 
-#: Gtk/ProgressPanelArchiveTask.vala:231
+#: Gtk/ProgressPanelArchiveTask.vala:216
 msgid "Compressed:"
 msgstr "Сжатие:"
 
-#: Gtk/ProgressPanelArchiveTask.vala:102
+#: Gtk/ProgressPanelArchiveTask.vala:98
 msgid "Compressing"
 msgstr "Сжатие"
-
-#: Gtk/ProgressPanelArchiveTask.vala:283
-msgid "Compression:"
-msgstr "Сжатие:"
 
 #: Gtk/PasswordDialog.vala:129
 msgid "Confirm Passphrase"
@@ -780,15 +762,15 @@ msgstr "Конвертировать"
 msgid "Convert Virtual Disk"
 msgstr "Конвертировать виртуальный диск"
 
-#: Gtk/FileContextMenu.vala:2798
+#: Gtk/FileContextMenu.vala:2711
 msgid "Convert to"
 msgstr "Конвертировать в"
 
-#: Gtk/FileContextMenu.vala:2626
+#: Gtk/FileContextMenu.vala:2539
 msgid "Convert to black and white"
 msgstr "Конвертировать в черно-белое"
 
-#: Gtk/FileContextMenu.vala:2199
+#: Gtk/FileContextMenu.vala:2112
 msgid "Convert to..."
 msgstr "Конвертировать в..."
 
@@ -876,30 +858,30 @@ msgstr "Копирование..."
 msgid "Could not fetch video info"
 msgstr "Не удалось получить информацию о видео"
 
-#: Gtk/PlacesPopover.vala:491
+#: Gtk/PlacesPopover.vala:482
 #, c-format
 msgid "Could not find bookmarked path"
 msgstr "Не удалось найти путь к закладке"
 
-#: Utility/Device.vala:1734
+#: Utility/Device.vala:1726
 #, c-format
 msgid "Could not find file"
 msgstr "Не удалось найти файл"
 
-#: Gtk/FileViewList.vala:5038
+#: Gtk/FileViewList.vala:5020
 #, c-format
 msgid "Could not find file in opposite pane"
 msgstr "Не удалось найти файл в противоположной панели"
 
-#: Gtk/FileViewList.vala:3383
+#: Gtk/FileViewList.vala:3365
 msgid "Could not find path"
 msgstr "Не удалось найти путь"
 
-#: Gtk/FileViewList.vala:4327
+#: Gtk/FileViewList.vala:4309
 msgid "Could not find the opposite pane!"
 msgstr "Не удалось найти противоположную панель!"
 
-#: Gtk/FileViewList.vala:5977
+#: Gtk/FileViewList.vala:5955
 msgid "Could not open file as archive"
 msgstr "Не удалось открыть файл как архив"
 
@@ -915,23 +897,23 @@ msgstr "Создать"
 msgid "Create Derived Disk"
 msgstr "Создать производный диск"
 
-#: Gtk/FileContextMenu.vala:2099
+#: Gtk/FileContextMenu.vala:2012
 msgid "Create Derived Disk..."
 msgstr "Создать производный диск..."
 
-#: Gtk/FileViewList.vala:4646
+#: Gtk/FileViewList.vala:4628
 msgid "Create Directory"
 msgstr "Создать каталог"
 
-#: Gtk/FileContextMenu.vala:2082
+#: Gtk/FileContextMenu.vala:1995
 msgid "Create Disk..."
 msgstr "Создать диск..."
 
-#: Gtk/FileViewList.vala:4680 Gtk/FileViewList.vala:4716
+#: Gtk/FileViewList.vala:4662 Gtk/FileViewList.vala:4698
 msgid "Create File"
 msgstr "Создать файл"
 
-#: Gtk/FileContextMenu.vala:2119
+#: Gtk/FileContextMenu.vala:2032
 msgid "Create Merged Disk..."
 msgstr "Создать объединенный диск ..."
 
@@ -947,11 +929,11 @@ msgstr "Создать новый каталог"
 msgid "Create Virtual Disk"
 msgstr "Создать новый виртуальный диск"
 
-#: Gtk/FileContextMenu.vala:2083
+#: Gtk/FileContextMenu.vala:1996
 msgid "Create a virtual hard disk file"
 msgstr "Создать файл виртуального жесткого диска"
 
-#: Gtk/FileContextMenu.vala:2120
+#: Gtk/FileContextMenu.vala:2033
 msgid ""
 "Create a virtual hard disk file by merging selected derived disk with it's "
 "base"
@@ -959,13 +941,13 @@ msgstr ""
 "Создайте виртуальный жесткий диск, объединив выбранный производный диск с "
 "его базой"
 
-#: Gtk/FileContextMenu.vala:2100
+#: Gtk/FileContextMenu.vala:2013
 msgid "Create a virtual hard disk file that uses selected disk as the base"
 msgstr ""
 "Создать файл виртуального жесткого диска, который использует выбранный диск "
 "в качестве базы"
 
-#: Gtk/FileViewList.vala:4454
+#: Gtk/FileViewList.vala:4436
 msgid "Create copies of selected items?"
 msgstr "Создать копию выбранного объекта?"
 
@@ -982,13 +964,13 @@ msgid "Create new folder in this location"
 msgstr "Создать новый каталог в этом месте"
 
 #: Gtk/FilePropertiesBox.vala:265 Gtk/KvmCreateDiskWindow.vala:463
-#: Gtk/ProgressPanelArchiveTask.vala:611 Gtk/ProgressPanelImageTask.vala:207
+#: Gtk/ProgressPanelArchiveTask.vala:752 Gtk/ProgressPanelImageTask.vala:207
 #: Gtk/ProgressPanelKvmTask.vala:258
 #, c-format
 msgid "Created"
 msgstr "Создан"
 
-#: Utility/TeeJee.FileSystem.vala:760
+#: Utility/TeeJee.FileSystem.vala:783
 msgid "Created directory"
 msgstr "Создать каталог"
 
@@ -1049,7 +1031,7 @@ msgstr "Вырезать выбранные объекты"
 msgid "Dark theme"
 msgstr "Темная тема"
 
-#: Gtk/ProgressPanelArchiveTask.vala:207
+#: Gtk/ProgressPanelArchiveTask.vala:194
 msgid "Data:"
 msgstr "Дата:"
 
@@ -1057,21 +1039,17 @@ msgstr "Дата:"
 msgid "Debian Almquist shell (dash)"
 msgstr "Debian Almquist shell (dash)"
 
-#: Gtk/MainMenubar.vala:2009
+#: Gtk/MainMenubar.vala:1992
 msgid "Debug: List Devices"
 msgstr "Отладка: список устройств"
 
-#: Gtk/MainMenubar.vala:1996
+#: Gtk/MainMenubar.vala:1979
 msgid "Debug: List FileItem Objects"
 msgstr "Отладка: список файловых объектов"
 
-#: Gtk/MainMenubar.vala:2022
+#: Gtk/MainMenubar.vala:2005
 msgid "Debug: Monitors"
 msgstr "Отладка: мониторинг"
-
-#: Gtk/FileContextMenu.vala:1885
-msgid "Deep Scan"
-msgstr ""
 
 #: Utility/Shell.vala:58
 msgid "Default shell (sh)"
@@ -1085,8 +1063,7 @@ msgstr "Режим просмотра по умолчанию для испол�
 msgid "Defaults"
 msgstr "По умолчанию"
 
-#: Gtk/ClamScanBox.vala:394 Gtk/FileContextMenu.vala:987
-#: Gtk/MainMenubar.vala:692 Gtk/TrashBar.vala:98
+#: Gtk/FileContextMenu.vala:987 Gtk/MainMenubar.vala:692 Gtk/TrashBar.vala:98
 msgid "Delete"
 msgstr "Удалить в корзину"
 
@@ -1104,16 +1081,11 @@ msgstr ""
 msgid "Delete selected items permanently"
 msgstr "Удалять выбранные объекты навсегда"
 
-#: Gtk/FileViewList.vala:4531
+#: Gtk/FileViewList.vala:4513
 msgid "Delete selected items?"
 msgstr "Удалить выбранные объекты?"
 
-#: Gtk/ClamScanBox.vala:457
-#, c-format
-msgid "Deleted"
-msgstr "Удалить"
-
-#: Utility/TeeJee.FileSystem.vala:798
+#: Utility/TeeJee.FileSystem.vala:821
 msgid "Deleted directory"
 msgstr "Удалить каталог"
 
@@ -1134,15 +1106,15 @@ msgstr ""
 "Производные и базовые файлы останутся неизменными и могут быть удалены, если "
 "не требуются"
 
-#: Gtk/PlacesPopover.vala:653 Gtk/Sidebar.vala:346
+#: Gtk/PlacesPopover.vala:644 Gtk/Sidebar.vala:346
 msgid "Desktop"
 msgstr "Рабочий стол"
 
-#: Gtk/FileViewList.vala:6024 Gtk/FileViewList.vala:6046
+#: Gtk/FileViewList.vala:6002 Gtk/FileViewList.vala:6024
 msgid "Destination directory does not exist"
 msgstr "Целевой каталог не существует"
 
-#: Gtk/FileViewList.vala:6184
+#: Gtk/FileViewList.vala:6162
 msgid "Destination path is inside an archive (!)"
 msgstr "Целевой путь находится внутри архива (!)"
 
@@ -1152,10 +1124,10 @@ msgstr "Подробности"
 
 #: Gtk/DevicePopover.vala:156 Gtk/FilePropertiesWindow.vala:171
 #: Gtk/FilePropertiesWindow.vala:184 Gtk/FilePropertiesWindow.vala:189
-#: Gtk/Sidebar.vala:717 Utility/Device.vala:463 Utility/Device.vala:470
-#: Utility/Device.vala:609 Utility/Device.vala:614 Utility/Device.vala:1715
-#: Utility/Device.vala:1721 Utility/Device.vala:1920 Utility/Device.vala:1925
-#: Utility/Device.vala:2507 Utility/KvmTask.vala:314
+#: Gtk/Sidebar.vala:717 Utility/Device.vala:459 Utility/Device.vala:466
+#: Utility/Device.vala:601 Utility/Device.vala:606 Utility/Device.vala:1707
+#: Utility/Device.vala:1713 Utility/Device.vala:1912 Utility/Device.vala:1917
+#: Utility/Device.vala:2499 Utility/KvmTask.vala:314
 #, c-format
 msgid "Device"
 msgstr "Устройства"
@@ -1176,7 +1148,7 @@ msgstr "Настройки диспетчера устройств"
 msgid "Device Unmounted"
 msgstr "Размонтировать устройство"
 
-#: Gtk/DevicePopover.vala:1025 Gtk/DevicePopover.vala:1058
+#: Gtk/DevicePopover.vala:1021 Gtk/DevicePopover.vala:1054
 #, c-format
 msgid "Device is in use by the system"
 msgstr "Устройство используется системой"
@@ -1189,11 +1161,11 @@ msgstr "Устройство не съемное"
 msgid "Device may be non-removable, or in-use by another process"
 msgstr "Устройство может быть несъемным или используется другим процессом"
 
-#: Utility/Device.vala:462 Utility/Device.vala:1714
+#: Utility/Device.vala:458 Utility/Device.vala:1706
 msgid "Device mounted successfully"
 msgstr "Устройство смонтировано успешно"
 
-#: Utility/Device.vala:1774
+#: Utility/Device.vala:1766
 msgid "Device name is empty!"
 msgstr "Имя устройства пустое!"
 
@@ -1205,7 +1177,7 @@ msgstr "Устройство безопасно подключено и гото
 msgid "Device was restored successfully from disk image"
 msgstr "Устройство успешно восстановлено с образа диска"
 
-#: Gtk/FileViewList.vala:3375
+#: Gtk/FileViewList.vala:3357
 msgid "Device was unmounted"
 msgstr "Устройство было размонтировано"
 
@@ -1218,11 +1190,39 @@ msgstr "Устройства"
 msgid "Dictionary"
 msgstr "Словарь"
 
-#: Utility/TeeJee.FileSystem.vala:936
+#: Utility/Gtk/DonationWindow.vala:57
+msgid ""
+"Did you find this application useful?\n"
+"\n"
+"You can buy me a coffee or make a donation via PayPal to show your support.\n"
+"\n"
+"This application includes a few extra features for people who have "
+"contributed to the project through donations, translations, etc. You can "
+"make a donation for $10 or more via PayPal to receive the plugins by email. "
+"Your contributions will help keep the project alive and support future "
+"development.\n"
+"\n"
+"Thanks,\n"
+"Tony George"
+msgstr ""
+"Вам было это приложение полезно?\n"
+"\n"
+"Вы можете купить мне кофе или сделать пожертвование через PayPal, чтобы "
+"показать свою поддержку.\n"
+"\n"
+"Это приложение включает в себя несколько дополнительных функций для людей, "
+"которые внесли свой вклад в проект с помощью пожертвований, переводов и т. "
+"Д. Вы можете сделать пожертвование в 10 долларов или более через PayPal для "
+"получения плагинов по электронной почте. Ваши вклады помогут сохранить "
+"проект и поддержать его будущее развитие.\n"
+"\n"
+"Спасибо. С уважением, Тони Джордж"
+
+#: Utility/TeeJee.FileSystem.vala:959
 msgid "Dir not found"
 msgstr "Каталог не найден"
 
-#: Gtk/FileViewList.vala:4654
+#: Gtk/FileViewList.vala:4636
 msgid "Directory exists"
 msgstr "Каталог существует"
 
@@ -1242,7 +1242,7 @@ msgstr "Использование диска"
 msgid "Disk image was created successfully from device"
 msgstr "Образ диска был успешно создан с устройства"
 
-#: Gtk/FileViewList.vala:5238
+#: Gtk/FileViewList.vala:5220
 msgid "Disk is Read-Only"
 msgstr "Диск доступен только для чтения"
 
@@ -1260,7 +1260,7 @@ msgstr ""
 msgid "Documentation"
 msgstr "Документация"
 
-#: Gtk/PlacesPopover.vala:648 Gtk/Sidebar.vala:341
+#: Gtk/PlacesPopover.vala:639 Gtk/Sidebar.vala:341
 msgid "Documents"
 msgstr "Документы"
 
@@ -1268,12 +1268,16 @@ msgstr "Документы"
 msgid "Domain"
 msgstr "Домен"
 
-#: Gtk/FileViewToolbar.vala:498 Gtk/MainMenubar.vala:2097
-#: Utility/Gtk/DonationWindow.vala:44 Utility/Gtk/DonationWindow.vala:77
+#: Gtk/FileViewToolbar.vala:498 Gtk/MainMenubar.vala:2080
+#: Utility/Gtk/DonationWindow.vala:40
 msgid "Donate"
 msgstr "Пожертвования"
 
-#: Utility/Gtk/DonationWindow.vala:118 Utility/Gtk/DonationWindow.vala:126
+#: Utility/Gtk/DonationWindow.vala:96
+msgid "Donate with PayPal"
+msgstr "Пожертвовать с помощью PayPal"
+
+#: Utility/Gtk/DonationWindow.vala:88
 msgid "Donation Features"
 msgstr "Возможные пожертвования"
 
@@ -1289,7 +1293,7 @@ msgstr "Загрузка"
 msgid "Download Selected Format"
 msgstr "Загрузить выбранный формат"
 
-#: Gtk/MainMenubar.vala:1876
+#: Gtk/MainMenubar.vala:1874
 msgid ""
 "Download and install p7zip v16.02. Installs binaries from p7zip, p7zip-full "
 "and p7zip-rar packages."
@@ -1297,7 +1301,7 @@ msgstr ""
 "Загрузите и установите p7zip v16.02. Устанавливает двоичные файлы из пакетов "
 "p7zip, p7zip-full и p7zip-rar."
 
-#: Gtk/MainMenubar.vala:1865
+#: Gtk/MainMenubar.vala:1863
 msgid "Download and install the latest version of Rclone"
 msgstr "Загрузите и установите последнюю версию Rclone"
 
@@ -1314,11 +1318,11 @@ msgstr "Загрузка файлов из облачного хранилища
 msgid "Downloading items..."
 msgstr "Загрузка объектов..."
 
-#: Gtk/PlacesPopover.vala:649 Gtk/Sidebar.vala:342
+#: Gtk/PlacesPopover.vala:640 Gtk/Sidebar.vala:342
 msgid "Downloads"
 msgstr "Загрузки"
 
-#: Gtk/PlacesPopover.vala:431
+#: Gtk/PlacesPopover.vala:422
 msgid "Drag to Re-order"
 msgstr "Перетащите, чтобы переупорядочить"
 
@@ -1364,7 +1368,7 @@ msgstr "Длительность"
 msgid "ERROR"
 msgstr "ОШИБКА"
 
-#: Gtk/MainMenubar.vala:483 Gtk/PlacesPopover.vala:548
+#: Gtk/MainMenubar.vala:483 Gtk/PlacesPopover.vala:539
 msgid "Edit"
 msgstr "Редактировать"
 
@@ -1393,7 +1397,7 @@ msgstr "Извлечь устройство?"
 msgid "Eject storage device"
 msgstr "Извлечь накопитель"
 
-#: Gtk/ProgressPanelArchiveTask.vala:172
+#: Gtk/ProgressPanelArchiveTask.vala:162
 msgid "Elapsed:"
 msgstr "Прошло:"
 
@@ -1445,7 +1449,7 @@ msgstr "Шифровать имена файлов"
 msgid "Encrypted"
 msgstr "Зашифрованные"
 
-#: Utility/Device.vala:1876
+#: Utility/Device.vala:1868
 msgid "Encrypted Device"
 msgstr "Зашифрованное устройство"
 
@@ -1454,7 +1458,7 @@ msgstr "Зашифрованное устройство"
 msgid "Encrypted archive"
 msgstr "Зашифрованный архив"
 
-#: Utility/Device.vala:627
+#: Utility/Device.vala:619
 #, c-format
 msgid "Encrypted device"
 msgstr "Зашифрованное устройство"
@@ -1476,37 +1480,37 @@ msgstr "Введите парольную фразу"
 msgid "Enter Password"
 msgstr "Введите пароль"
 
-#: Utility/Device.vala:629 Utility/FileItemArchive.vala:364
+#: Utility/Device.vala:621 Utility/FileItemArchive.vala:364
 msgid "Enter Password to Unlock"
 msgstr "Введите пароль для разблокировки"
 
-#: Gtk/FileViewList.vala:4654 Gtk/FileViewList.vala:4688
-#: Gtk/FileViewList.vala:4728 Gtk/MainWindow.vala:1482
+#: Gtk/FileViewList.vala:4636 Gtk/FileViewList.vala:4670
+#: Gtk/FileViewList.vala:4710 Gtk/MainWindow.vala:1479
 msgid "Enter another name"
 msgstr "Введите другое имя"
 
-#: Gtk/FileViewList.vala:4646
+#: Gtk/FileViewList.vala:4628
 msgid "Enter directory name"
 msgstr "Введите имя каталога"
 
-#: Gtk/FileViewList.vala:4680 Gtk/FileViewList.vala:4716
+#: Gtk/FileViewList.vala:4662 Gtk/FileViewList.vala:4698
 msgid "Enter file name"
 msgstr "Введите имя файла"
 
-#: Gtk/FileViewList.vala:4582
+#: Gtk/FileViewList.vala:4564
 msgid "Enter new name"
 msgstr "Введите новое имя"
 
-#: Utility/Device.vala:1877
+#: Utility/Device.vala:1869
 #, c-format
 msgid "Enter passphrase to unlock '%s'"
 msgstr "Введите парольную фразу, чтобы разблокировать '% s'"
 
-#: Gtk/FileViewList.vala:5491
+#: Gtk/FileViewList.vala:5473
 msgid "Enter password for PDF document"
 msgstr "Введите пароль для PDF документа"
 
-#: Utility/Gtk/GtkHelper.vala:924
+#: Utility/Gtk/GtkHelper.vala:918
 msgid "Enter path or browse for directory"
 msgstr "Введите путь или покажите каталог"
 
@@ -1518,18 +1522,18 @@ msgstr "Введите шаблон для выбора или фильтрац�
 msgid "Enter share name to connect (Required)"
 msgstr "Введите имя для подключения (обязательно)"
 
-#: Gtk/FileViewList.vala:4601
+#: Gtk/FileViewList.vala:4583
 msgid "Enter unique name for selected file"
 msgstr "Введите уникальное имя для выбранного файла"
 
-#: Gtk/MainWindow.vala:1474
+#: Gtk/MainWindow.vala:1471
 msgid "Enter workspace name"
 msgstr "Введите имя рабочей области"
 
-#: Gtk/ProgressPanelArchiveTask.vala:630 Gtk/ProgressPanelArchiveTask.vala:641
+#: Gtk/ProgressPanelArchiveTask.vala:771 Gtk/ProgressPanelArchiveTask.vala:782
 #: Gtk/ProgressPanelImageTask.vala:198 Gtk/ProgressPanelKvmTask.vala:217
 #: Gtk/ProgressPanelKvmTask.vala:220 Gtk/ProgressPanelPdfTask.vala:198
-#: Utility/Device.vala:1697 Utility/KvmTask.vala:311
+#: Utility/Device.vala:1689 Utility/KvmTask.vala:311
 #: Utility/Gtk/GtkHelper.vala:18
 #, c-format
 msgid "Error"
@@ -1539,7 +1543,7 @@ msgstr "Ошибка"
 msgid "Error Connecting to Server"
 msgstr "Ошибка соединения с сервером"
 
-#: Gtk/FileViewList.vala:3400
+#: Gtk/FileViewList.vala:3382
 #, c-format
 msgid "Error opening directory: Permission denied"
 msgstr "Ошибка открытия каталога: доступ запрещен"
@@ -1557,8 +1561,8 @@ msgstr "Выполнить"
 msgid "Executing action..."
 msgstr "Выполнение действия..."
 
-#: Gtk/DevicePopover.vala:1045 Gtk/DiskFormatContextMenu.vala:103
-#: Gtk/FileViewList.vala:5175
+#: Gtk/DevicePopover.vala:1041 Gtk/DiskFormatContextMenu.vala:103
+#: Gtk/FileViewList.vala:5157
 #, c-format
 msgid "Existing data on device will be destroyed"
 msgstr "Существующие данные на устройстве будут уничтожены"
@@ -1571,7 +1575,7 @@ msgstr "Выход"
 msgid "Exit Media View"
 msgstr "Выйти из просмотра мультимедиа"
 
-#: Common/Main.vala:1309
+#: Common/Main.vala:1302
 msgid "Exiting Application"
 msgstr "Выход из приложения"
 
@@ -1588,7 +1592,7 @@ msgstr "Расширения"
 msgid "External Tools"
 msgstr "Внешние инструменты"
 
-#: Gtk/MainMenubar.vala:1983
+#: Gtk/MainMenubar.vala:1966
 msgid "External tools"
 msgstr "Внешние инструменты"
 
@@ -1625,15 +1629,15 @@ msgstr ""
 "Извлеките архивы на противоположную панель. Существующие файлы будут "
 "перезаписаны."
 
-#: Gtk/ProgressPanelArchiveTask.vala:614
+#: Gtk/ProgressPanelArchiveTask.vala:755
 msgid "Extracted"
 msgstr "Распаковка"
 
-#: Gtk/ProgressPanelArchiveTask.vala:105
+#: Gtk/ProgressPanelArchiveTask.vala:101
 msgid "Extracting"
 msgstr "Распаковка"
 
-#: Gtk/ProgressPanelArchiveTask.vala:443
+#: Gtk/ProgressPanelArchiveTask.vala:591
 msgid "Extraction path not specified"
 msgstr "Исходный путь не указан"
 
@@ -1663,23 +1667,23 @@ msgstr "Не удалось удалить учетную запись"
 msgid "Failed to Remove Workspace"
 msgstr "Не удалось удалить рабочее пространство"
 
-#: Utility/TeeJee.FileSystem.vala:1228
+#: Utility/TeeJee.FileSystem.vala:1251
 msgid "Failed to change owner/group!"
 msgstr "Не удалось сменить владельца/группу!"
 
-#: Utility/TeeJee.FileSystem.vala:428
+#: Utility/TeeJee.FileSystem.vala:451
 msgid "Failed to copy file"
 msgstr "Не удалось скопировать файл"
 
-#: Utility/TeeJee.FileSystem.vala:770
+#: Utility/TeeJee.FileSystem.vala:793
 msgid "Failed to create directory"
 msgstr "Не удалось создать каталог"
 
-#: Utility/TeeJee.FileSystem.vala:630
+#: Utility/TeeJee.FileSystem.vala:653
 msgid "Failed to create hard link"
 msgstr "Не удалось создать жесткую ссылку"
 
-#: Utility/TeeJee.FileSystem.vala:607
+#: Utility/TeeJee.FileSystem.vala:630
 msgid "Failed to create symlink"
 msgstr "Не удалось создать символическую ссылку"
 
@@ -1687,39 +1691,31 @@ msgstr "Не удалось создать символическую ссылк
 msgid "Failed to delete items"
 msgstr "Не удалось удалить объект"
 
-#: Gtk/ClamScanBox.vala:464
-msgid "Failed to delete some files"
-msgstr "Не удалось удалить некоторые файлы"
-
-#: Common/Main.vala:1377
+#: Common/Main.vala:1370
 msgid "Failed to execute operation as admin"
 msgstr "Не удалось выполнить операцию от имени администратора"
 
-#: Utility/Device.vala:469 Utility/Device.vala:1720
+#: Utility/Device.vala:465 Utility/Device.vala:1712
 msgid "Failed to mount device"
 msgstr "Не удалось смонтировать устройство"
 
-#: Utility/TeeJee.FileSystem.vala:447
+#: Utility/TeeJee.FileSystem.vala:470
 msgid "Failed to move file"
 msgstr "Не удалось удалить файл"
 
-#: Gtk/ClamScanBox.vala:288
-msgid "Failed to move some files"
-msgstr "Не удалось переместить некоторые файлы"
+#: Utility/TeeJee.FileSystem.vala:344
+msgid "Failed to move items to trash"
+msgstr "Не удалось поместить объект в корзину"
 
-#: Utility/TeeJee.FileSystem.vala:362
+#: Utility/TeeJee.FileSystem.vala:385
 msgid "Failed to read file"
 msgstr "Не удалось прочитать файл"
 
-#: Utility/TeeJee.FileSystem.vala:511
+#: Utility/TeeJee.FileSystem.vala:534
 msgid "Failed to rename item"
 msgstr "Не удалось переименовать объект"
 
-#: Gtk/ClamScanBox.vala:376
-msgid "Failed to restore some files"
-msgstr "Не удалось восстановить некоторые файлы"
-
-#: Utility/TeeJee.FileSystem.vala:1208
+#: Utility/TeeJee.FileSystem.vala:1231
 msgid "Failed to set permissions!"
 msgstr "Не удалось установить разрешения на доступ!"
 
@@ -1727,17 +1723,17 @@ msgstr "Не удалось установить разрешения на до�
 msgid "Failed to trash items"
 msgstr "Не удалось удалить объекты"
 
-#: Utility/Device.vala:550 Utility/Device.vala:572 Utility/Device.vala:593
-#: Utility/Device.vala:608 Utility/Device.vala:1859 Utility/Device.vala:1882
-#: Utility/Device.vala:1903 Utility/Device.vala:1919
+#: Utility/Device.vala:543 Utility/Device.vala:565 Utility/Device.vala:585
+#: Utility/Device.vala:600 Utility/Device.vala:1851 Utility/Device.vala:1874
+#: Utility/Device.vala:1895 Utility/Device.vala:1911
 msgid "Failed to unlock device"
 msgstr "Не удалось разблокировать устройство"
 
-#: Utility/Device.vala:2130
+#: Utility/Device.vala:2122
 msgid "Failed to unmount"
 msgstr "Не удалось размонтировать"
 
-#: Gtk/DevicePopover.vala:1024 Gtk/DevicePopover.vala:1057
+#: Gtk/DevicePopover.vala:1020 Gtk/DevicePopover.vala:1053
 #, c-format
 msgid "Failed to unmount device"
 msgstr "Не удалось размонтировать устройство"
@@ -1750,7 +1746,7 @@ msgstr "Не удалось обновить группу"
 msgid "Failed to update Owner"
 msgstr "Не удалось обновить владельца"
 
-#: Utility/TeeJee.FileSystem.vala:410
+#: Utility/TeeJee.FileSystem.vala:433
 msgid "Failed to write file"
 msgstr "Не удалось записать файл"
 
@@ -1762,16 +1758,12 @@ msgstr "Быстро"
 msgid "Fastest"
 msgstr "Быстрее"
 
-#: Utility/Gtk/DonationWindow.vala:106
-msgid "Feature Requests"
-msgstr ""
-
 #: Gtk/ProgressPanelVideoDownloadTask.vala:64
 #: Gtk/ProgressPanelVideoDownloadTask.vala:92
 msgid "Fetching info..."
 msgstr "Получение информации ..."
 
-#: Gtk/ChecksumBox.vala:494 Gtk/ChecksumBox.vala:1572 Gtk/ClamScanBox.vala:585
+#: Gtk/ChecksumBox.vala:494 Gtk/ChecksumBox.vala:1572 Gtk/ClamScanBox.vala:307
 #: Gtk/FileContextMenu.vala:656 Gtk/KvmCreateDiskWindow.vala:428
 #: Gtk/MainMenubar.vala:125 Gtk/ProgressPanelDeviceWriterTask.vala:195
 #: Gtk/ProgressPanelImageTask.vala:156 Gtk/ProgressPanelKvmTask.vala:203
@@ -1792,7 +1784,7 @@ msgstr "Файловый менеджер"
 msgid "File Name"
 msgstr "Имя файла"
 
-#: Gtk/FileViewList.vala:5037
+#: Gtk/FileViewList.vala:5019
 msgid "File Not Found"
 msgstr "Файл не найден"
 
@@ -1804,8 +1796,8 @@ msgstr "Работа с файлом"
 msgid "File Properties"
 msgstr "Свойства файла"
 
-#: Gtk/FileViewList.vala:4688 Gtk/FileViewList.vala:4728
-#: Gtk/MainWindow.vala:1482
+#: Gtk/FileViewList.vala:4670 Gtk/FileViewList.vala:4710
+#: Gtk/MainWindow.vala:1479
 msgid "File exists"
 msgstr "Файл существует"
 
@@ -1815,17 +1807,17 @@ msgid "File has a non-standard format or is not a checksum file"
 msgstr ""
 "Файл имеет нестандартный формат или не является файлом контрольной суммы"
 
-#: Utility/TeeJee.FileSystem.vala:1088 Utility/TeeJee.FileSystem.vala:1138
+#: Utility/TeeJee.FileSystem.vala:1111 Utility/TeeJee.FileSystem.vala:1161
 msgid "File is missing"
 msgstr "Файл отсутствует"
 
-#: Gtk/ProgressPanelArchiveTask.vala:627
+#: Gtk/ProgressPanelArchiveTask.vala:768
 msgid "File is not an archive or format is unsupported"
 msgstr "Файл не является архивом или формат не поддерживается"
 
 #: Gtk/PoloGtk.vala:106 Utility/GtkBookmark.vala:122 Utility/MimeTypes.vala:88
-#: Utility/RsyncTask.vala:288 Utility/TeeJee.FileSystem.vala:442
-#: Utility/TeeJee.FileSystem.vala:965 Utility/XdgUserDirectories.vala:143
+#: Utility/RsyncTask.vala:288 Utility/TeeJee.FileSystem.vala:465
+#: Utility/TeeJee.FileSystem.vala:988 Utility/XdgUserDirectories.vala:143
 msgid "File not found"
 msgstr "Файл не найден"
 
@@ -1866,21 +1858,13 @@ msgstr ""
 msgid "FileSystem"
 msgstr "Файловая система"
 
-#: Gtk/ClamScanBox.vala:452
-msgid "Files Deleted"
-msgstr "Удалённые файлы"
-
 #: Gtk/ChecksumBox.vala:957
 msgid "Files Missing"
 msgstr "Файлы отсутствуют"
 
-#: Gtk/ClamScanBox.vala:276
+#: Gtk/ClamScanBox.vala:251
 msgid "Files Moved"
 msgstr "Файлы перемещены"
-
-#: Gtk/ClamScanBox.vala:364
-msgid "Files Restored"
-msgstr "Файлы восстановлены"
 
 #: Gtk/ChecksumBox.vala:995
 #, c-format
@@ -1902,12 +1886,12 @@ msgstr "Файлы, указанные в файле контрольной су
 msgid "Files verified"
 msgstr "Файлы проверены"
 
-#: Gtk/ProgressPanelArchiveTask.vala:161
+#: Gtk/ProgressPanelArchiveTask.vala:152
 msgid "Files:"
 msgstr "Файлы:"
 
-#: Gtk/FilePropertiesWindow.vala:156 Gtk/PlacesPopover.vala:646
-#: Gtk/Sidebar.vala:339 Gtk/Sidebar.vala:729 Utility/Device.vala:2525
+#: Gtk/FilePropertiesWindow.vala:156 Gtk/PlacesPopover.vala:637
+#: Gtk/Sidebar.vala:339 Gtk/Sidebar.vala:729 Utility/Device.vala:2517
 #, c-format
 msgid "Filesystem"
 msgstr "Файловая система"
@@ -1946,7 +1930,7 @@ msgstr "Фиксированные столбцы"
 msgid "Flash Complete"
 msgstr "Запись завершена"
 
-#: Gtk/FileViewList.vala:5174
+#: Gtk/FileViewList.vala:5156
 #, c-format
 msgid "Flash ISO to device?"
 msgstr "Записать ISO на устройство?"
@@ -1959,11 +1943,11 @@ msgstr "Запись ISO на устройство..."
 msgid "Folder"
 msgstr "Каталог"
 
-#: Gtk/FileViewList.vala:3391
+#: Gtk/FileViewList.vala:3373
 msgid "Folder is empty"
 msgstr "Каталог пуст"
 
-#: Gtk/PlacesPopover.vala:492
+#: Gtk/PlacesPopover.vala:483
 msgid ""
 "Folder may have been deleted or renamed, or device may have been unmounted"
 msgstr ""
@@ -2016,7 +2000,7 @@ msgid "Forward"
 msgstr "Вперед"
 
 #: Gtk/ChecksumBox.vala:862 Gtk/ChecksumBox.vala:1310 Gtk/ChecksumBox.vala:1373
-#: Gtk/ClamScanBox.vala:841 Gtk/ClamScanBox.vala:932 Gtk/ToolsWindow.vala:155
+#: Gtk/ClamScanBox.vala:612 Gtk/ToolsWindow.vala:155
 #, c-format
 msgid "Found"
 msgstr "Найти"
@@ -2029,6 +2013,10 @@ msgstr "Свободно"
 #: Utility/Shell.vala:43
 msgid "Friendly interactive shell (fish)"
 msgstr "Friendly interactive shell (fish)"
+
+#: Gtk/FilePreviewBox.vala:448
+msgid "Fullscreen"
+msgstr "На полный экран"
 
 #: Gtk/MainMenubar.vala:1136
 msgid "Fullscreen Mode"
@@ -2046,7 +2034,7 @@ msgstr "GTK тема"
 msgid "GTK theme to use"
 msgstr "Тема GTK для использования"
 
-#: Gtk/DevicePopover.vala:1088
+#: Gtk/DevicePopover.vala:1084
 msgid "GZip Compressed Disk Image"
 msgstr "Образ сжатого диска GZip"
 
@@ -2054,8 +2042,8 @@ msgstr "Образ сжатого диска GZip"
 msgid "General"
 msgstr "Основные"
 
-#: Gtk/FileContextMenu.vala:1950 Gtk/FileContextMenu.vala:1973
-#: Gtk/FileContextMenu.vala:1996 Gtk/FileContextMenu.vala:2019
+#: Gtk/FileContextMenu.vala:1863 Gtk/FileContextMenu.vala:1886
+#: Gtk/FileContextMenu.vala:1909 Gtk/FileContextMenu.vala:1932
 msgid "Generate checksums"
 msgstr "Генерировать контрольную сумму"
 
@@ -2063,13 +2051,9 @@ msgstr "Генерировать контрольную сумму"
 msgid "Generating checksums..."
 msgstr "Генерирация контрольной суммы..."
 
-#: Gtk/FileViewList.vala:3474
+#: Gtk/FileViewList.vala:3456
 msgid "Generating thumbnails..."
 msgstr "Создание эскизов..."
-
-#: Utility/Gtk/DonationWindow.vala:129
-msgid "Get Plugins ($10)"
-msgstr ""
 
 #: Gtk/Settings.vala:680 Gtk/Settings.vala:1092
 msgid "Global"
@@ -2083,7 +2067,7 @@ msgstr "Перейти"
 msgid "Go Up"
 msgstr "Перейти вверх"
 
-#: Gtk/FileViewList.vala:3767
+#: Gtk/FileViewList.vala:3749
 msgid "Go to location"
 msgstr "Перейти к местоположению"
 
@@ -2141,7 +2125,7 @@ msgstr "Заголовки"
 msgid "Height"
 msgstr "Высота"
 
-#: Gtk/MainMenubar.vala:2036
+#: Gtk/MainMenubar.vala:2019
 msgid "Help"
 msgstr "Помощь"
 
@@ -2168,12 +2152,12 @@ msgstr "Скрыть выбранный объект"
 msgid "History"
 msgstr "История"
 
-#: Gtk/FileViewToolbar.vala:221 Gtk/Pathbar.vala:910 Gtk/PlacesPopover.vala:647
+#: Gtk/FileViewToolbar.vala:221 Gtk/Pathbar.vala:910 Gtk/PlacesPopover.vala:638
 #: Gtk/Settings.vala:463 Gtk/Settings.vala:880 Gtk/Sidebar.vala:340
 msgid "Home"
 msgstr "Домой"
 
-#: Gtk/MainMenubar.vala:2057
+#: Gtk/MainMenubar.vala:2040
 msgid "Homepage"
 msgstr "Домашняя страница"
 
@@ -2184,16 +2168,6 @@ msgstr "Две горизонтальных"
 #: Gtk/ConnectServerWindow.vala:658
 msgid "Host IP (Eg: 192.0.10.1)"
 msgstr "IP-адрес хоста (например: 192.0.10.1)"
-
-#: Utility/Gtk/DonationWindow.vala:120
-msgid ""
-"I sometimes create exclusive plugins to encourage people to contribute. You "
-"can make a contribution by translating the application to other languages, "
-"by submitting code changes, or by making a donation for $10 with PayPal. "
-"Contributors are added to an email distribution list, and plugins are sent "
-"by email. These plugins are open-source. You can request the source code "
-"after receiving the plugins."
-msgstr ""
 
 #: Utility/Gtk/AboutWindow.vala:466
 msgid "Icon Themes & Utilities"
@@ -2227,12 +2201,6 @@ msgstr ""
 "Если выбрано, действие заменит исходный файл на созданный, вместо создания "
 "нового файла."
 
-#: Utility/Gtk/DonationWindow.vala:71
-msgid ""
-"If you find this application useful, consider making a donation to support "
-"the development."
-msgstr ""
-
 #: Gtk/MediaBar.vala:187
 msgid ""
 "Ignore photos and videos in this location and do not switch to Media View "
@@ -2241,7 +2209,7 @@ msgstr ""
 "Игнорировать фотографии и видео в этом месте и не переключаться в режим "
 "мультимедиа автоматически."
 
-#: Gtk/FileContextMenu.vala:2528
+#: Gtk/FileContextMenu.vala:2441
 msgid "Image"
 msgstr "Изображение"
 
@@ -2263,39 +2231,35 @@ msgstr "Неверный пароль для зашифрованного арх
 msgid "Indicator"
 msgstr "Индикатор"
 
-#: Gtk/ClamScanBox.vala:890
-msgid "Initializing..."
-msgstr ""
-
 #: Gtk/CreateArchiveWindow.vala:880
 msgid "Insane"
 msgstr "Ненормальный"
 
-#: Gtk/FileContextMenu.vala:2179
+#: Gtk/MainMenubar.vala:1862
+msgid "Install Rclone (Cloud Storage Support)"
+msgstr "Установить Rclone (поддержка облачных хранилищ)"
+
+#: Gtk/FileContextMenu.vala:2092
 msgid "Install from ISO..."
 msgstr "Установить из ISO..."
 
-#: Gtk/MainMenubar.vala:1875
+#: Gtk/MainMenubar.vala:1873
 msgid "Install p7zip 16.02 (Archive Support)"
 msgstr "Установить p7zip 16.02 (поддержка архивов)"
 
-#: Gtk/FileViewList.vala:5786 Gtk/FileViewList.vala:5807
+#: Gtk/FileViewList.vala:5764 Gtk/FileViewList.vala:5785
 msgid "Install required packages and try again"
 msgstr "Установите требуемые пакеты и попробуйте снова"
 
-#: Gtk/MainMenubar.vala:1864
-msgid "Install/Update Rclone (Cloud Storage Support)"
-msgstr "Установить/Обновить Rclone (поддержка облачных хранилищ)"
-
-#: Gtk/FileViewList.vala:4327
+#: Gtk/FileViewList.vala:4309
 msgid "Internal Error"
 msgstr "Внутренняя ошибка"
 
-#: Utility/Device.vala:592
+#: Utility/Device.vala:584
 msgid "Invalid Passphrase"
 msgstr "Недопустимая парольная фраза"
 
-#: Gtk/FileViewList.vala:6046
+#: Gtk/FileViewList.vala:6024
 msgid "Invalid Path"
 msgstr "Неверный путь"
 
@@ -2303,9 +2267,15 @@ msgstr "Неверный путь"
 msgid "Invalid Server Name"
 msgstr "Неверное имя сервера"
 
-#: Gtk/MainMenubar.vala:2067 Utility/Gtk/DonationWindow.vala:95
+#: Gtk/MainMenubar.vala:2050
 msgid "Issue Tracker"
 msgstr "Отслеживание проблем"
+
+#: Utility/Gtk/DonationWindow.vala:112
+msgid "Issue Tracker ~ Report Issues, Request Features, Ask Questions"
+msgstr ""
+"Отслеживание проблем ~ Сообщить о проблемах, предложить доработки, задать "
+"вопросы"
 
 #: Gtk/FileConflictDialog.vala:349 Utility/FileTask.vala:1100
 msgid "Item"
@@ -2319,7 +2289,7 @@ msgstr "Объект не является символической ссылк
 msgid "Items"
 msgstr "Объект"
 
-#: Gtk/FileContextMenu.vala:2044 Gtk/Settings.vala:2661
+#: Gtk/FileContextMenu.vala:1957 Gtk/Settings.vala:2661
 msgid "KVM"
 msgstr "KVM"
 
@@ -2327,7 +2297,7 @@ msgstr "KVM"
 msgid "Key"
 msgstr "Ключ"
 
-#: Gtk/MainMenubar.vala:2087
+#: Gtk/MainMenubar.vala:2070
 msgid "Keyboard Shortcuts"
 msgstr "Горячие клавиши"
 
@@ -2336,7 +2306,7 @@ msgid "Korn shell (ksh)"
 msgstr "Korn shell (ksh)"
 
 #: Gtk/FilePropertiesWindow.vala:197 Gtk/Sidebar.vala:725
-#: Utility/Device.vala:2517
+#: Utility/Device.vala:2509
 #, c-format
 msgid "Label"
 msgstr "Ярлык"
@@ -2405,20 +2375,15 @@ msgstr "Список файлов..."
 msgid "Listing source items..."
 msgstr "Просмотр исходных объектов..."
 
-#: Gtk/MainWindow.vala:1266
+#: Gtk/MainWindow.vala:1263
 msgid "Loading workspace..."
 msgstr "Загрузка рабочего пространства..."
 
-#: Gtk/FileViewList.vala:3413
+#: Gtk/FileViewList.vala:3395
 msgid "Loading..."
 msgstr "Загрузка..."
 
-#: Gtk/ClamScanBox.vala:514
-msgid "Local"
-msgstr "Местоположение"
-
-#: Gtk/ClamScanBox.vala:505 Gtk/CreateArchiveWindow.vala:404
-#: Gtk/FilePropertiesBox.vala:125
+#: Gtk/CreateArchiveWindow.vala:404 Gtk/FilePropertiesBox.vala:125
 msgid "Location"
 msgstr "Местоположение"
 
@@ -2451,7 +2416,7 @@ msgstr "MD5"
 msgid "MISSING"
 msgstr "ПОТЕРЯНО"
 
-#: Utility/Device.vala:2552
+#: Utility/Device.vala:2544
 #, c-format
 msgid "Major"
 msgstr "Мажорный"
@@ -2473,7 +2438,7 @@ msgid "Manage..."
 msgstr "Управление..."
 
 #: Gtk/FilePropertiesWindow.vala:192 Gtk/Sidebar.vala:720
-#: Utility/Device.vala:2510
+#: Utility/Device.vala:2502
 #, c-format
 msgid "Mapped"
 msgstr "Подключенные"
@@ -2510,11 +2475,11 @@ msgstr "Медиа"
 msgid "MediaInfo"
 msgstr "Медиа информация"
 
-#: Gtk/FileViewList.vala:3402
+#: Gtk/FileViewList.vala:3384
 msgid "Menubar: File > New Admin Window"
 msgstr "Меню: Файл > Новое окно администратора"
 
-#: Gtk/FileContextMenu.vala:2339 Gtk/Settings.vala:2688
+#: Gtk/FileContextMenu.vala:2252 Gtk/Settings.vala:2688
 msgid "Merge"
 msgstr "Объединить"
 
@@ -2522,7 +2487,7 @@ msgstr "Объединить"
 msgid "Merge Derived Disk"
 msgstr "Объединить полученный диск"
 
-#: Gtk/FileContextMenu.vala:2340
+#: Gtk/FileContextMenu.vala:2253
 msgid "Merge selected PDF files into one document"
 msgstr "Объединить выбранные PDF-файлы в один документ"
 
@@ -2544,7 +2509,7 @@ msgstr "Тип mime"
 msgid "Minimize"
 msgstr "Минимизировать"
 
-#: Utility/Device.vala:2554
+#: Utility/Device.vala:2546
 #, c-format
 msgid "Minor"
 msgstr "Минорный"
@@ -2553,28 +2518,28 @@ msgstr "Минорный"
 msgid "Missing"
 msgstr "Отсутствует"
 
-#: Common/Main.vala:1345 Gtk/MainWindow.vala:606
+#: Common/Main.vala:1338 Gtk/MainWindow.vala:603
 msgid "Missing Dependencies"
 msgstr "Отсутствующие зависимости"
 
-#: Gtk/DeviceContextMenu.vala:579 Gtk/FileViewList.vala:5785
+#: Gtk/DeviceContextMenu.vala:579 Gtk/FileViewList.vala:5763
 msgid "Missing Dependency"
 msgstr "Отсутствует зависимость"
 
-#: Utility/Gtk/GtkHelper.vala:382
+#: Utility/Gtk/GtkHelper.vala:376
 msgid "Missing Icon"
 msgstr "Отсутствует значок"
 
-#: Gtk/FileViewList.vala:5806
+#: Gtk/FileViewList.vala:5784
 msgid "Missing Plugin"
 msgstr "Отсутствует плагин"
 
-#: Utility/Device.vala:2541
+#: Utility/Device.vala:2533
 #, c-format
 msgid "Model"
 msgstr "Модель"
 
-#: Gtk/ClamScanBox.vala:731 Gtk/FileConflictDialog.vala:543
+#: Gtk/ClamScanBox.vala:454 Gtk/FileConflictDialog.vala:543
 #: Gtk/FileConflictDialog.vala:555 Gtk/FilePropertiesBox.vala:269
 #: Gtk/FileViewList.vala:834 Utility/FileItem.vala:730
 #, c-format
@@ -2586,12 +2551,12 @@ msgid "More options"
 msgstr "Расширенные настройки"
 
 #: Gtk/DeviceContextMenu.vala:179 Gtk/DevicePopover.vala:513
-#: Gtk/FileContextMenu.vala:1694 Gtk/Sidebar.vala:732 Utility/Device.vala:2529
+#: Gtk/FileContextMenu.vala:1694 Gtk/Sidebar.vala:732 Utility/Device.vala:2521
 #, c-format
 msgid "Mount"
 msgstr "Монтировать"
 
-#: Gtk/FileContextMenu.vala:2159
+#: Gtk/FileContextMenu.vala:2072
 msgid "Mount Disk"
 msgstr "Монтировать диск"
 
@@ -2603,7 +2568,7 @@ msgstr "Путь монтирования"
 msgid "Mount the disk image as read-only device"
 msgstr "Монтировать образ диска как устройство только для чтения"
 
-#: Gtk/FileContextMenu.vala:2160
+#: Gtk/FileContextMenu.vala:2073
 msgid "Mount the selected disk"
 msgstr "Монтировать выбранный диск"
 
@@ -2615,7 +2580,7 @@ msgstr "Монтировать том"
 msgid "MountPath"
 msgstr "Путь монтирования"
 
-#: Gtk/FileViewList.vala:5124
+#: Gtk/FileViewList.vala:5106
 #, c-format
 msgid "Mounted ISO"
 msgstr "Смонтированный ISO"
@@ -2662,7 +2627,7 @@ msgstr "Переместить выбранный объект вниз"
 msgid "Move selected item up"
 msgstr "Переместить выбранный объект вверх"
 
-#: Gtk/ClamScanBox.vala:218
+#: Gtk/ClamScanBox.vala:221
 msgid "Move to Quarantine"
 msgstr "Поместить в карантин"
 
@@ -2673,11 +2638,6 @@ msgstr "Переместить в другое место"
 #: Gtk/FileContextMenu.vala:1265
 msgid "Move to other pane"
 msgstr "Переместить в другую панель"
-
-#: Gtk/ClamScanBox.vala:281
-#, c-format
-msgid "Moved to quarantine"
-msgstr "Поместить в карантин"
 
 #: Utility/FileTask.vala:789
 #, c-format
@@ -2696,9 +2656,13 @@ msgstr "Перемещение файлов:"
 msgid "Multiple items selected"
 msgstr "Множественный выбор объектов"
 
-#: Gtk/PlacesPopover.vala:651 Gtk/Sidebar.vala:344
+#: Gtk/PlacesPopover.vala:642 Gtk/Sidebar.vala:344
 msgid "Music"
 msgstr "Музыка"
+
+#: Gtk/FilePreviewBox.vala:435 Gtk/FilePreviewBox.vala:439
+msgid "Mute"
+msgstr "Заглушить"
 
 #: Utility/MediaFile.vala:595
 msgid "N/A"
@@ -2727,11 +2691,11 @@ msgstr "Новый"
 msgid "New Admin Window"
 msgstr "Новое окно администратора"
 
-#: Gtk/FileViewList.vala:4675
+#: Gtk/FileViewList.vala:4657
 msgid "New File"
 msgstr "Новый файл"
 
-#: Gtk/FileViewList.vala:4641
+#: Gtk/FileViewList.vala:4623
 msgid "New Folder"
 msgstr "Новый каталог"
 
@@ -2743,7 +2707,7 @@ msgstr "Новая вкладка"
 msgid "New Window"
 msgstr "Новое окно"
 
-#: Gtk/MainWindow.vala:1469
+#: Gtk/MainWindow.vala:1466
 msgid "New Workspace"
 msgstr "Новое рабочее пространство"
 
@@ -2773,25 +2737,25 @@ msgstr "Далее"
 msgid "No"
 msgstr "Нет"
 
-#: Gtk/FileViewList.vala:6179
+#: Gtk/FileViewList.vala:6157
 msgid "No Files Selected"
 msgstr "Нет выбранных файлов"
 
-#: Gtk/FileViewList.vala:5615 Gtk/FileViewList.vala:5635
-#: Gtk/FileViewList.vala:5655 Gtk/FileViewList.vala:5675
-#: Gtk/FileViewList.vala:5695 Gtk/FileViewList.vala:5715
+#: Gtk/FileViewList.vala:5597 Gtk/FileViewList.vala:5617
+#: Gtk/FileViewList.vala:5637 Gtk/FileViewList.vala:5657
+#: Gtk/FileViewList.vala:5677 Gtk/FileViewList.vala:5697
 msgid "No Images Selected"
 msgstr "Изображения не выбраны"
 
-#: Gtk/FileViewList.vala:5595
+#: Gtk/FileViewList.vala:5577
 msgid "No JPEGs Selected"
 msgstr "JPEG файлы не выбраны"
 
-#: Gtk/FileViewList.vala:5573
+#: Gtk/FileViewList.vala:5555
 msgid "No PNGs Selected"
 msgstr "PNG файлы не выбраны"
 
-#: Gtk/FileViewList.vala:4598
+#: Gtk/FileViewList.vala:4580
 msgid "No Permission"
 msgstr "Отсутствует разрешение"
 
@@ -2812,8 +2776,8 @@ msgstr "Неотключаемое устройство"
 msgid "Normal"
 msgstr "Нормальный"
 
-#: Gtk/FileViewList.vala:5071 Gtk/FileViewList.vala:5078
-#: Gtk/FileViewList.vala:5976 Gtk/FileViewList.vala:6072
+#: Gtk/FileViewList.vala:5053 Gtk/FileViewList.vala:5060
+#: Gtk/FileViewList.vala:5954 Gtk/FileViewList.vala:6050
 msgid "Not Supported"
 msgstr "Не поддерживается"
 
@@ -2821,10 +2785,6 @@ msgstr "Не поддерживается"
 #, c-format
 msgid "Notes"
 msgstr "Заметки"
-
-#: Gtk/ClamScanBox.vala:244 Gtk/ClamScanBox.vala:332 Gtk/ClamScanBox.vala:420
-msgid "Nothing Selected"
-msgstr "Нет выбранных файлов"
 
 #: Gtk/Settings.vala:2547
 msgid ""
@@ -2835,9 +2795,9 @@ msgstr ""
 "чем количество ядер на хостовой машине."
 
 #: Gtk/ChecksumBox.vala:349 Gtk/ChecksumBox.vala:1418 Gtk/ChecksumBox.vala:1477
-#: Gtk/FileConflictDialog.vala:254 Gtk/ProgressPanelArchiveTask.vala:373
+#: Gtk/FileConflictDialog.vala:254 Gtk/ProgressPanelArchiveTask.vala:521
 #: Utility/Gtk/CustomMessageDialog.vala:170
-#: Utility/Gtk/CustomMessageDialog.vala:174 Utility/Gtk/GtkHelper.vala:159
+#: Utility/Gtk/CustomMessageDialog.vala:174 Utility/Gtk/GtkHelper.vala:153
 #: Utility/Gtk/LoadingWindow.vala:110
 #, c-format
 msgid "OK"
@@ -2881,7 +2841,7 @@ msgstr "Открыть с помощью"
 msgid "Open a terminal window"
 msgstr "Открыть терминальное окно"
 
-#: Gtk/FileViewList.vala:3401
+#: Gtk/FileViewList.vala:3383
 msgid "Open an admin window to browse this folder"
 msgstr "Откройте окно администратора для просмотра этого каталога"
 
@@ -2993,7 +2953,7 @@ msgstr "Открыть с помощью другого приложения"
 msgid "Optimize"
 msgstr "Оптимизировать"
 
-#: Gtk/FileContextMenu.vala:2441
+#: Gtk/FileContextMenu.vala:2354
 msgid "Optimize For"
 msgstr "Оптимизировать для"
 
@@ -3001,7 +2961,7 @@ msgstr "Оптимизировать для"
 msgid "Optimize PNG"
 msgstr "Оптимизация PNG"
 
-#: Gtk/FileContextMenu.vala:2591
+#: Gtk/FileContextMenu.vala:2504
 msgid "Optimize PNG (lossless)"
 msgstr "Оптимизация PNG (без потерь)"
 
@@ -3035,10 +2995,6 @@ msgstr "Оригинальная контрольная сумма"
 msgid "Original Location"
 msgstr "Оригинальное место расположения"
 
-#: Gtk/ClamScanBox.vala:593
-msgid "Original Path"
-msgstr "Оригинальное место расположения"
-
 #: Gtk/FileContextMenu.vala:395
 msgid "Other"
 msgstr "Другое"
@@ -3047,7 +3003,7 @@ msgstr "Другое"
 msgid "Others"
 msgstr "Другие"
 
-#: Gtk/FileViewList.vala:5814
+#: Gtk/FileViewList.vala:5792
 msgid "Outdated Plugin"
 msgstr "Устаревший плагин"
 
@@ -3059,7 +3015,7 @@ msgstr "Перезаписать существующий файл?"
 msgid "Owner"
 msgstr "Владелец"
 
-#: Gtk/FileContextMenu.vala:2278
+#: Gtk/FileContextMenu.vala:2191
 msgid "PDF"
 msgstr "PDF"
 
@@ -3080,12 +3036,12 @@ msgid "Panes"
 msgstr "Панели"
 
 #: Gtk/FilePropertiesWindow.vala:199 Gtk/Sidebar.vala:727
-#: Utility/Device.vala:2519
+#: Utility/Device.vala:2511
 #, c-format
 msgid "PartLabel"
 msgstr "Метка"
 
-#: Gtk/FileViewList.vala:6073
+#: Gtk/FileViewList.vala:6051
 msgid "Partial extraction not supported for solid archives"
 msgstr "Частичное извлечение не поддерживается для непрерывных архивов"
 
@@ -3194,12 +3150,12 @@ msgstr ""
 "Это полезно, если файлы находятся на съемном диске, так как абсолютные пути "
 "будут меняться, если диск установлен по другому пути."
 
-#: Gtk/FileConflictDialog.vala:405 Utility/Device.vala:463
-#: Utility/Device.vala:1715
+#: Gtk/FileConflictDialog.vala:405 Utility/Device.vala:459
+#: Utility/Device.vala:1707
 msgid "Path"
 msgstr "Путь"
 
-#: Gtk/PlacesPopover.vala:488
+#: Gtk/PlacesPopover.vala:479
 msgid "Path Not Found"
 msgstr "Путь не найден"
 
@@ -3211,9 +3167,9 @@ msgstr "Путь не найден"
 msgid "Pathbar"
 msgstr "Панель пути"
 
-#: Gtk/ProgressPanelArchiveTask.vala:312 Gtk/ProgressPanelArchiveTask.vala:315
-#: Gtk/ProgressPanelArchiveTask.vala:336 Gtk/ProgressPanelArchiveTask.vala:337
-#: Gtk/ProgressPanelArchiveTask.vala:482
+#: Gtk/FilePreviewBox.vala:425 Gtk/ProgressPanelArchiveTask.vala:460
+#: Gtk/ProgressPanelArchiveTask.vala:463 Gtk/ProgressPanelArchiveTask.vala:484
+#: Gtk/ProgressPanelArchiveTask.vala:485 Gtk/ProgressPanelArchiveTask.vala:630
 msgid "Pause"
 msgstr "Пауза"
 
@@ -3227,7 +3183,7 @@ msgstr "Производительность"
 msgid "Permissions"
 msgstr "Разрешения"
 
-#: Gtk/PlacesPopover.vala:650 Gtk/Sidebar.vala:343
+#: Gtk/PlacesPopover.vala:641 Gtk/Sidebar.vala:343
 msgid "Pictures"
 msgstr "Изображения"
 
@@ -3235,11 +3191,15 @@ msgstr "Изображения"
 msgid "Places"
 msgstr "Места"
 
-#: Common/Main.vala:523
+#: Gtk/FilePreviewBox.vala:421
+msgid "Play"
+msgstr "Играть"
+
+#: Common/Main.vala:521
 msgid "Please install required packages and try running again"
 msgstr "Установите необходимые пакеты и попробуйте запустить снова"
 
-#: Gtk/MainMenubar.vala:1957
+#: Gtk/MainMenubar.vala:1955
 msgid "Polo will be restarted with a fresh session"
 msgstr "Polo будет перезапущен с новой сессией"
 
@@ -3267,22 +3227,18 @@ msgstr "Подготовка..."
 msgid "Previous"
 msgstr "Предыдущий"
 
-#: Gtk/ProgressPanelArchiveTask.vala:219
+#: Gtk/ProgressPanelArchiveTask.vala:205
 msgid "Processed:"
 msgstr "Обработанный:"
 
-#: Gtk/ProgressPanelArchiveTask.vala:263
-msgid "Progress:"
-msgstr "Прогрес:"
-
 #: Gtk/DeviceContextMenu.vala:293 Gtk/DevicePopover.vala:641
-#: Gtk/FileContextMenu.vala:2852 Gtk/FilePropertiesWindow.vala:87
+#: Gtk/FileContextMenu.vala:2765 Gtk/FilePropertiesWindow.vala:87
 #: Gtk/FileViewToolbar.vala:448 Gtk/MiddleToolbar.vala:309
 #: Gtk/Settings.vala:497
 msgid "Properties"
 msgstr "Свойства"
 
-#: Gtk/FileContextMenu.vala:2357
+#: Gtk/FileContextMenu.vala:2270
 msgid "Protect the PDF document by adding password"
 msgstr "Защитите PDF-документ, добавив пароль"
 
@@ -3304,7 +3260,7 @@ msgstr ""
 "переименовывать или удалять созданные ими файлы. Они не смогут изменять "
 "файлы, созданные другими пользователями."
 
-#: Gtk/PlacesPopover.vala:654 Gtk/Sidebar.vala:347
+#: Gtk/PlacesPopover.vala:645 Gtk/Sidebar.vala:347
 msgid "Public"
 msgstr "Общий"
 
@@ -3315,14 +3271,6 @@ msgstr "Четыре"
 #: Gtk/FileViewToolbar.vala:370
 msgid "Quad Pane"
 msgstr "Четыре панели"
-
-#: Gtk/ClamScanBox.vala:767
-msgid "Quarantined"
-msgstr "Поместить в карантин"
-
-#: Gtk/ClamScanBox.vala:971 Gtk/MainMenubar.vala:1968
-msgid "Quarantined Files"
-msgstr "Файлы в карантине"
 
 #: Gtk/Settings.vala:1604
 msgid ""
@@ -3346,10 +3294,6 @@ msgstr "Запрос подкаталогов"
 msgid "Queued"
 msgstr "Очередь"
 
-#: Gtk/FileContextMenu.vala:1854
-msgid "Quick Scan"
-msgstr ""
-
 #: Gtk/Settings.vala:2587
 msgid "RAM (MB)"
 msgstr "ОЗУ (MB)"
@@ -3358,11 +3302,11 @@ msgstr "ОЗУ (MB)"
 msgid "RWX = Read Write Execute"
 msgstr "RWX = Читать Писать Выполнять"
 
-#: Gtk/ProgressPanelArchiveTask.vala:243
+#: Gtk/ProgressPanelArchiveTask.vala:227
 msgid "Ratio:"
 msgstr "Соотношение:"
 
-#: Gtk/DevicePopover.vala:1096
+#: Gtk/DevicePopover.vala:1092
 msgid "Raw Disk Image"
 msgstr "Образ диска Raw"
 
@@ -3385,7 +3329,7 @@ msgstr ""
 msgid "Read"
 msgstr "Чтение"
 
-#: Gtk/FileViewList.vala:5238
+#: Gtk/FileViewList.vala:5220
 msgid ""
 "Read-only disks cannot be booted.\n"
 "\n"
@@ -3410,24 +3354,24 @@ msgstr ""
 "напрямую."
 
 #: Gtk/FilePropertiesWindow.vala:207 Gtk/Sidebar.vala:735
-#: Utility/Device.vala:2532
+#: Utility/Device.vala:2524
 #, c-format
 msgid "ReadOnly"
 msgstr "Только чтение"
 
-#: Gtk/ProgressPanelArchiveTask.vala:108
+#: Gtk/ProgressPanelArchiveTask.vala:104
 msgid "Reading"
 msgstr "Чтение"
 
-#: Gtk/MainMenubar.vala:1888
+#: Gtk/MainMenubar.vala:1886
 msgid "Rebuild font cache"
 msgstr "Перестроить кэш шрифтов"
 
-#: Gtk/MainWindow.vala:1015
+#: Gtk/MainWindow.vala:1012
 msgid "Rebuilding Font Cache..."
 msgstr "Перестройка кеша шрифтов..."
 
-#: Gtk/MainMenubar.vala:1889
+#: Gtk/MainMenubar.vala:1887
 msgid ""
 "Rebuilds the system font cache, so that newly installed fonts become visible "
 "to applications"
@@ -3435,11 +3379,11 @@ msgstr ""
 "Переустанавливает кеш системного шрифта, так что новые установленные шрифты "
 "становятся видимыми для приложений"
 
-#: Gtk/FileContextMenu.vala:2642
+#: Gtk/FileContextMenu.vala:2555
 msgid "Reduce Color"
 msgstr "Уменьшить цвет"
 
-#: Gtk/FileContextMenu.vala:2424 Gtk/Settings.vala:2702
+#: Gtk/FileContextMenu.vala:2337 Gtk/Settings.vala:2702
 msgid "Reduce File Size"
 msgstr "Уменьшить размер файла"
 
@@ -3447,11 +3391,11 @@ msgstr "Уменьшить размер файла"
 msgid "Reduce JPEG"
 msgstr "Уменьшить JPEG"
 
-#: Gtk/FileContextMenu.vala:2608
+#: Gtk/FileContextMenu.vala:2521
 msgid "Reduce JPEG Quality"
 msgstr "Уменьшить качество JPEG"
 
-#: Gtk/FileContextMenu.vala:2643
+#: Gtk/FileContextMenu.vala:2556
 msgid ""
 "Reduce color (less saturation). This can be used for correcting photos that "
 "are over-saturated (too much color)."
@@ -3459,11 +3403,11 @@ msgstr ""
 "Уменьшить цвета (меньше насыщенности). Можно использовать для коррекции "
 "слишком насыщенных фотографий (где слишком много цветов)."
 
-#: Gtk/FileContextMenu.vala:2609
+#: Gtk/FileContextMenu.vala:2522
 msgid "Reduce file size of JPEG images by reducing quality"
 msgstr "Уменьшить размер изображения JPEG за счет снижения качества"
 
-#: Gtk/FileContextMenu.vala:2592
+#: Gtk/FileContextMenu.vala:2505
 msgid ""
 "Reduce file size of PNG images without losing quality. PNG files will be re-"
 "packed using better compression algorithms."
@@ -3471,7 +3415,7 @@ msgstr ""
 "Уменьшите размер файлов PNG без потери качества. Файлы PNG будут повторно "
 "упакованы с использованием лучших алгоритмов сжатия."
 
-#: Gtk/FileContextMenu.vala:2425
+#: Gtk/FileContextMenu.vala:2338
 msgid ""
 "Reduce the file size of PDF document by downscaling images. Use the "
 "'Optimize For' submenu for more options."
@@ -3491,7 +3435,7 @@ msgstr "Перезагрузить"
 msgid "Reload current location"
 msgstr "Обновить текущее местоположение"
 
-#: Gtk/ProgressPanelArchiveTask.vala:183
+#: Gtk/ProgressPanelArchiveTask.vala:172
 msgid "Remaining:"
 msgstr "Остальные:"
 
@@ -3507,7 +3451,7 @@ msgstr "Удаленная конфигурация загружена"
 msgid "Remote config saved"
 msgstr "Удаленная конфигурация сохранена"
 
-#: Gtk/FilePropertiesWindow.vala:209 Utility/Device.vala:2534
+#: Gtk/FilePropertiesWindow.vala:209 Utility/Device.vala:2526
 #, c-format
 msgid "Removable"
 msgstr "Съемный"
@@ -3520,16 +3464,16 @@ msgstr "Удалить"
 msgid "Remove Account"
 msgstr "Удалить учетную запись"
 
-#: Gtk/BookmarksMenu.vala:61 Gtk/PlacesPopover.vala:710
+#: Gtk/BookmarksMenu.vala:61 Gtk/PlacesPopover.vala:701
 msgid "Remove Bookmark"
 msgstr "Удалить закладку"
 
-#: Gtk/FileContextMenu.vala:2390 Gtk/FileContextMenu.vala:2625
+#: Gtk/FileContextMenu.vala:2303 Gtk/FileContextMenu.vala:2538
 #: Gtk/Settings.vala:2871
 msgid "Remove Color"
 msgstr "Удалить цвет"
 
-#: Gtk/FileContextMenu.vala:2373 Gtk/Settings.vala:2744
+#: Gtk/FileContextMenu.vala:2286 Gtk/Settings.vala:2744
 msgid "Remove Password"
 msgstr "Удалить пароль"
 
@@ -3545,7 +3489,7 @@ msgstr "Удалить закладку для этого местоположе
 msgid "Remove color"
 msgstr "Удалить цвет"
 
-#: Gtk/FileContextMenu.vala:2391
+#: Gtk/FileContextMenu.vala:2304
 msgid "Remove colors from PDF document"
 msgstr "Удалить цвета из документа PDF"
 
@@ -3554,7 +3498,7 @@ msgid "Removing items..."
 msgstr "Удаление объектов..."
 
 #: Gtk/BookmarkContextMenu.vala:89 Gtk/FileContextMenu.vala:943
-#: Gtk/FileViewList.vala:4582 Gtk/MainMenubar.vala:741 Gtk/Sidebar.vala:1182
+#: Gtk/FileViewList.vala:4564 Gtk/MainMenubar.vala:741 Gtk/Sidebar.vala:1182
 msgid "Rename"
 msgstr "Переименовать"
 
@@ -3602,7 +3546,7 @@ msgstr "Заменить выбранные файлы"
 msgid "Replaced"
 msgstr "Заменить"
 
-#: Gtk/FileViewList.vala:4448
+#: Gtk/FileViewList.vala:4430
 msgid "Requested operation is not possible"
 msgstr "Запрошенная операция невозможна"
 
@@ -3627,7 +3571,7 @@ msgstr "Сбросить имя пользователя"
 msgid "Reset and clear"
 msgstr "Сброс и очистка"
 
-#: Gtk/MainMenubar.vala:1956
+#: Gtk/MainMenubar.vala:1954
 msgid "Reset session and restart"
 msgstr "Сбросить сессию и перезапустить"
 
@@ -3639,7 +3583,7 @@ msgstr "Сбросить до стандартных столбцов"
 msgid "Resize"
 msgstr "Изменение размера"
 
-#: Gtk/FileContextMenu.vala:2720
+#: Gtk/FileContextMenu.vala:2633
 msgid "Resize to"
 msgstr "Изменить размер"
 
@@ -3656,8 +3600,8 @@ msgstr "Устранение конфликтов..."
 msgid "Restart Application ?"
 msgstr "Перезапустить приложение?"
 
-#: Gtk/ClamScanBox.vala:306 Gtk/DevicePopover.vala:575
-#: Gtk/FileContextMenu.vala:1434 Gtk/TrashBar.vala:134
+#: Gtk/DevicePopover.vala:575 Gtk/FileContextMenu.vala:1434
+#: Gtk/TrashBar.vala:134
 msgid "Restore"
 msgstr "Восстановить"
 
@@ -3665,7 +3609,7 @@ msgstr "Восстановить"
 msgid "Restore Complete"
 msgstr "Восстановление завершено"
 
-#: Gtk/DevicePopover.vala:1044
+#: Gtk/DevicePopover.vala:1040
 #, c-format
 msgid "Restore device?"
 msgstr "Восстановить устройство?"
@@ -3678,16 +3622,11 @@ msgstr "Восстановить объект в исходном местопо
 msgid "Restore selected items to original locations"
 msgstr "Восстановить выбранные объекты в исходных местах"
 
-#: Gtk/ClamScanBox.vala:369
-#, c-format
-msgid "Restored"
-msgstr "Восстановить"
-
 #: Gtk/ProgressPanelDeviceWriterTask.vala:139
 msgid "Restoring device from disk image..."
 msgstr "Восстановление устройства с образа диска ..."
 
-#: Gtk/MainWindow.vala:1269
+#: Gtk/MainWindow.vala:1266
 msgid "Restoring session..."
 msgstr "Восстановление сессии..."
 
@@ -3695,16 +3634,16 @@ msgstr "Восстановление сессии..."
 msgid "Restoring trashed files:"
 msgstr "Восстановление удаленных файлов:"
 
-#: Gtk/ProgressPanelArchiveTask.vala:341 Gtk/ProgressPanelArchiveTask.vala:342
+#: Gtk/ProgressPanelArchiveTask.vala:489 Gtk/ProgressPanelArchiveTask.vala:490
 msgid "Resume"
 msgstr "Продолжить"
 
-#: Utility/Device.vala:2549
+#: Utility/Device.vala:2541
 #, c-format
 msgid "Revision"
 msgstr "Пересмотр"
 
-#: Gtk/FileContextMenu.vala:2480 Gtk/FileContextMenu.vala:2759
+#: Gtk/FileContextMenu.vala:2393 Gtk/FileContextMenu.vala:2672
 #: Gtk/Settings.vala:2772 Gtk/Settings.vala:2843
 msgid "Rotate"
 msgstr "Поворот"
@@ -3717,19 +3656,15 @@ msgstr "Интервал между строками"
 msgid "Run in Terminal"
 msgstr "Запустить в терминале"
 
-#: Gtk/ClamScanBox.vala:296
-msgid "Run scan as Admin to quarantine files not owned by you."
-msgstr ""
-
 #: Gtk/FileContextMenu.vala:1017
 msgid "Run the selected script in a terminal window"
 msgstr "Запуск выбранного сценария в окне терминала"
 
-#: Gtk/MainWindow.vala:1035 Gtk/MainWindow.vala:1053
+#: Gtk/MainWindow.vala:1032 Gtk/MainWindow.vala:1050
 msgid "Running Rclone Installation Script"
 msgstr "Запуск сценария установки Rclone"
 
-#: Gtk/MainWindow.vala:1043
+#: Gtk/MainWindow.vala:1040
 msgid "Running p7zip Installation Script"
 msgstr "Запуск сценария установки p7zip"
 
@@ -3748,7 +3683,7 @@ msgid "Save"
 msgstr "Сохранить"
 
 #: Gtk/ChecksumBox.vala:1094 Gtk/ChecksumBox.vala:1501
-#: Gtk/DevicePopover.vala:1072
+#: Gtk/DevicePopover.vala:1068
 msgid "Save As"
 msgstr "Сохранить как"
 
@@ -3756,7 +3691,7 @@ msgstr "Сохранить как"
 msgid "Save As..."
 msgstr "Сохранить как..."
 
-#: Gtk/MainWindow.vala:1474
+#: Gtk/MainWindow.vala:1471
 msgid "Save Workspace"
 msgstr "Сохранить рабочее пространство"
 
@@ -3777,15 +3712,11 @@ msgstr "Сохранение устройства в образ диска..."
 msgid "Saving results..."
 msgstr "Сохранение результата..."
 
-#: Gtk/ClamScanBox.vala:937
-msgid "Scan Summary"
-msgstr ""
-
 #: Gtk/FileContextMenu.vala:1805 Gtk/Settings.vala:2625
 msgid "Scan for Malware"
 msgstr "Сканирование вредоносных программ"
 
-#: Gtk/ClamScanBox.vala:902
+#: Gtk/ClamScanBox.vala:574
 msgid "Scanning files..."
 msgstr "Сканирование файлов..."
 
@@ -3805,19 +3736,19 @@ msgstr "Выберите место архива"
 msgid "Select Columns"
 msgstr "Выбрать столбцы"
 
-#: Gtk/FileViewList.vala:4342
+#: Gtk/FileViewList.vala:4324
 msgid "Select Copy Destination"
 msgstr "Выбрать путь назначения для копирования"
 
-#: Gtk/FileViewList.vala:6017
+#: Gtk/FileViewList.vala:5995
 msgid "Select Destination"
 msgstr "Выберите путь назначения"
 
-#: Gtk/DevicePopover.vala:1072
+#: Gtk/DevicePopover.vala:1068
 msgid "Select Disk Image"
 msgstr "Выбрать образ диска"
 
-#: Utility/Gtk/GtkHelper.vala:753
+#: Utility/Gtk/GtkHelper.vala:747
 msgid "Select File(s)"
 msgstr "Выбрать файл(ы)"
 
@@ -3825,7 +3756,7 @@ msgstr "Выбрать файл(ы)"
 msgid "Select Files to Replace"
 msgstr "Выбор файлов для замены"
 
-#: Utility/Gtk/GtkHelper.vala:757
+#: Utility/Gtk/GtkHelper.vala:751
 msgid "Select Folder(s)"
 msgstr "Выбрать каталог(и)"
 
@@ -3837,7 +3768,7 @@ msgstr "Выбрать шрифт"
 msgid "Select Format"
 msgstr "Выбрать формат"
 
-#: Gtk/FileViewList.vala:5266
+#: Gtk/FileViewList.vala:5248
 msgid "Select ISO File"
 msgstr "Выбрать ISO файл"
 
@@ -3849,7 +3780,7 @@ msgstr "Выбрать стиль макета"
 msgid "Select ListView Columns"
 msgstr "Выбрать столбцы представления"
 
-#: Gtk/FileViewList.vala:4342
+#: Gtk/FileViewList.vala:4324
 msgid "Select Move Destination"
 msgstr "Выбрать путь назначения для перемещения"
 
@@ -3861,7 +3792,7 @@ msgstr "Ничего не выбирать"
 msgid "Select Older"
 msgstr "Выбрать более старые"
 
-#: Utility/Gtk/GtkHelper.vala:934
+#: Utility/Gtk/GtkHelper.vala:928
 msgid "Select Path"
 msgstr "Выбрать путь"
 
@@ -3877,7 +3808,7 @@ msgstr "Выбрать все файлы в списке"
 msgid "Select file to view properties"
 msgstr "Выбрать файл для просмотра свойств"
 
-#: Gtk/MainMenubar.vala:1944
+#: Gtk/MainMenubar.vala:1942
 msgid "Select layout and style"
 msgstr "Выбрать макет и стиль"
 
@@ -3893,30 +3824,26 @@ msgstr "Выбрать второй файл для сравнения"
 msgid "Select single item to move"
 msgstr "Выберите один объект для перемещения"
 
-#: Gtk/ClamScanBox.vala:244 Gtk/ClamScanBox.vala:332 Gtk/ClamScanBox.vala:420
-msgid "Select some items"
-msgstr "Выбрать объекты"
-
-#: Gtk/FileViewList.vala:5595
+#: Gtk/FileViewList.vala:5577
 msgid "Select the JPEG image files to convert"
 msgstr "Выберите файлы изображений JPEG для преобразования"
 
-#: Gtk/FileViewList.vala:5573
+#: Gtk/FileViewList.vala:5555
 msgid "Select the PNG image files to convert"
 msgstr "Выберите файлы изображений PNG для преобразования"
 
-#: Gtk/FileViewList.vala:5615 Gtk/FileViewList.vala:5635
-#: Gtk/FileViewList.vala:5655 Gtk/FileViewList.vala:5675
-#: Gtk/FileViewList.vala:5695 Gtk/FileViewList.vala:5715
+#: Gtk/FileViewList.vala:5597 Gtk/FileViewList.vala:5617
+#: Gtk/FileViewList.vala:5637 Gtk/FileViewList.vala:5657
+#: Gtk/FileViewList.vala:5677 Gtk/FileViewList.vala:5697
 msgid "Select the image files to convert"
 msgstr "Выберите файлы изображений для преобразования"
 
-#: Gtk/FileViewList.vala:5072 Gtk/FileViewList.vala:5079
+#: Gtk/FileViewList.vala:5054 Gtk/FileViewList.vala:5061
 #, c-format
 msgid "Selected item is not a text file"
 msgstr "Выбранный объект не является текстовым файлом"
 
-#: Utility/Device.vala:2545
+#: Utility/Device.vala:2537
 #, c-format
 msgid "Serial"
 msgstr "Серийный"
@@ -3937,7 +3864,7 @@ msgstr "Установить по умолчанию"
 msgid "Set as Default and Open With"
 msgstr "Установить по умолчанию и открыть с помощью"
 
-#: Gtk/FileContextMenu.vala:2572
+#: Gtk/FileContextMenu.vala:2485
 msgid "Set as Wallpaper"
 msgstr "Установить как обои рабочего стола"
 
@@ -3949,7 +3876,7 @@ msgstr "Установить приложение по умолчанию для
 msgid "Set default values"
 msgstr "Установка значений по умолчанию"
 
-#: Gtk/FileContextMenu.vala:2573
+#: Gtk/FileContextMenu.vala:2486
 msgid "Set the image as wallpaper"
 msgstr "Установить изображение как обои рабочего стола"
 
@@ -3970,7 +3897,7 @@ msgstr "Поделиться"
 msgid "Share Name Not Specified"
 msgstr "Имя общего ресурса не указано"
 
-#: Gtk/FileViewList.vala:3403
+#: Gtk/FileViewList.vala:3385
 msgid "Shortcut: [Super] + N"
 msgstr "Ярлык: [Super] + N"
 
@@ -4009,10 +3936,6 @@ msgstr "Показать скрытые"
 #, c-format
 msgid "Show Other Files"
 msgstr "Показать другие файлы"
-
-#: Gtk/MainMenubar.vala:1969
-msgid "Show Quarantined Files"
-msgstr "Показать файлы в карантине"
 
 #: Gtk/ViewPopover.vala:322
 msgid "Show Sidebar"
@@ -4127,7 +4050,7 @@ msgstr "Отображение фотографий и видео в медиа 
 msgid "Sidebar"
 msgstr "Боковая панель"
 
-#: Gtk/ClamScanBox.vala:664
+#: Gtk/ClamScanBox.vala:382
 msgid "Signature"
 msgstr "Подпись"
 
@@ -4143,11 +4066,11 @@ msgstr "Одна панель"
 msgid "Single window mode"
 msgstr "Режим одиночного окна"
 
-#: Gtk/ClamScanBox.vala:700 Gtk/DevicePopover.vala:253
+#: Gtk/ClamScanBox.vala:418 Gtk/DevicePopover.vala:253
 #: Gtk/FileConflictDialog.vala:542 Gtk/FileConflictDialog.vala:554
 #: Gtk/FilePropertiesBox.vala:151 Gtk/FilePropertiesWindow.vala:218
 #: Gtk/FileViewList.vala:778 Gtk/Sidebar.vala:1290 Gtk/Statusbar.vala:359
-#: Utility/Device.vala:2559 Utility/FileItem.vala:728
+#: Utility/Device.vala:2551 Utility/FileItem.vala:728
 #: Utility/VideoDownloadTask.vala:319
 #, c-format
 msgid "Size"
@@ -4169,7 +4092,7 @@ msgstr "Пропустить существующие файлы"
 msgid "Solid"
 msgstr "Твердый"
 
-#: Gtk/FileContextMenu.vala:2836 Gtk/MainMenubar.vala:1199
+#: Gtk/FileContextMenu.vala:2749 Gtk/MainMenubar.vala:1199
 #: Gtk/ViewPopover.vala:354
 msgid "Sort By"
 msgstr "Сортировать по"
@@ -4182,7 +4105,7 @@ msgstr "Сортировать по убыванию"
 msgid "Source"
 msgstr "Источник"
 
-#: Gtk/FileViewList.vala:4447 Gtk/FileViewList.vala:4453
+#: Gtk/FileViewList.vala:4429 Gtk/FileViewList.vala:4435
 msgid "Source and destination are same"
 msgstr "Источник и место назначения совпадают"
 
@@ -4190,15 +4113,15 @@ msgstr "Источник и место назначения совпадают"
 msgid "Special"
 msgstr "Специальный"
 
-#: Gtk/ProgressPanelArchiveTask.vala:194
+#: Gtk/ProgressPanelArchiveTask.vala:182
 msgid "Speed:"
 msgstr "Скорость:"
 
-#: Gtk/FileContextMenu.vala:2322 Gtk/Settings.vala:2674
+#: Gtk/FileContextMenu.vala:2235 Gtk/Settings.vala:2674
 msgid "Split"
 msgstr "Разделить"
 
-#: Gtk/FileContextMenu.vala:2323
+#: Gtk/FileContextMenu.vala:2236
 msgid "Split PDF document by page"
 msgstr "Разделить PDF-документ по страницам"
 
@@ -4222,7 +4145,7 @@ msgstr "Состояние"
 msgid "Statusbar"
 msgstr "Панель состояния"
 
-#: Gtk/ProgressPanelArchiveTask.vala:351 Gtk/ProgressPanelArchiveTask.vala:354
+#: Gtk/ProgressPanelArchiveTask.vala:499 Gtk/ProgressPanelArchiveTask.vala:502
 msgid "Stop"
 msgstr "Стоп"
 
@@ -4242,13 +4165,9 @@ msgstr "Стиль"
 msgid "Style Wizard"
 msgstr "Мастер стиля"
 
-#: Gtk/MainMenubar.vala:1943
+#: Gtk/MainMenubar.vala:1941
 msgid "Style wizard"
 msgstr "Мастер стиля"
-
-#: Utility/Gtk/DonationWindow.vala:85
-msgid "Support"
-msgstr "Поддержка"
 
 #: Gtk/Settings.vala:920
 msgid "Swap"
@@ -4265,10 +4184,6 @@ msgstr "Цель символической ссылки"
 #: Gtk/PoloGtk.vala:142
 msgid "Syntax"
 msgstr "Синтаксис"
-
-#: Gtk/ClamScanBox.vala:529
-msgid "System"
-msgstr "Система"
 
 #: Gtk/DeviceContextMenu.vala:370 Gtk/DeviceContextMenu.vala:401
 #: Gtk/DeviceContextMenu.vala:506 Gtk/DiskFormatContextMenu.vala:94
@@ -4310,15 +4225,15 @@ msgstr "Терминал"
 msgid "Terminal emulator to use for terminal panes"
 msgstr "Эмулятор терминала для использования в терминальных панелях"
 
-#: Gtk/ProgressPanelArchiveTask.vala:111
+#: Gtk/ProgressPanelArchiveTask.vala:107
 msgid "Testing"
 msgstr "Тестирование"
 
-#: Gtk/FileViewList.vala:6179
+#: Gtk/FileViewList.vala:6157
 msgid "There are no files selected for compression"
 msgstr "Не выбраны файлы для сжатия"
 
-#: Gtk/ProgressPanelArchiveTask.vala:640
+#: Gtk/ProgressPanelArchiveTask.vala:781
 msgid "There were errors while processing the archive."
 msgstr "При обработке архива произошли ошибки."
 
@@ -4333,23 +4248,6 @@ msgid ""
 msgstr ""
 "Это приложение предназначено для темы Arc GTK. Оно может выглядеть "
 "неправильно с другими темами."
-
-#: Utility/Gtk/DonationWindow.vala:110
-msgid ""
-"This application was created for my own use in my spare time. It's not "
-"practical for me to work for free, on every change that is requested. If you "
-"need new features or changes to the application, consider making a donation "
-"to sponsor the work. If you are a developer, consider contributing to the "
-"project, by picking up items from the issue tracker and submitting code "
-"changes."
-msgstr ""
-
-#: Utility/Gtk/DonationWindow.vala:67
-msgid ""
-"This software is free for personal and commercial use. It is distributed in "
-"the hope that it is useful but without any warranty. See the GNU General "
-"Public License v2 or later for more information"
-msgstr ""
 
 #: Gtk/Settings.vala:1853 Gtk/Settings.vala:2039 Gtk/Settings.vala:2240
 msgid "Thumbnails"
@@ -4422,7 +4320,7 @@ msgid "Transparency"
 msgstr "Прозрачность"
 
 #: Gtk/FileContextMenu.vala:965 Gtk/FileViewPane.vala:156
-#: Gtk/MainMenubar.vala:647 Gtk/PlacesPopover.vala:655 Gtk/Sidebar.vala:348
+#: Gtk/MainMenubar.vala:647 Gtk/PlacesPopover.vala:646 Gtk/Sidebar.vala:348
 msgid "Trash"
 msgstr "В корзину"
 
@@ -4436,7 +4334,7 @@ msgstr ""
 "\n"
 "Перемещение выбранных объектов в корзину"
 
-#: Gtk/FileViewList.vala:4466
+#: Gtk/FileViewList.vala:4448
 msgid "Trash selected items?"
 msgstr "Удалить выбранные объекты?"
 
@@ -4470,7 +4368,7 @@ msgid "URI"
 msgstr "URI"
 
 #: Gtk/FilePropertiesWindow.vala:195 Gtk/Sidebar.vala:723
-#: Utility/Device.vala:2515
+#: Utility/Device.vala:2507
 #, c-format
 msgid "UUID"
 msgstr "UUID"
@@ -4491,11 +4389,11 @@ msgstr "Отменить максимизацию"
 msgid "UnMaximize the terminal"
 msgstr "Отменить максимизацию терминала"
 
-#: Gtk/FileContextMenu.vala:2407 Gtk/Settings.vala:2716
+#: Gtk/FileContextMenu.vala:2320 Gtk/Settings.vala:2716
 msgid "Uncompress"
 msgstr "Распаковать"
 
-#: Gtk/FileContextMenu.vala:2408
+#: Gtk/FileContextMenu.vala:2321
 msgid "Uncompress PDF document"
 msgstr "Распаковать PDF-документ"
 
@@ -4515,7 +4413,7 @@ msgstr "Неизвестно"
 msgid "Unknown File Format"
 msgstr "Неизвестный формат файла"
 
-#: Gtk/ProgressPanelArchiveTask.vala:626 Gtk/ProgressPanelArchiveTask.vala:630
+#: Gtk/ProgressPanelArchiveTask.vala:767 Gtk/ProgressPanelArchiveTask.vala:771
 msgid "Unknown Format"
 msgstr "Неизвестный формат"
 
@@ -4527,11 +4425,11 @@ msgstr "Разблокировать"
 msgid "Unlock Path"
 msgstr "Разблокировать путь"
 
-#: Utility/Device.vala:614 Utility/Device.vala:1925
+#: Utility/Device.vala:606 Utility/Device.vala:1917
 msgid "Unlocked"
 msgstr "Разблокировано"
 
-#: Utility/Device.vala:613 Utility/Device.vala:1924
+#: Utility/Device.vala:605 Utility/Device.vala:1916
 msgid "Unlocked successfully"
 msgstr "Разблокирование выполнено"
 
@@ -4547,7 +4445,7 @@ msgstr "Размонтировать и заблокировать зашифр�
 msgid "Unmount this volume"
 msgstr "Размонтировать этот том"
 
-#: Utility/Device.vala:2119
+#: Utility/Device.vala:2111
 msgid "Unmounting from"
 msgstr "Размонтировать из"
 
@@ -4555,7 +4453,7 @@ msgstr "Размонтировать из"
 msgid "Unpacked"
 msgstr "Распакованный"
 
-#: Gtk/FileContextMenu.vala:2374
+#: Gtk/FileContextMenu.vala:2287
 msgid "Unprotect the PDF document by removing password"
 msgstr "Снять защиту PDF-документа, удалив пароль"
 
@@ -4568,7 +4466,7 @@ msgstr "Вверх"
 msgid "Update recursively for all items inside the folder"
 msgstr "Обновлять рекурсивно для всех объектов внутри каталога"
 
-#: Gtk/FileViewList.vala:5815
+#: Gtk/FileViewList.vala:5793
 msgid "Update required packages and try again"
 msgstr "Обновите требуемые пакеты и повторите попытку"
 
@@ -4590,14 +4488,8 @@ msgstr "Загрузка файлов в облачное хранилище:"
 msgid "Uploading items..."
 msgstr "Загрузка объектов..."
 
-#: Utility/Gtk/DonationWindow.vala:89
-msgid ""
-"Use the issue tracker for reporting issues, asking questions, and requesting "
-"features. Please avoid reporting issues by email."
-msgstr ""
-
 #: Gtk/FilePropertiesWindow.vala:225 Gtk/Sidebar.vala:1292
-#: Gtk/Statusbar.vala:361 Utility/Device.vala:2562
+#: Gtk/Statusbar.vala:361 Utility/Device.vala:2554
 #, c-format
 msgid "Used"
 msgstr "Используется"
@@ -4607,7 +4499,7 @@ msgstr "Используется"
 msgid "User"
 msgstr "Пользователь"
 
-#: Utility/Device.vala:573 Utility/Device.vala:1883
+#: Utility/Device.vala:566 Utility/Device.vala:1875
 msgid "User cancelled the password prompt"
 msgstr "Пользователь отменил запрос пароля"
 
@@ -4623,7 +4515,7 @@ msgstr "Утилиты"
 msgid "Value"
 msgstr "Значение"
 
-#: Utility/Device.vala:2537
+#: Utility/Device.vala:2529
 #, c-format
 msgid "Vendor"
 msgstr "Поставщик"
@@ -4650,7 +4542,7 @@ msgstr "Видеокодек"
 msgid "Video Resolution"
 msgstr "Разрешение видео"
 
-#: Gtk/PlacesPopover.vala:652 Gtk/Sidebar.vala:345
+#: Gtk/PlacesPopover.vala:643 Gtk/Sidebar.vala:345
 msgid "Videos"
 msgstr "Видео"
 
@@ -4664,7 +4556,7 @@ msgstr "Просмотр"
 msgid "View Mode"
 msgstr "Режим просмотра"
 
-#: Gtk/FileContextMenu.vala:2853
+#: Gtk/FileContextMenu.vala:2766
 msgid "View file properties"
 msgstr "Просмотр свойств файла"
 
@@ -4676,13 +4568,21 @@ msgstr "Виртуальная машина"
 msgid "Web Page"
 msgstr "Вэб страница"
 
+#: Utility/Gtk/DonationWindow.vala:128
+msgid "Website ~ teejeetech.in"
+msgstr "Сайт ~ teejeetech.in"
+
 #: Gtk/DevicePopoverSettingsWindow.vala:186
 msgid "Width"
 msgstr "Ширина"
 
-#: Gtk/MainMenubar.vala:2077 Utility/Gtk/DonationWindow.vala:100
+#: Gtk/MainMenubar.vala:2060
 msgid "Wiki"
 msgstr "Wiki"
+
+#: Utility/Gtk/DonationWindow.vala:120
+msgid "Wiki ~ Documentation & Help"
+msgstr "Wiki ~ Документация & Помощь"
 
 #: Gtk/FileContextMenu.vala:716
 msgid "Window"
@@ -4717,7 +4617,7 @@ msgstr "Записать ISO файл на USB диск"
 msgid "Write to USB"
 msgstr "Записать на USB"
 
-#: Utility/Device.vala:549 Utility/Device.vala:1858 Utility/Device.vala:1902
+#: Utility/Device.vala:542 Utility/Device.vala:1850 Utility/Device.vala:1894
 msgid "Wrong password"
 msgstr "Неправильный пароль"
 
@@ -4726,7 +4626,7 @@ msgstr "Неправильный пароль"
 msgid "Yes"
 msgstr "Да"
 
-#: Gtk/FileViewList.vala:4598
+#: Gtk/FileViewList.vala:4580
 msgid "You do not have permission to rename this item"
 msgstr "У вас нет разрешения на переименование этого объекта"
 
@@ -4774,11 +4674,11 @@ msgstr "объект"
 msgid "items"
 msgstr "объекты"
 
-#: Gtk/FileViewList.vala:4532
+#: Gtk/FileViewList.vala:4514
 msgid "selected item(s) will be deleted permanently"
 msgstr "выбранный объект(ы) будет удален(ы) навсегда"
 
-#: Gtk/FileViewList.vala:4467
+#: Gtk/FileViewList.vala:4449
 msgid "selected item(s) will be moved to trash"
 msgstr "выбранный объект(ы) будут перемещен(ы) в корзину"
 
@@ -4794,66 +4694,3 @@ msgstr "передано"
 #: Utility/FileTask.vala:1379
 msgid "trashed"
 msgstr "удалено"
-
-#~ msgid " files moved to quarantine"
-#~ msgstr " файл перемещен в карантин"
-
-#~ msgid "Calculate Size..."
-#~ msgstr "Рассчитать размер ..."
-
-#~ msgid "Close Window"
-#~ msgstr "Закрыть окно"
-
-#~ msgid ""
-#~ "Did you find this application useful?\n"
-#~ "\n"
-#~ "You can buy me a coffee or make a donation via PayPal to show your "
-#~ "support.\n"
-#~ "\n"
-#~ "This application includes a few extra features for people who have "
-#~ "contributed to the project through donations, translations, etc. You can "
-#~ "make a donation for $10 or more via PayPal to receive the plugins by "
-#~ "email. Your contributions will help keep the project alive and support "
-#~ "future development.\n"
-#~ "\n"
-#~ "Thanks,\n"
-#~ "Tony George"
-#~ msgstr ""
-#~ "Вам было это приложение полезно?\n"
-#~ "\n"
-#~ "Вы можете купить мне кофе или сделать пожертвование через PayPal, чтобы "
-#~ "показать свою поддержку.\n"
-#~ "\n"
-#~ "Это приложение включает в себя несколько дополнительных функций для "
-#~ "людей, которые внесли свой вклад в проект с помощью пожертвований, "
-#~ "переводов и т. Д. Вы можете сделать пожертвование в 10 долларов или более "
-#~ "через PayPal для получения плагинов по электронной почте. Ваши вклады "
-#~ "помогут сохранить проект и поддержать его будущее развитие.\n"
-#~ "\n"
-#~ "Спасибо. С уважением, Тони Джордж"
-
-#~ msgid "Donate with PayPal"
-#~ msgstr "Пожертвовать с помощью PayPal"
-
-#~ msgid "Failed to move items to trash"
-#~ msgstr "Не удалось поместить объект в корзину"
-
-#~ msgid "Fullscreen"
-#~ msgstr "На полный экран"
-
-#~ msgid "Issue Tracker ~ Report Issues, Request Features, Ask Questions"
-#~ msgstr ""
-#~ "Отслеживание проблем ~ Сообщить о проблемах, предложить доработки, задать "
-#~ "вопросы"
-
-#~ msgid "Mute"
-#~ msgstr "Заглушить"
-
-#~ msgid "Play"
-#~ msgstr "Играть"
-
-#~ msgid "Website ~ teejeetech.in"
-#~ msgstr "Сайт ~ teejeetech.in"
-
-#~ msgid "Wiki ~ Documentation & Help"
-#~ msgstr "Wiki ~ Документация & Помощь"

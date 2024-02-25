@@ -1,53 +1,52 @@
-SHELL=/bin/bash
-CFLAGS=--std=c99
+SHELL         ::= $(realpath /bin/bash)
+CFLAGS        ::= --std=c99
 
-prefix=/usr
-bindir=$(prefix)/bin
-sharedir=$(prefix)/share
-localedir=$(sharedir)/locale
-launcherdir=$(sharedir)/applications
-mandir=$(sharedir)/man
-man1dir=$(mandir)/man1
+prefix         ?= /usr
+bindir         ?= $(prefix)/bin
+sharedir       ?= $(prefix)/share
+localedir      ?= $(sharedir)/locale
+launcherdir    ?= $(sharedir)/applications
+mandir         ?= $(sharedir)/man
+man1dir        ?= $(mandir)/man1
 
-app_name=polo
-app_fullname='Polo'
+app_name      ::= polo
+app_fullname  ::= 'Polo'
 
 # vte -----------------------------
 
-vte_symbol = -D VTE_291
-vte_version=$(shell { (pkg-config --modversion vte-2.91 | cut -d. -f 2); } )
-vala_version=$(shell { (valac --version | cut -d. -f 2); } )
-dist_id=$(shell { (lsb_release -i -s); } )
-dist_codename=$(shell { (lsb_release -c -s); } )
+vte_symbol    ::= -D VTE_291
+vte_version   ::= $(shell { (pkg-config --modversion vte-2.91 | cut -d. -f 2); } )
+vala_version  ::= $(shell { (valac --version | cut -d. -f 2); } )
+dist_id       ::= $(shell { (lsb_release -i -s); } )
+dist_codename ::= $(shell { (lsb_release -c -s); } )
 
-ifeq ($(shell { test ${vte_version} -lt 52 ; echo $$? ; } ), 0)
-vte_symbol=$(shell echo '-D VTE_291_OLD')
+ifeq (0,$(shell { test ${vte_version} -lt 52 ; echo $$? ; } ))
+  vte_symbol  ::= $(shell echo '-D VTE_291_OLD')
 else ifeq "${dist_codename}" "bionic"
-vte_symbol=$(shell echo '-D VTE_291_OLD')
+  vte_symbol  ::= $(shell echo '-D VTE_291_OLD')
 else ifeq "${dist_codename}" "xenial"
-vte_symbol=$(shell echo '-D VTE_291_OLD')
+  vte_symbol  ::= $(shell echo '-D VTE_291_OLD')
 else
-vte_symbol=$(shell echo '-D VTE_291')
+  vte_symbol  ::= $(shell echo '-D VTE_291')
 endif
 
 # gtk3 -----------------------------------------------------------------
 
-gtk3_version=$(shell { (pkg-config --modversion gtk+-3.0 | cut -d. -f2); } )
+gtk3_version  ::= $(shell { (pkg-config --modversion gtk+-3.0 | cut -d. -f2); } )
 
-ifeq ($(shell { test ${gtk3_version} -gt 17 ; echo $$? ; } ), 0)
-gtk3_symbol=$(shell { echo '-D GTK3_18'; } )
+ifeq (0,$(shell { test ${gtk3_version} -gt 17 ; echo $$? ; } ))
+  gtk3_symbol ::= $(shell { echo '-D GTK3_18'; } )
 else
-gtk3_symbol=$(shell { echo ''; } )
+  gtk3_symbol ::= $(shell { echo ''; } )
 endif
 
 # symbols --------------------------
 
-define_symbols=$(shell { echo "${vte_symbol} ${gtk3_symbol}"; } )
+define_symbols  = $(shell { echo "${vte_symbol} ${gtk3_symbol}"; } )
 
 all: app-gtk app-translations app-util-disk app-util-gtk3
 
 app-gtk:
-
 	#polo-gtk
 	valac -X -D'GETTEXT_PACKAGE="${app_name}"' \
 		--Xcc="-lm" ${define_symbols} --Xcc="-O3" \
@@ -70,7 +69,6 @@ app-util-disk:
 		"polo-disk.vala" Console/*.vala --Xcc="-O3" -o polo-disk --pkg posix --pkg gio-unix-2.0 --pkg gee-0.8
 
 app-translations:
-
 	# update translation template
 	xgettext --language=C --keyword=_ \
 		--copyright-holder='Tony George (teejeetech@gmail.com)' \
@@ -87,7 +85,7 @@ app-translations:
 		Utility/Gtk/*.vala
 
 	# update translation files
-	for lang in de nl fr de ru; do \
+	for lang in de fr nl ru sv tr; do \
 		msgmerge --update -v ../po/${app_name}-$$lang.po ../${app_name}.pot ; \
 	done
 
@@ -131,13 +129,12 @@ install:
 	install -m 0755 ../debian/${app_name}-gtk.appdata.xml "$(DESTDIR)$(sharedir)/appdata"
 
 	# translations
-	for lang in de nl fr de ru; do \
+	for lang in de fr nl ru sv tr; do \
 		mkdir -p "$(DESTDIR)$(localedir)/$$lang/LC_MESSAGES"; \
 		msgfmt --check --verbose -o "$(DESTDIR)$(localedir)/$$lang/LC_MESSAGES/${app_name}.mo" ../po/${app_name}-$$lang.po ; \
 	done
 
 uninstall:
-
 	#binary
 	rm -f "$(DESTDIR)$(bindir)/${app_name}-gtk"
 	rm -f "$(DESTDIR)$(bindir)/${app_name}-gtk3-helper"
