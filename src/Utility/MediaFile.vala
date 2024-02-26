@@ -634,7 +634,7 @@ public abstract class MediaStream : GLib.Object{
     public string Description = "";
 	public bool IsSelected = true;
 
-	protected MediaStream(MediaStreamType _type){
+	internal MediaStream(MediaStreamType _type){
 		Type = _type;
 	}
 
@@ -655,7 +655,7 @@ public class GeneralStream : MediaStream {
 	public string Format = "";
 
 	public GeneralStream(){
-		init(MediaStreamType.GENERAL);
+		base(MediaStreamType.GENERAL);
 	}
 
 	public override string description{
@@ -675,7 +675,7 @@ public class VideoStream : MediaStream {
 	public long Duration = 0;
 
 	public VideoStream(){
-		init(MediaStreamType.VIDEO);
+		base(MediaStreamType.VIDEO);
 	}
 
 	public override string description{
@@ -717,7 +717,7 @@ public class AudioStream : MediaStream {
 	public long Duration = 0;
 
 	public AudioStream(){
-		init(MediaStreamType.AUDIO);
+		base(MediaStreamType.AUDIO);
 	}
 
 	public override string description{
@@ -767,7 +767,7 @@ public class TextStream : MediaStream {
 	public string CharacterEncoding = "";
 
 	public TextStream(){
-		init(MediaStreamType.TEXT);
+		base(MediaStreamType.TEXT);
 	}
 
 	public override string description{

@@ -87,9 +87,9 @@ public abstract class AsyncTask : GLib.Object{
 	public signal void stderr_line_read(string line);
 	public signal void task_complete();
 
-	protected AsyncTask(){
+	internal AsyncTask(){
 		init_temp_directories();
-	}*/
+	}
 
 	public void init_temp_directories(){
 		working_dir = TEMP_DIR + "/" + timestamp_for_path();
@@ -160,7 +160,7 @@ public abstract class AsyncTask : GLib.Object{
 
 			try {
 				//start thread for reading output stream
-				new Thread<void>.try ("AsyncTask::read_stdout", read_stdout);
+				Thread.create<void> (read_stdout, true);
 			} catch (Error e) {
 				log_error ("AsyncTask.begin():create_thread:read_stdout()");
 				log_error (e.message);
@@ -168,7 +168,7 @@ public abstract class AsyncTask : GLib.Object{
 
 			try {
 				//start thread for reading error stream
-				new Thread<void>.try ("AsyncTask::read_stderr", read_stderr);
+				Thread.create<void> (read_stderr, true);
 			} catch (Error e) {
 				log_error ("AsyncTask.begin():create_thread:read_stderr()");
 				log_error (e.message);
