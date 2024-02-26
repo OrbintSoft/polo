@@ -144,7 +144,7 @@ public class ArchiveTask : AsyncTask {
 		}
 	}
 
-	public static double 7zip_version {
+	public static double sevenzip_version {
 		get {
 			if ((7zip_version_name == null) || (7zip_version_name.length == 0)){
 
@@ -152,15 +152,16 @@ public class ArchiveTask : AsyncTask {
 				exec_sync("7z", out std_out, out std_err);
 
 				foreach(string line in std_out.split("\n")){
-
 					if ((line == null) || (line.strip().length == 0)){ continue; }
 
+					// Regex matches the following likely patterns:
 					// 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
-					string expression = """^[^ \t]+[ ]+[^ \t]+[ ]+([0-9.]*)[ ]+""";
+					// 7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+					string expression = """^[^ \t]+[ ]+(\[\d+\][ ]+)?([0-9.]*)[ ]+""";
 
 					MatchInfo match = regex_match(expression, line);
 					if (match != null){
-						7zip_version_name = match.fetch(1);
+						7zip_version_name = match.fetch(2);
 					}
 					break;
 				}
@@ -441,7 +442,7 @@ public class ArchiveTask : AsyncTask {
 		}
 
 		// verbose output
-		if (ArchiveTask.7zip_version >= 15.05){
+		if (ArchiveTask.sevenzip_version >= 15.05){
 			cmd += " -bb1";
 		}
 
@@ -594,7 +595,7 @@ public class ArchiveTask : AsyncTask {
 					escape_single_quote(working_dir),
 					escape_single_quote(working_dir));
 
-				if (ArchiveTask.7zip_version >= 15.05){
+				if (ArchiveTask.sevenzip_version >= 15.05){
 					cmd += " -bb1";
 				}
 
@@ -619,7 +620,7 @@ public class ArchiveTask : AsyncTask {
 
 		cmd += "7z l '%s' -y".printf(escape_single_quote(archive_path));
 
-		if (ArchiveTask.7zip_version >= 15.05){
+		if (ArchiveTask.sevenzip_version >= 15.05){
 			cmd += " -bb1";
 		}
 
@@ -711,7 +712,7 @@ public class ArchiveTask : AsyncTask {
 					escape_single_quote(working_dir),
 					escape_single_quote(working_dir));
 
-				if (ArchiveTask.7zip_version >= 15.05){
+				if (ArchiveTask.sevenzip_version >= 15.05){
 					cmd += " -bb1";
 				}
 
@@ -750,7 +751,7 @@ public class ArchiveTask : AsyncTask {
 		}
 		archive.extract_list.clear();
 
-		if (ArchiveTask.7zip_version >= 15.05){
+		if (ArchiveTask.sevenzip_version >= 15.05){
 			cmd += " -bb1";
 		}
 
@@ -953,7 +954,7 @@ public class ArchiveTask : AsyncTask {
 						FileAttribute.STANDARD_SIZE, FileAttribute.TIME_MODIFIED), 0);
 
 					archive.archive_size = finfo.get_size();
-					archive.archive_modified = (new DateTime.from_unix_utc(finfo.get_modification_date_time().get_second())).to_local();
+					archive.archive_modified = (new DateTime.from_timeval_utc(finfo.get_modification_time())).to_local();
 				}
 				catch (Error e) {
 					log_error(e.message);
