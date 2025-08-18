@@ -87,6 +87,9 @@ public abstract class AsyncTask : GLib.Object{
 	public signal void stderr_line_read(string line);
 	public signal void task_complete();
 
+	private Thread<void> thread_stdout;
+	private Thread<void> thread_stderr;
+
 	internal AsyncTask(){
 		init_temp_directories();
 	}
@@ -160,7 +163,7 @@ public abstract class AsyncTask : GLib.Object{
 
 			try {
 				//start thread for reading output stream
-				Thread.create<void> (read_stdout, true);
+				this.thread_stdout = new Thread<void> ("stdout-reader", read_stdout);
 			} catch (Error e) {
 				log_error ("AsyncTask.begin():create_thread:read_stdout()");
 				log_error (e.message);
@@ -168,7 +171,7 @@ public abstract class AsyncTask : GLib.Object{
 
 			try {
 				//start thread for reading error stream
-				Thread.create<void> (read_stderr, true);
+				this.thread_stderr = new Thread<void> ("stderr-reader", read_stderr);
 			} catch (Error e) {
 				log_error ("AsyncTask.begin():create_thread:read_stderr()");
 				log_error (e.message);
@@ -299,13 +302,10 @@ public abstract class AsyncTask : GLib.Object{
 		}
 	}
 
-	/*public void wait_for_threads_to_finish(){
-
-		while (threads_are_pending()){
-			sleep(100);
-			//gtk_do_events();
-		}
-	}*/
+	public void wait_for_threads_to_finish(){
+		this.thread_stdout.join();
+		this.thread_stderr.join();
+	}
 
 	private void finish(){
 		// finish() gets called by 2 threads but should be executed only once

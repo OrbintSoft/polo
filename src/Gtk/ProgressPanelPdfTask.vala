@@ -43,7 +43,7 @@ public class ProgressPanelPdfTask : ProgressPanel {
 	public Gtk.ProgressBar progressbar;
 
 	public ProgressPanelPdfTask(FileViewPane _pane, PdfTask _task){
-		init(_pane, null, FileActionType.ISO_WRITE);
+		base(_pane, null, FileActionType.ISO_WRITE);
 
 		task = _task;
 	}

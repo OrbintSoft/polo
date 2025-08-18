@@ -49,7 +49,7 @@ public class ProgressPanelDeviceWriterTask : ProgressPanel {
 	public Gtk.ProgressBar progressbar;
 
 	public ProgressPanelDeviceWriterTask(FileViewPane _pane){
-		init(_pane, null, FileActionType.ISO_WRITE);
+		base(_pane, null, FileActionType.ISO_WRITE);
 	}
 
 	public void set_parameters(DiskAction _action, string _iso_file, Device _device, string _format){

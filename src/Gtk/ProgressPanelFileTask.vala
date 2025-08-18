@@ -57,7 +57,7 @@ public class ProgressPanelFileTask : ProgressPanel {
 	//private bool stalled_warning_shown = false;
 
 	public ProgressPanelFileTask(FileViewPane _pane, Gee.ArrayList<FileItem> _items, FileActionType _action){
-		init(_pane, _items, _action);
+		base(_pane, _items, _action);
 
 		task = new FileTask();
 	}

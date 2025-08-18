@@ -43,7 +43,7 @@ public class ProgressPanelImageTask : ProgressPanel {
 	public Gtk.ProgressBar progressbar;
 
 	public ProgressPanelImageTask(FileViewPane _pane, ImageTask _task){
-		init(_pane, null, FileActionType.ISO_WRITE);
+		base(_pane, null, FileActionType.ISO_WRITE);
 
 		task = _task;
 	}

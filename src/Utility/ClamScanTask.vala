@@ -144,7 +144,7 @@ public class ClamScanTask : AsyncTask {
 		string std_out, std_err;
 
 		if (admin_mode){
-			(void)App.exec_admin(cmd, out std_out, out std_err);
+			App.exec_admin(cmd, out std_out, out std_err);
 		}
 		else{
 			exec_sync(cmd, out std_out, out std_err);

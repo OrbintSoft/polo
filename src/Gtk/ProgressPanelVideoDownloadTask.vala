@@ -48,7 +48,7 @@ public class ProgressPanelVideoDownloadTask : ProgressPanel {
 	public Gtk.ProgressBar progressbar;
 
 	public ProgressPanelVideoDownloadTask(FileViewPane _pane, string _url){
-		init(_pane, null, FileActionType.VIDEO_LIST_FORMATS);
+		base(_pane, null, FileActionType.VIDEO_LIST_FORMATS);
 
 		url = _url;
 	}

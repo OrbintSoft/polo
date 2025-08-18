@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Polo 18.8.3 BETA\n"
 "Report-Msgid-Bugs-To: teejeetech@gmail.com\n"
-"POT-Creation-Date: 2022-11-05 11:58+0530\n"
+"POT-Creation-Date: 2025-08-18 17:20+0200\n"
 "PO-Revision-Date: 2019-02-20 13:07+0100\n"
 "Last-Translator: Åke Engelbrektson <eson@svenskasprakfiler.se>\n"
 "Language-Team: Svenska Språkfiler <contactform@svenskasprakfiler.se>\n"
@@ -74,10 +74,10 @@ msgstr "2H"
 msgid "4"
 msgstr "4"
 
-#: Gtk/ProgressPanelArchiveTask.vala:166 Gtk/ProgressPanelArchiveTask.vala:177
-#: Gtk/ProgressPanelArchiveTask.vala:188 Gtk/ProgressPanelArchiveTask.vala:199
-#: Gtk/ProgressPanelArchiveTask.vala:213 Gtk/ProgressPanelArchiveTask.vala:225
-#: Gtk/ProgressPanelArchiveTask.vala:237 Gtk/ProgressPanelArchiveTask.vala:249
+#: Gtk/ProgressPanelArchiveTask.vala:164 Gtk/ProgressPanelArchiveTask.vala:175
+#: Gtk/ProgressPanelArchiveTask.vala:186 Gtk/ProgressPanelArchiveTask.vala:197
+#: Gtk/ProgressPanelArchiveTask.vala:211 Gtk/ProgressPanelArchiveTask.vala:223
+#: Gtk/ProgressPanelArchiveTask.vala:235 Gtk/ProgressPanelArchiveTask.vala:247
 msgid "???"
 msgstr "???"
 
@@ -90,19 +90,19 @@ msgstr ""
 "En dynamiskt allokerad disk kommer att skapas med angiven storlek. "
 "Filstorleken ökar gradvis allt eftersom disken ändras."
 
-#: Gtk/MainWindow.vala:1000
+#: Gtk/MainWindow.vala:981
 msgid "A modern file manager for Linux"
 msgstr "En modern filhanterare för Linux"
 
-#: Gtk/FileViewToolbar.vala:518 Gtk/MainMenubar.vala:2107
+#: Gtk/FileViewToolbar.vala:495 Gtk/MainMenubar.vala:2089
 msgid "About"
 msgstr "Om"
 
-#: Gtk/FileViewList.vala:1049
+#: Gtk/FileViewList.vala:1054
 msgid "Access"
 msgstr "Åtkomst"
 
-#: Gtk/ClamScanBox.vala:294 Gtk/ClamScanBox.vala:382 Gtk/ClamScanBox.vala:470
+#: Gtk/ClamScanBox.vala:290 Gtk/ClamScanBox.vala:378 Gtk/ClamScanBox.vala:466
 #, c-format
 msgid "Access Denied"
 msgstr "Åtkomst nekad"
@@ -111,23 +111,23 @@ msgstr "Åtkomst nekad"
 msgid "Accessed"
 msgstr "Öppnad"
 
-#: Gtk/CloudLoginWindow.vala:256
+#: Gtk/CloudLoginWindow.vala:255
 msgid "Account Configuration"
 msgstr "Kontoinställning"
 
-#: Gtk/CloudLoginWindow.vala:114
+#: Gtk/CloudLoginWindow.vala:113
 msgid "Account Name"
 msgstr "Kontonamn"
 
-#: Gtk/MainMenubar.vala:1677
+#: Gtk/MainMenubar.vala:1671
 msgid "Account Removed"
 msgstr "Konto borttaget"
 
-#: Gtk/CloudLoginWindow.vala:152
+#: Gtk/CloudLoginWindow.vala:151
 msgid "Account Type"
 msgstr "Kontotyp"
 
-#: Gtk/CloudLoginWindow.vala:257
+#: Gtk/CloudLoginWindow.vala:256
 msgid ""
 "Account setup will be started in a terminal window. Answer the prompts and "
 "finish setup to add account."
@@ -144,7 +144,7 @@ msgstr "Åtgärdsknapp"
 msgid "Actions"
 msgstr "Åtgärder"
 
-#: Gtk/MainMenubar.vala:1608
+#: Gtk/MainMenubar.vala:1602
 msgid "Add Account"
 msgstr "Lägg till konto"
 
@@ -152,7 +152,7 @@ msgstr "Lägg till konto"
 msgid "Add Bookmark"
 msgstr "Lägg till bokmärke"
 
-#: Gtk/CloudLoginWindow.vala:78
+#: Gtk/CloudLoginWindow.vala:77
 msgid "Add Cloud Storage Account"
 msgstr "Lägg till molnlagringskonto"
 
@@ -193,7 +193,7 @@ msgstr "Almquist shell (ash)"
 msgid "Amount of RAM to allocate for guest machine"
 msgstr "Mängden RAM att allokera för gästsystem"
 
-#: Gtk/FileViewList.vala:4601
+#: Gtk/FileViewList.vala:4577
 msgid "Another file exists with this name"
 msgstr "Det finns redan en fil med detta namn"
 
@@ -209,7 +209,7 @@ msgstr "Programkonfiguration inläst"
 msgid "App config saved"
 msgstr "Programkonfiguration sparad"
 
-#: Gtk/FileViewToolbar.vala:519
+#: Gtk/FileViewToolbar.vala:496
 msgid "Application Info"
 msgstr "Programinformation"
 
@@ -225,7 +225,7 @@ msgstr "Tillämpa rekursivt på mappinnehållet"
 msgid "Archive"
 msgstr "Arkiv"
 
-#: Utility/Gtk/AboutWindow.vala:442
+#: Utility/Gtk/AboutWindow.vala:440
 msgid "Artists"
 msgstr "Artister"
 
@@ -247,12 +247,12 @@ msgstr "Ljudbithastighet"
 msgid "Audio Codec"
 msgstr "Ljudkodek"
 
-#: Gtk/CloudLoginWindow.vala:190
+#: Gtk/CloudLoginWindow.vala:189
 #, c-format
 msgid "Authorization was started"
 msgstr "Auktorisering startad"
 
-#: Utility/Gtk/AboutWindow.vala:426
+#: Utility/Gtk/AboutWindow.vala:424
 msgid "Authors"
 msgstr "Utvecklare"
 
@@ -265,9 +265,9 @@ msgstr "Tillgänglig"
 msgid "BZip2 Compressed Disk Image"
 msgstr "BZip2-komprimerad diskavbild"
 
-#: Gtk/FileViewToolbar.vala:159 Gtk/MainMenubar.vala:1257 Gtk/Pathbar.vala:820
-#: Gtk/Settings.vala:395 Gtk/Settings.vala:820 Utility/Gtk/AboutWindow.vala:343
-#: Utility/Gtk/AboutWindow.vala:375
+#: Gtk/FileViewToolbar.vala:155 Gtk/MainMenubar.vala:1257 Gtk/Pathbar.vala:820
+#: Gtk/Settings.vala:395 Gtk/Settings.vala:820 Utility/Gtk/AboutWindow.vala:333
+#: Utility/Gtk/AboutWindow.vala:371
 msgid "Back"
 msgstr "Tillbaka"
 
@@ -286,10 +286,6 @@ msgstr "Säkerhetskopiering slutförd"
 #: Gtk/KvmCreateDiskWindow.vala:278
 msgid "Base"
 msgstr "Bas"
-
-#: Utility/Gtk/DonationWindow.vala:80
-msgid "Become a Patron"
-msgstr "Bli en beskyddare"
 
 #: Gtk/ProgressPanelVideoDownloadTask.vala:162
 msgid "Best (audio + video)"
@@ -319,7 +315,7 @@ msgstr "Block"
 msgid "Bookmark"
 msgstr "Bokmärk"
 
-#: Gtk/FileViewToolbar.vala:291 Gtk/Pathbar.vala:172 Gtk/Settings.vala:565
+#: Gtk/FileViewToolbar.vala:287 Gtk/Pathbar.vala:172 Gtk/Settings.vala:565
 #: Gtk/Settings.vala:780 Gtk/Settings.vala:1037 Gtk/Sidebar.vala:362
 msgid "Bookmarks"
 msgstr "Bokmärken"
@@ -360,13 +356,13 @@ msgstr "Starta den valda disken i en virtuell maskin"
 msgid "Bourne again shell (bash)"
 msgstr "Bourne again shell (bash)"
 
-#: Gtk/FileViewList.vala:389
+#: Gtk/FileViewList.vala:394
 #, c-format
 msgid "Broken"
 msgstr "Felaktig"
 
-#: Utility/FileTask.vala:335 Utility/FileTask.vala:390
-#: Utility/FileTask.vala:454 Utility/FileTask.vala:1169
+#: Utility/FileTask.vala:335 Utility/FileTask.vala:455
+#: Utility/FileTask.vala:1170
 msgid "Building file list..."
 msgstr "Bygger fillista..."
 
@@ -399,16 +395,16 @@ msgstr "CPU-typ att emulera för gästsystem"
 msgid "Calculate Folder Size"
 msgstr "Beräkna mappstorlek"
 
-#: Gtk/MainMenubar.vala:1899
+#: Gtk/MainMenubar.vala:1893
 msgid "Calculate directory sizes"
 msgstr "Beräkna mappstorlekar"
 
-#: Gtk/FileViewList.vala:2832
+#: Gtk/FileViewList.vala:2860
 msgid "Calculating dir size..."
 msgstr "Beräknar mappstorlek..."
 
-#: Gtk/ChecksumBox.vala:211 Gtk/ClamScanBox.vala:182
-#: Gtk/CloudLoginWindow.vala:212 Gtk/ConnectServerWindow.vala:537
+#: Gtk/ChecksumBox.vala:211 Gtk/ClamScanBox.vala:178
+#: Gtk/CloudLoginWindow.vala:211 Gtk/ConnectServerWindow.vala:537
 #: Gtk/ConnectServerWindow.vala:582 Gtk/CreateArchiveWindow.vala:2029
 #: Gtk/FileConflictDialog.vala:274 Gtk/KvmCreateDiskWindow.vala:362
 #: Gtk/ProgressPanelDeviceWriterTask.vala:119
@@ -418,12 +414,12 @@ msgstr "Beräknar mappstorlek..."
 #: Gtk/ProgressPanelVideoDownloadTask.vala:259
 #: Gtk/ProgressPanelVideoDownloadTask.vala:260
 #: Gtk/ProgressPanelVideoDownloadTask.vala:439
-#: Gtk/SimpleProgressWindow.vala:139 Utility/Gtk/CustomMessageDialog.vala:175
-#: Utility/Gtk/GtkHelper.vala:160
+#: Gtk/SimpleProgressWindow.vala:139 Utility/Gtk/CustomMessageDialog.vala:173
+#: Utility/Gtk/GtkHelper.vala:159
 msgid "Cancel"
 msgstr "Avbryt"
 
-#: Gtk/FileViewTab.vala:462 Gtk/LayoutBox.vala:508 Gtk/MainWindow.vala:162
+#: Gtk/FileViewTab.vala:462 Gtk/LayoutBox.vala:508 Gtk/MainWindow.vala:156
 msgid "Cancel File Operations?"
 msgstr "Vill du avbryta filåtgärderna?"
 
@@ -431,23 +427,23 @@ msgstr "Vill du avbryta filåtgärderna?"
 msgid "Cancel this file operation"
 msgstr "Avbryt den här filåtgärden"
 
-#: Gtk/ProgressPanelArchiveTask.vala:596 Gtk/ProgressPanelArchiveTask.vala:599
+#: Gtk/ProgressPanelArchiveTask.vala:594 Gtk/ProgressPanelArchiveTask.vala:597
 msgid "Cancelled"
 msgstr "Stoppad"
 
-#: Gtk/ProgressPanelArchiveTask.vala:680
+#: Gtk/ProgressPanelArchiveTask.vala:678
 msgid "Cancelled by user"
 msgstr "Avbruten av användaren"
 
-#: Gtk/FileViewList.vala:6184
+#: Gtk/FileViewList.vala:6160
 msgid "Cannot create archive in this location"
 msgstr "Kan inte skapa arkiv på denna plats"
 
-#: Gtk/FileViewList.vala:6024
+#: Gtk/FileViewList.vala:6000
 msgid "Cannot extract to this location"
 msgstr "Kan inte extrahera till denna plats"
 
-#: Gtk/FileViewToolbar.vala:479 Gtk/MainHeaderBar.vala:265
+#: Gtk/FileViewToolbar.vala:475 Gtk/MainHeaderBar.vala:265
 msgid "Change Application Settings"
 msgstr "Ändra programinställningar"
 
@@ -479,7 +475,7 @@ msgstr "Ändra radavstånd"
 msgid "Changed"
 msgstr "Ändrad"
 
-#: Utility/Gtk/AboutWindow.vala:391
+#: Utility/Gtk/AboutWindow.vala:389
 msgid "Changelog"
 msgstr "Ändringslogg"
 
@@ -508,11 +504,11 @@ msgstr ""
 msgid "Check"
 msgstr "Kontrollera"
 
-#: Gtk/MainMenubar.vala:1984
+#: Gtk/MainMenubar.vala:1978
 msgid "Check external tools"
 msgstr "Kontrollera externa verktyg"
 
-#: Gtk/FileViewList.vala:2398
+#: Gtk/FileViewList.vala:2426
 msgid "Check if internet connection is active"
 msgstr "Kontrollera om internetanslutningen är aktiv"
 
@@ -573,11 +569,11 @@ msgstr "Klassiska ikoner (Enkelpanel + Sidofält + Ikonvy)"
 msgid "Classic List (Single-Pane + SideBar + ListView)"
 msgstr "Klassisk lista (Enkelpanel + Sidofält + Listvy)"
 
-#: Gtk/MainMenubar.vala:1853
+#: Gtk/MainMenubar.vala:1847
 msgid "Clean thumbnail cache"
 msgstr "Rensa miniatyr-cachen"
 
-#: Gtk/MainWindow.vala:1027
+#: Gtk/MainWindow.vala:1008
 msgid "Cleaning Thumbnail Cache..."
 msgstr "Rensar miniatyr-cache..."
 
@@ -585,7 +581,7 @@ msgstr "Rensar miniatyr-cache..."
 msgid "Clear the terminal output"
 msgstr "Rensa terminalutdata"
 
-#: Gtk/MainMenubar.vala:1854
+#: Gtk/MainMenubar.vala:1848
 msgid ""
 "Clear the thumbnails in system cache. New thumbnails will be generated when "
 "folders are browsed using any file manager."
@@ -593,11 +589,11 @@ msgstr ""
 "Ta bort miniatyrerna från system-cachen. Nya miniatyrer kommer att skapas "
 "när mappar öppnas med valfri filhanterare."
 
-#: Gtk/CloudLoginWindow.vala:190
+#: Gtk/CloudLoginWindow.vala:189
 msgid "Click 'Cancel' to close this window"
 msgstr "Tryck \"Avbryt\" för att stänga detta fönster"
 
-#: Gtk/CloudLoginWindow.vala:190
+#: Gtk/CloudLoginWindow.vala:189
 msgid "Click 'Finish' to add the account"
 msgstr "Tryck \"Slutför\" för att lägga till kontot"
 
@@ -617,10 +613,9 @@ msgstr "Klicka för att kopiera kontrollsumman till urklipp"
 msgid "Click to edit path"
 msgstr "Klicka för att redigera sökväg"
 
-#: Gtk/ClamScanBox.vala:482 Gtk/DevicePopoverSettingsWindow.vala:292
+#: Gtk/ClamScanBox.vala:478 Gtk/DevicePopoverSettingsWindow.vala:292
 #: Gtk/FileViewTab.vala:329 Gtk/MessageBar.vala:152 Gtk/SelectionBar.vala:204
-#: Gtk/WizardWindow.vala:143 Utility/Gtk/AboutWindow.vala:400
-#: Utility/Gtk/DonationWindow.vala:137
+#: Gtk/WizardWindow.vala:143 Utility/Gtk/AboutWindow.vala:398
 msgid "Close"
 msgstr "Stäng"
 
@@ -628,11 +623,11 @@ msgstr "Stäng"
 msgid "Close button (R)"
 msgstr "Stängknapp (R)"
 
-#: Gtk/MainHeaderBar.vala:313 Gtk/ProgressPanelArchiveTask.vala:367
+#: Gtk/MainHeaderBar.vala:313 Gtk/ProgressPanelArchiveTask.vala:365
 msgid "Close this window"
 msgstr "Stäng detta fönster"
 
-#: Gtk/MainWindow.vala:163
+#: Gtk/MainWindow.vala:157
 msgid ""
 "Closing the application will cancel running file operations.\n"
 "Do you want to cancel?"
@@ -658,7 +653,7 @@ msgstr ""
 "flik.\n"
 "Vill du avbryta?"
 
-#: Gtk/MainMenubar.vala:1571
+#: Gtk/MainMenubar.vala:1565
 msgid "Cloud"
 msgstr "Molnlagring"
 
@@ -667,7 +662,7 @@ msgstr "Molnlagring"
 msgid "Code"
 msgstr "Kod"
 
-#: Utility/Gtk/AboutWindow.vala:434
+#: Utility/Gtk/AboutWindow.vala:432
 msgid "Code Contributions"
 msgstr "Kodbidrag"
 
@@ -720,15 +715,15 @@ msgstr "Komprimera"
 msgid "Compress selected items and create new archive"
 msgstr "Komprimera markerade objekt och skapa ett nytt arkiv"
 
-#: Gtk/ProgressPanelArchiveTask.vala:231
+#: Gtk/ProgressPanelArchiveTask.vala:229
 msgid "Compressed:"
 msgstr "Komprimerad:"
 
-#: Gtk/ProgressPanelArchiveTask.vala:102
+#: Gtk/ProgressPanelArchiveTask.vala:100
 msgid "Compressing"
 msgstr "Komprimerar"
 
-#: Gtk/ProgressPanelArchiveTask.vala:283
+#: Gtk/ProgressPanelArchiveTask.vala:281
 #, fuzzy
 msgid "Compression:"
 msgstr "Komprimerar"
@@ -769,7 +764,7 @@ msgstr "Anslut till server..."
 msgid "Connecting to Server..."
 msgstr "Ansluter till server..."
 
-#: Gtk/FileViewList.vala:1092
+#: Gtk/FileViewList.vala:1097
 msgid "Content Type"
 msgstr "Innehållstyp"
 
@@ -859,7 +854,7 @@ msgstr "Kopiera till annan plats"
 msgid "Copy to other pane"
 msgstr "Kopiera till annan panel"
 
-#: Utility/FileTask.vala:793
+#: Utility/FileTask.vala:794
 #, c-format
 msgid "Copying file"
 msgstr "Kopierar fil"
@@ -868,13 +863,9 @@ msgstr "Kopierar fil"
 msgid "Copying files:"
 msgstr "Kopierar filer:"
 
-#: Utility/FileTask.vala:342 Utility/FileTask.vala:470
+#: Utility/FileTask.vala:342 Utility/FileTask.vala:471
 msgid "Copying items..."
 msgstr "Kopierar objekt..."
-
-#: Utility/FileTask.vala:397
-msgid "Copying..."
-msgstr "Kopierar..."
 
 #: Gtk/ProgressPanelVideoDownloadTask.vala:506
 #: Gtk/ProgressPanelVideoDownloadTask.vala:575
@@ -891,24 +882,24 @@ msgstr "Kunde inte hitta bokmärkt sökväg"
 msgid "Could not find file"
 msgstr "Kunde inte hitta fil"
 
-#: Gtk/FileViewList.vala:5038
+#: Gtk/FileViewList.vala:5014
 #, c-format
 msgid "Could not find file in opposite pane"
 msgstr "Kunde inte hitta fil i motsatt panel"
 
-#: Gtk/FileViewList.vala:3383
+#: Gtk/FileViewList.vala:3411
 msgid "Could not find path"
 msgstr "Kunde inte hitta sökväg"
 
-#: Gtk/FileViewList.vala:4327
+#: Gtk/FileViewList.vala:4325
 msgid "Could not find the opposite pane!"
 msgstr "Kunde inte hitta motsatt panel!"
 
-#: Gtk/FileViewList.vala:5977
+#: Gtk/FileViewList.vala:5953
 msgid "Could not open file as archive"
 msgstr "Kunde inte öppna fil som arkiv"
 
-#: Gtk/FileViewList.vala:2756
+#: Gtk/FileViewList.vala:2784
 msgid "Counting items..."
 msgstr "Räknar objekt..."
 
@@ -924,7 +915,7 @@ msgstr "Skapa avledd disk"
 msgid "Create Derived Disk..."
 msgstr "Skapa avledd disk..."
 
-#: Gtk/FileViewList.vala:4646
+#: Gtk/FileViewList.vala:4622
 msgid "Create Directory"
 msgstr "Skapa mapp"
 
@@ -932,7 +923,7 @@ msgstr "Skapa mapp"
 msgid "Create Disk..."
 msgstr "Skapa disk..."
 
-#: Gtk/FileViewList.vala:4680 Gtk/FileViewList.vala:4716
+#: Gtk/FileViewList.vala:4656 Gtk/FileViewList.vala:4692
 msgid "Create File"
 msgstr "Skapa fil"
 
@@ -968,10 +959,6 @@ msgstr ""
 msgid "Create a virtual hard disk file that uses selected disk as the base"
 msgstr "Skapa virtuell hårddiskfil som använder markerad disk som bas"
 
-#: Gtk/FileViewList.vala:4454
-msgid "Create copies of selected items?"
-msgstr "Vill du skapa kopior av markerade objekt?"
-
 #: Gtk/FileContextMenu.vala:783
 msgid "Create new file from template"
 msgstr "Skapa ny fil från mall"
@@ -985,7 +972,7 @@ msgid "Create new folder in this location"
 msgstr "Skapa ny mapp på denna plats"
 
 #: Gtk/FilePropertiesBox.vala:265 Gtk/KvmCreateDiskWindow.vala:463
-#: Gtk/ProgressPanelArchiveTask.vala:611 Gtk/ProgressPanelImageTask.vala:207
+#: Gtk/ProgressPanelArchiveTask.vala:609 Gtk/ProgressPanelImageTask.vala:207
 #: Gtk/ProgressPanelKvmTask.vala:258
 #, c-format
 msgid "Created"
@@ -1022,7 +1009,7 @@ msgstr "Skapar sammanfogad disk..."
 msgid "Creating symbolic links:"
 msgstr "Skapar symboliska länkar:"
 
-#: Utility/Gtk/AboutWindow.vala:320 Utility/Gtk/AboutWindow.vala:381
+#: Utility/Gtk/AboutWindow.vala:351 Utility/Gtk/AboutWindow.vala:377
 msgid "Credits"
 msgstr "Medverkande"
 
@@ -1052,7 +1039,7 @@ msgstr "Klipp ut markerade objekt"
 msgid "Dark theme"
 msgstr "Mörkt tema"
 
-#: Gtk/ProgressPanelArchiveTask.vala:207
+#: Gtk/ProgressPanelArchiveTask.vala:205
 msgid "Data:"
 msgstr "Data:"
 
@@ -1060,15 +1047,15 @@ msgstr "Data:"
 msgid "Debian Almquist shell (dash)"
 msgstr "Debian Almquist shell (dash)"
 
-#: Gtk/MainMenubar.vala:2009
+#: Gtk/MainMenubar.vala:2003
 msgid "Debug: List Devices"
 msgstr "Felsök: Lista enheter"
 
-#: Gtk/MainMenubar.vala:1996
+#: Gtk/MainMenubar.vala:1990
 msgid "Debug: List FileItem Objects"
 msgstr "Felsök: Lista FileItem-objekt"
 
-#: Gtk/MainMenubar.vala:2022
+#: Gtk/MainMenubar.vala:2016
 msgid "Debug: Monitors"
 msgstr "Felsök: Skärmar"
 
@@ -1088,7 +1075,7 @@ msgstr "Standardvy att använda för nya paneler"
 msgid "Defaults"
 msgstr "Standard"
 
-#: Gtk/ClamScanBox.vala:394 Gtk/FileContextMenu.vala:987
+#: Gtk/ClamScanBox.vala:390 Gtk/FileContextMenu.vala:987
 #: Gtk/MainMenubar.vala:692 Gtk/TrashBar.vala:98
 msgid "Delete"
 msgstr "Ta bort"
@@ -1107,11 +1094,11 @@ msgstr ""
 msgid "Delete selected items permanently"
 msgstr "Ta bort markerade objekt permanent"
 
-#: Gtk/FileViewList.vala:4531
+#: Gtk/FileViewList.vala:4507
 msgid "Delete selected items?"
 msgstr "Vill du ta bort markerade objekt?"
 
-#: Gtk/ClamScanBox.vala:457
+#: Gtk/ClamScanBox.vala:453
 #, c-format
 msgid "Deleted"
 msgstr "Borttagen"
@@ -1140,11 +1127,11 @@ msgstr ""
 msgid "Desktop"
 msgstr "Skrivbord"
 
-#: Gtk/FileViewList.vala:6024 Gtk/FileViewList.vala:6046
+#: Gtk/FileViewList.vala:6000 Gtk/FileViewList.vala:6022
 msgid "Destination directory does not exist"
 msgstr "Målmappen finns inte"
 
-#: Gtk/FileViewList.vala:6184
+#: Gtk/FileViewList.vala:6160
 msgid "Destination path is inside an archive (!)"
 msgstr "Målsökvägen finns i ett arkiv (!)"
 
@@ -1207,11 +1194,11 @@ msgstr "Enheten matades ut och är klar för användning"
 msgid "Device was restored successfully from disk image"
 msgstr "Enheten återställdes korrekt från diskavbilden"
 
-#: Gtk/FileViewList.vala:3375
+#: Gtk/FileViewList.vala:3403
 msgid "Device was unmounted"
 msgstr "Enheten avmonterades"
 
-#: Gtk/FileViewToolbar.vala:315 Gtk/Pathbar.vala:204 Gtk/Settings.vala:582
+#: Gtk/FileViewToolbar.vala:311 Gtk/Pathbar.vala:204 Gtk/Settings.vala:582
 #: Gtk/Settings.vala:800 Gtk/Settings.vala:1055 Gtk/Sidebar.vala:381
 msgid "Devices"
 msgstr "Enheter"
@@ -1224,7 +1211,7 @@ msgstr "Ordbok"
 msgid "Dir not found"
 msgstr "Mappen hittades inte"
 
-#: Gtk/FileViewList.vala:4654
+#: Gtk/FileViewList.vala:4630
 msgid "Directory exists"
 msgstr "Mappen finns redan"
 
@@ -1244,7 +1231,7 @@ msgstr "Diskanvändning"
 msgid "Disk image was created successfully from device"
 msgstr "Diskavbild skapades korrekt, från enheten"
 
-#: Gtk/FileViewList.vala:5238
+#: Gtk/FileViewList.vala:5214
 msgid "Disk is Read-Only"
 msgstr "Disken är skrivskyddad"
 
@@ -1258,7 +1245,7 @@ msgstr ""
 "disken. Basfilen kommer att skrivskyddas för att undvika oavsiktlig "
 "modifiering."
 
-#: Utility/Gtk/AboutWindow.vala:458
+#: Utility/Gtk/AboutWindow.vala:456
 msgid "Documentation"
 msgstr "Dokumentation"
 
@@ -1270,16 +1257,7 @@ msgstr "Dokument"
 msgid "Domain"
 msgstr "Domän"
 
-#: Gtk/FileViewToolbar.vala:498 Gtk/MainMenubar.vala:2097
-#: Utility/Gtk/DonationWindow.vala:44 Utility/Gtk/DonationWindow.vala:77
-msgid "Donate"
-msgstr "Donera"
-
-#: Utility/Gtk/DonationWindow.vala:118 Utility/Gtk/DonationWindow.vala:126
-msgid "Donation Features"
-msgstr "Donationsfunktioner"
-
-#: Utility/Gtk/AboutWindow.vala:474
+#: Utility/Gtk/AboutWindow.vala:472
 msgid "Donations"
 msgstr "Donationer"
 
@@ -1291,7 +1269,7 @@ msgstr "Ladda ner"
 msgid "Download Selected Format"
 msgstr "Ladda ner det valda formatet"
 
-#: Gtk/MainMenubar.vala:1876
+#: Gtk/MainMenubar.vala:1870
 msgid ""
 "Download and install p7zip v16.02. Installs binaries from p7zip, p7zip-full "
 "and p7zip-rar packages."
@@ -1299,7 +1277,7 @@ msgstr ""
 "Ladda ner och installera p7zip v16.02. Installerar binärer från paketen "
 "p7zip, p7zip-full och p7zip-rar."
 
-#: Gtk/MainMenubar.vala:1865
+#: Gtk/MainMenubar.vala:1859
 msgid "Download and install the latest version of Rclone"
 msgstr "Ladda ner och installera senaste versionen av Rclone"
 
@@ -1312,7 +1290,7 @@ msgstr "Laddar ner"
 msgid "Downloading files from cloud storage:"
 msgstr "Laddar ner filer från molnlagring:"
 
-#: Utility/FileTask.vala:464
+#: Utility/FileTask.vala:465
 msgid "Downloading items..."
 msgstr "Laddar ner objekt..."
 
@@ -1344,7 +1322,7 @@ msgstr ""
 msgid "Dual"
 msgstr "Dubbel"
 
-#: Gtk/FileViewToolbar.vala:360
+#: Gtk/FileViewToolbar.vala:356
 msgid "Dual Horizontal"
 msgstr "Dubbel horisontellt"
 
@@ -1352,7 +1330,7 @@ msgstr "Dubbel horisontellt"
 msgid "Dual Pane Mode"
 msgstr "Dubbelpanelläge"
 
-#: Gtk/FileViewToolbar.vala:350
+#: Gtk/FileViewToolbar.vala:346
 msgid "Dual Vertical"
 msgstr "Dubbel vertikalt"
 
@@ -1373,7 +1351,7 @@ msgstr "Redigera"
 msgid "Edit Name"
 msgstr "Redigera namn"
 
-#: Gtk/FileViewList.vala:401
+#: Gtk/FileViewList.vala:406
 #, c-format
 msgid "Effective permissions for current user"
 msgstr "Gällande rättigheter för aktuell användare"
@@ -1394,7 +1372,7 @@ msgstr "Vill du avmontera enheten?"
 msgid "Eject storage device"
 msgstr "Avmontera lagringsenheten"
 
-#: Gtk/ProgressPanelArchiveTask.vala:172
+#: Gtk/ProgressPanelArchiveTask.vala:170
 msgid "Elapsed:"
 msgstr "Förfluten:"
 
@@ -1426,7 +1404,7 @@ msgstr "Töm papperskorgen"
 msgid "Emptying Trash:"
 msgstr "Töm papperskorgen:"
 
-#: Utility/FileTask.vala:993
+#: Utility/FileTask.vala:994
 msgid "Emptying trash..."
 msgstr "Tömmer papperskorgen..."
 
@@ -1480,20 +1458,20 @@ msgstr "Ange lösenord"
 msgid "Enter Password to Unlock"
 msgstr "Ange lösenord för att låsa upp"
 
-#: Gtk/FileViewList.vala:4654 Gtk/FileViewList.vala:4688
-#: Gtk/FileViewList.vala:4728 Gtk/MainWindow.vala:1482
+#: Gtk/FileViewList.vala:4630 Gtk/FileViewList.vala:4664
+#: Gtk/FileViewList.vala:4704 Gtk/MainWindow.vala:1463
 msgid "Enter another name"
 msgstr "Ange ett annat namn"
 
-#: Gtk/FileViewList.vala:4646
+#: Gtk/FileViewList.vala:4622
 msgid "Enter directory name"
 msgstr "Ange mappnamn"
 
-#: Gtk/FileViewList.vala:4680 Gtk/FileViewList.vala:4716
+#: Gtk/FileViewList.vala:4656 Gtk/FileViewList.vala:4692
 msgid "Enter file name"
 msgstr "Ange filnamn"
 
-#: Gtk/FileViewList.vala:4582
+#: Gtk/FileViewList.vala:4558
 msgid "Enter new name"
 msgstr "Ange nytt namn"
 
@@ -1502,13 +1480,9 @@ msgstr "Ange nytt namn"
 msgid "Enter passphrase to unlock '%s'"
 msgstr "Ange lösenord för att låsa upp \"%s\""
 
-#: Gtk/FileViewList.vala:5491
+#: Gtk/FileViewList.vala:5467
 msgid "Enter password for PDF document"
 msgstr "Ange lösenord för PDF-dokument"
-
-#: Utility/Gtk/GtkHelper.vala:924
-msgid "Enter path or browse for directory"
-msgstr "Ange sökväg eller bläddra efter mappen"
 
 #: Gtk/SelectionBar.vala:112
 msgid "Enter pattern for selecting or filtering items in view"
@@ -1518,15 +1492,15 @@ msgstr "Ange ett mönster för att välja eller filtrera objekt i vyn"
 msgid "Enter share name to connect (Required)"
 msgstr "Ange resursnamn för att ansluta (Obligatoriskt)"
 
-#: Gtk/FileViewList.vala:4601
+#: Gtk/FileViewList.vala:4577
 msgid "Enter unique name for selected file"
 msgstr "Ange ett unikt namn för den valda filen"
 
-#: Gtk/MainWindow.vala:1474
+#: Gtk/MainWindow.vala:1455
 msgid "Enter workspace name"
 msgstr "Ange namn på arbetsytan"
 
-#: Gtk/ProgressPanelArchiveTask.vala:630 Gtk/ProgressPanelArchiveTask.vala:641
+#: Gtk/ProgressPanelArchiveTask.vala:628 Gtk/ProgressPanelArchiveTask.vala:639
 #: Gtk/ProgressPanelImageTask.vala:198 Gtk/ProgressPanelKvmTask.vala:217
 #: Gtk/ProgressPanelKvmTask.vala:220 Gtk/ProgressPanelPdfTask.vala:198
 #: Utility/Device.vala:1697 Utility/KvmTask.vala:311
@@ -1535,11 +1509,11 @@ msgstr "Ange namn på arbetsytan"
 msgid "Error"
 msgstr "Fel"
 
-#: Gtk/FileViewList.vala:2397
+#: Gtk/FileViewList.vala:2425
 msgid "Error Connecting to Server"
 msgstr "Kunde inte ansluta till servern"
 
-#: Gtk/FileViewList.vala:3400
+#: Gtk/FileViewList.vala:3428
 #, c-format
 msgid "Error opening directory: Permission denied"
 msgstr "Kunde inte öppna mappen: Åtkomst nekad"
@@ -1558,7 +1532,7 @@ msgid "Executing action..."
 msgstr "Exekverar åtgärd..."
 
 #: Gtk/DevicePopover.vala:1045 Gtk/DiskFormatContextMenu.vala:103
-#: Gtk/FileViewList.vala:5175
+#: Gtk/FileViewList.vala:5151
 #, c-format
 msgid "Existing data on device will be destroyed"
 msgstr "Befintlig data på enheten, kommer att förstöras"
@@ -1588,7 +1562,7 @@ msgstr "Filändelse"
 msgid "External Tools"
 msgstr "Externa verktyg"
 
-#: Gtk/MainMenubar.vala:1983
+#: Gtk/MainMenubar.vala:1977
 msgid "External tools"
 msgstr "Externa verktyg"
 
@@ -1620,15 +1594,15 @@ msgid ""
 "Extract archives to the opposite pane. Existing files will be overwritten."
 msgstr "Extrahera arkiv till motsatt panel. Befintliga filer skrivs över."
 
-#: Gtk/ProgressPanelArchiveTask.vala:614
+#: Gtk/ProgressPanelArchiveTask.vala:612
 msgid "Extracted"
 msgstr "Extraherade"
 
-#: Gtk/ProgressPanelArchiveTask.vala:105
+#: Gtk/ProgressPanelArchiveTask.vala:103
 msgid "Extracting"
 msgstr "Extraherar"
 
-#: Gtk/ProgressPanelArchiveTask.vala:443
+#: Gtk/ProgressPanelArchiveTask.vala:441
 msgid "Extraction path not specified"
 msgstr "Extraktionssökväg inte specificerad"
 
@@ -1650,11 +1624,11 @@ msgstr "Kunde inte ansluta"
 msgid "Failed to Eject Device"
 msgstr "Kunde inte avmontera enheten"
 
-#: Gtk/MainMenubar.vala:1682
+#: Gtk/MainMenubar.vala:1676
 msgid "Failed to Remove Account"
 msgstr "Kunde inte ta bort konto"
 
-#: Gtk/MainMenubar.vala:1527
+#: Gtk/MainMenubar.vala:1524
 msgid "Failed to Remove Workspace"
 msgstr "Kunde inte ta bort arbetsytan"
 
@@ -1682,7 +1656,7 @@ msgstr "Kunde inte skapa symbolisk länk"
 msgid "Failed to delete items"
 msgstr "Kunde inte ta bort objekt"
 
-#: Gtk/ClamScanBox.vala:464
+#: Gtk/ClamScanBox.vala:460
 msgid "Failed to delete some files"
 msgstr "Kunde inte ta bort vissa filer"
 
@@ -1698,7 +1672,7 @@ msgstr "Kunde inte montera enhet"
 msgid "Failed to move file"
 msgstr "Kunde inte flytta fil"
 
-#: Gtk/ClamScanBox.vala:288
+#: Gtk/ClamScanBox.vala:284
 msgid "Failed to move some files"
 msgstr "Kunde inte flytta vissa filer"
 
@@ -1710,7 +1684,7 @@ msgstr "Kunde inte läsa fil"
 msgid "Failed to rename item"
 msgstr "Kunde inte byta namn på objekt"
 
-#: Gtk/ClamScanBox.vala:376
+#: Gtk/ClamScanBox.vala:372
 msgid "Failed to restore some files"
 msgstr "Kunde inte återställa vissa filer"
 
@@ -1757,16 +1731,12 @@ msgstr "Snabb"
 msgid "Fastest"
 msgstr "Snabbast"
 
-#: Utility/Gtk/DonationWindow.vala:106
-msgid "Feature Requests"
-msgstr "Funktionsönskemål"
-
 #: Gtk/ProgressPanelVideoDownloadTask.vala:64
 #: Gtk/ProgressPanelVideoDownloadTask.vala:92
 msgid "Fetching info..."
 msgstr "Hämtar info..."
 
-#: Gtk/ChecksumBox.vala:494 Gtk/ChecksumBox.vala:1572 Gtk/ClamScanBox.vala:585
+#: Gtk/ChecksumBox.vala:494 Gtk/ChecksumBox.vala:1572 Gtk/ClamScanBox.vala:581
 #: Gtk/FileContextMenu.vala:656 Gtk/KvmCreateDiskWindow.vala:428
 #: Gtk/MainMenubar.vala:125 Gtk/ProgressPanelDeviceWriterTask.vala:195
 #: Gtk/ProgressPanelImageTask.vala:156 Gtk/ProgressPanelKvmTask.vala:203
@@ -1787,7 +1757,7 @@ msgstr "Filhanterare"
 msgid "File Name"
 msgstr "Filnamn"
 
-#: Gtk/FileViewList.vala:5037
+#: Gtk/FileViewList.vala:5013
 msgid "File Not Found"
 msgstr "Filen kunde inte hittas"
 
@@ -1799,8 +1769,8 @@ msgstr "Filbearbetning pågår"
 msgid "File Properties"
 msgstr "Filegenskaper"
 
-#: Gtk/FileViewList.vala:4688 Gtk/FileViewList.vala:4728
-#: Gtk/MainWindow.vala:1482
+#: Gtk/FileViewList.vala:4664 Gtk/FileViewList.vala:4704
+#: Gtk/MainWindow.vala:1463
 msgid "File exists"
 msgstr "Filen finns redan"
 
@@ -1813,7 +1783,7 @@ msgstr "Filen har inget standardformat eller är ingen kontrollsummefil"
 msgid "File is missing"
 msgstr "Filen saknas"
 
-#: Gtk/ProgressPanelArchiveTask.vala:627
+#: Gtk/ProgressPanelArchiveTask.vala:625
 msgid "File is not an archive or format is unsupported"
 msgstr "Filen är inget arkiv eller stöds inte"
 
@@ -1823,7 +1793,7 @@ msgstr "Filen är inget arkiv eller stöds inte"
 msgid "File not found"
 msgstr "Filen kan inte hittas"
 
-#: Gtk/FileViewList.vala:408
+#: Gtk/FileViewList.vala:413
 #, c-format
 msgid "File type"
 msgstr "Filtyp"
@@ -1860,7 +1830,7 @@ msgstr ""
 msgid "FileSystem"
 msgstr "Filsystem"
 
-#: Gtk/ClamScanBox.vala:452
+#: Gtk/ClamScanBox.vala:448
 msgid "Files Deleted"
 msgstr "Filer borttagna"
 
@@ -1868,11 +1838,11 @@ msgstr "Filer borttagna"
 msgid "Files Missing"
 msgstr "Filer saknas"
 
-#: Gtk/ClamScanBox.vala:276
+#: Gtk/ClamScanBox.vala:272
 msgid "Files Moved"
 msgstr "Filer flyttade"
 
-#: Gtk/ClamScanBox.vala:364
+#: Gtk/ClamScanBox.vala:360
 msgid "Files Restored"
 msgstr "Filer återställda"
 
@@ -1896,7 +1866,7 @@ msgstr "Filer som refereras i kontrollsummefilen saknas på disk"
 msgid "Files verified"
 msgstr "Filer verifierade"
 
-#: Gtk/ProgressPanelArchiveTask.vala:161
+#: Gtk/ProgressPanelArchiveTask.vala:159
 msgid "Files:"
 msgstr "Filer:"
 
@@ -1914,7 +1884,7 @@ msgstr "Filter"
 msgid "Filter Items"
 msgstr "Filtrera objekt"
 
-#: Gtk/CloudLoginWindow.vala:222
+#: Gtk/CloudLoginWindow.vala:221
 msgid "Finish"
 msgstr "Slutför"
 
@@ -1940,7 +1910,7 @@ msgstr "Fast kolumn"
 msgid "Flash Complete"
 msgstr "Installation slutförd"
 
-#: Gtk/FileViewList.vala:5174
+#: Gtk/FileViewList.vala:5150
 #, c-format
 msgid "Flash ISO to device?"
 msgstr "Vill du installera ISO-filen på enheten?"
@@ -1953,7 +1923,7 @@ msgstr "Installerar ISO-fil på enhet..."
 msgid "Folder"
 msgstr "Mapp"
 
-#: Gtk/FileViewList.vala:3391
+#: Gtk/FileViewList.vala:3419
 msgid "Folder is empty"
 msgstr "Mappen är tom"
 
@@ -2001,13 +1971,13 @@ msgstr "Vill du formatera enheten?"
 msgid "Formatting Failed"
 msgstr "Formatering misslyckades"
 
-#: Gtk/FileViewToolbar.vala:180 Gtk/MainMenubar.vala:1302 Gtk/Pathbar.vala:850
+#: Gtk/FileViewToolbar.vala:176 Gtk/MainMenubar.vala:1302 Gtk/Pathbar.vala:850
 #: Gtk/Settings.vala:412 Gtk/Settings.vala:840
 msgid "Forward"
 msgstr "Framåt"
 
 #: Gtk/ChecksumBox.vala:862 Gtk/ChecksumBox.vala:1310 Gtk/ChecksumBox.vala:1373
-#: Gtk/ClamScanBox.vala:841 Gtk/ClamScanBox.vala:932 Gtk/ToolsWindow.vala:155
+#: Gtk/ClamScanBox.vala:837 Gtk/ClamScanBox.vala:928 Gtk/ToolsWindow.vala:147
 #, c-format
 msgid "Found"
 msgstr "Hittad"
@@ -2054,14 +2024,9 @@ msgstr "Beräkna kontrollsummor"
 msgid "Generating checksums..."
 msgstr "Beräknar kontrollsummor..."
 
-#: Gtk/FileViewList.vala:3474
+#: Gtk/FileViewList.vala:3502
 msgid "Generating thumbnails..."
 msgstr "Genererar miniatyrer..."
-
-#: Utility/Gtk/DonationWindow.vala:129
-#, fuzzy
-msgid "Get Plugins ($10)"
-msgstr "Hämta donationsinstick ($10)"
 
 #: Gtk/Settings.vala:680 Gtk/Settings.vala:1092
 msgid "Global"
@@ -2075,7 +2040,7 @@ msgstr "Gå"
 msgid "Go Up"
 msgstr "Gå upp"
 
-#: Gtk/FileViewList.vala:3767
+#: Gtk/FileViewList.vala:3795
 msgid "Go to location"
 msgstr "Gå till plats"
 
@@ -2112,7 +2077,7 @@ msgstr ""
 "<b>qxl</b> - Mer kraftfullt grafikkort för användning med SPICE."
 
 #: Gtk/FilePermissionsBox.vala:122 Gtk/FilePropertiesBox.vala:398
-#: Gtk/FileViewList.vala:420 Gtk/FileViewList.vala:963
+#: Gtk/FileViewList.vala:425 Gtk/FileViewList.vala:968
 #, c-format
 msgid "Group"
 msgstr "Grupp"
@@ -2129,7 +2094,7 @@ msgstr "Rubriker"
 msgid "Height"
 msgstr "Höjd"
 
-#: Gtk/MainMenubar.vala:2036
+#: Gtk/MainMenubar.vala:2030
 msgid "Help"
 msgstr "Hjälp"
 
@@ -2156,12 +2121,12 @@ msgstr "Dölj valda objekt"
 msgid "History"
 msgstr "Historik"
 
-#: Gtk/FileViewToolbar.vala:221 Gtk/Pathbar.vala:910 Gtk/PlacesPopover.vala:647
+#: Gtk/FileViewToolbar.vala:217 Gtk/Pathbar.vala:910 Gtk/PlacesPopover.vala:647
 #: Gtk/Settings.vala:463 Gtk/Settings.vala:880 Gtk/Sidebar.vala:340
 msgid "Home"
 msgstr "Hem"
 
-#: Gtk/MainMenubar.vala:2057
+#: Gtk/MainMenubar.vala:2049
 msgid "Homepage"
 msgstr "Hemsida"
 
@@ -2173,23 +2138,7 @@ msgstr "Horisontell"
 msgid "Host IP (Eg: 192.0.10.1)"
 msgstr "Värd-IP (Exempel: 192.0.10.1)"
 
-#: Utility/Gtk/DonationWindow.vala:120
-msgid ""
-"I sometimes create exclusive plugins to encourage people to contribute. You "
-"can make a contribution by translating the application to other languages, "
-"by submitting code changes, or by making a donation for $10 with PayPal. "
-"Contributors are added to an email distribution list, and plugins are sent "
-"by email. These plugins are open-source. You can request the source code "
-"after receiving the plugins."
-msgstr ""
-"Ibland skapar jag exklusiva insticksmoduler för att uppmuntra folk att "
-"bidra. Du kan bidra genom att översätta programmet till andra språk, genom "
-"att skicka in kodbidrag, eller genom att donera $10 via PayPal. "
-"Bidragsgivare läggs till i en e-postlista och insticken skickas med e-post. "
-"Insticken är öppen källkod. Du kan be om källkoden efter att du mottagit "
-"insticken."
-
-#: Utility/Gtk/AboutWindow.vala:466
+#: Utility/Gtk/AboutWindow.vala:464
 msgid "Icon Themes & Utilities"
 msgstr "Ikonteman & Verktyg"
 
@@ -2201,7 +2150,7 @@ msgstr "Ikonvy"
 msgid "Icon size"
 msgstr "Ikonstorlek"
 
-#: Gtk/FileViewToolbar.vala:398 Gtk/Settings.vala:1330 Gtk/ViewPopover.vala:134
+#: Gtk/FileViewToolbar.vala:394 Gtk/Settings.vala:1330 Gtk/ViewPopover.vala:134
 msgid "Icons"
 msgstr "Ikoner små"
 
@@ -2220,15 +2169,6 @@ msgid ""
 msgstr ""
 "Vid aktivering, kommer originalfilen att att ersättas, istället för att ny "
 "fil skapas."
-
-#: Utility/Gtk/DonationWindow.vala:71
-#, fuzzy
-msgid ""
-"If you find this application useful, consider making a donation to support "
-"the development."
-msgstr ""
-"Om du finner det här programmet användbart och vill stödja dess utveckling, "
-"kan du använda nedanstående knapp och donera via payPal."
 
 #: Gtk/MediaBar.vala:187
 msgid ""
@@ -2251,7 +2191,7 @@ msgstr "Bildåtgärder"
 msgid "Incorrect Password. Try again or Cancel."
 msgstr "Fel lösenord. Försök igen eller avbryt."
 
-#: Utility/ArchiveTask.vala:1069
+#: Utility/ArchiveTask.vala:1070
 msgid "Incorrect password for encrypted archive"
 msgstr "Fel lösenord för det krypterade arkivet"
 
@@ -2260,7 +2200,7 @@ msgstr "Fel lösenord för det krypterade arkivet"
 msgid "Indicator"
 msgstr "Indikator"
 
-#: Gtk/ClamScanBox.vala:890
+#: Gtk/ClamScanBox.vala:886
 msgid "Initializing..."
 msgstr "Startar..."
 
@@ -2272,19 +2212,19 @@ msgstr "Galet"
 msgid "Install from ISO..."
 msgstr "Installera från ISO..."
 
-#: Gtk/MainMenubar.vala:1875
+#: Gtk/MainMenubar.vala:1869
 msgid "Install p7zip 16.02 (Archive Support)"
 msgstr "Installera p7zip 16.02 (Arkivstöd)"
 
-#: Gtk/FileViewList.vala:5786 Gtk/FileViewList.vala:5807
+#: Gtk/FileViewList.vala:5762 Gtk/FileViewList.vala:5783
 msgid "Install required packages and try again"
 msgstr "Installera nödvändiga paket och försök igen"
 
-#: Gtk/MainMenubar.vala:1864
+#: Gtk/MainMenubar.vala:1858
 msgid "Install/Update Rclone (Cloud Storage Support)"
 msgstr "Installera/Uppdatera Rclone (Molnlagringsstöd)"
 
-#: Gtk/FileViewList.vala:4327
+#: Gtk/FileViewList.vala:4325
 msgid "Internal Error"
 msgstr "Internt fel"
 
@@ -2292,7 +2232,7 @@ msgstr "Internt fel"
 msgid "Invalid Passphrase"
 msgstr "Ogiltig lösenordsfras"
 
-#: Gtk/FileViewList.vala:6046
+#: Gtk/FileViewList.vala:6022
 msgid "Invalid Path"
 msgstr "Ogiltig sökväg"
 
@@ -2300,15 +2240,15 @@ msgstr "Ogiltig sökväg"
 msgid "Invalid Server Name"
 msgstr "Ogiltigt servernamn"
 
-#: Gtk/MainMenubar.vala:2067 Utility/Gtk/DonationWindow.vala:95
+#: Gtk/MainMenubar.vala:2059
 msgid "Issue Tracker"
 msgstr "Ärendehanterare"
 
-#: Gtk/FileConflictDialog.vala:349 Utility/FileTask.vala:1100
+#: Gtk/FileConflictDialog.vala:349 Utility/FileTask.vala:1101
 msgid "Item"
 msgstr "Objekt"
 
-#: Gtk/FileViewList.vala:396
+#: Gtk/FileViewList.vala:401
 msgid "Item is not a symbolic link"
 msgstr "Objektet är ingen symbolisk länk"
 
@@ -2324,7 +2264,7 @@ msgstr "KVM"
 msgid "Key"
 msgstr "Tangent"
 
-#: Gtk/MainMenubar.vala:2087
+#: Gtk/MainMenubar.vala:2079
 msgid "Keyboard Shortcuts"
 msgstr "Tangentbordsgenvägar"
 
@@ -2346,7 +2286,7 @@ msgstr "Text bredvid ikoner"
 msgid "Large icons"
 msgstr "Stora ikoner"
 
-#: Gtk/FileViewList.vala:405
+#: Gtk/FileViewList.vala:410
 #, c-format
 msgid "Last modified date"
 msgstr "Senast ändrad"
@@ -2363,7 +2303,7 @@ msgstr "Utseendet kan inte ändras under pågående filbearbetning"
 msgid "Level"
 msgstr "Nivå"
 
-#: Utility/Gtk/AboutWindow.vala:315 Utility/Gtk/AboutWindow.vala:350
+#: Utility/Gtk/AboutWindow.vala:313 Utility/Gtk/AboutWindow.vala:340
 msgid "License"
 msgstr "Licens"
 
@@ -2377,12 +2317,12 @@ msgstr ""
 "90, för att förhindra att värdsystemet inte svarar när krävande åtgärder "
 "körs i gästsystemet."
 
-#: Gtk/FileViewList.vala:389 Gtk/FileViewList.vala:392
+#: Gtk/FileViewList.vala:394 Gtk/FileViewList.vala:397
 #, c-format
 msgid "Link to"
 msgstr "Länk till"
 
-#: Gtk/FileViewToolbar.vala:391 Gtk/Settings.vala:1328 Gtk/ViewPopover.vala:127
+#: Gtk/FileViewToolbar.vala:387 Gtk/Settings.vala:1328 Gtk/ViewPopover.vala:127
 msgid "List"
 msgstr "Lista"
 
@@ -2402,19 +2342,19 @@ msgstr "Listar filer..."
 msgid "Listing source items..."
 msgstr "Listar källobjekt..."
 
-#: Gtk/MainWindow.vala:1266
+#: Gtk/MainWindow.vala:1247
 msgid "Loading workspace..."
 msgstr "Läser in arbetsyta..."
 
-#: Gtk/FileViewList.vala:3413
+#: Gtk/FileViewList.vala:3441
 msgid "Loading..."
 msgstr "Läser in..."
 
-#: Gtk/ClamScanBox.vala:514
+#: Gtk/ClamScanBox.vala:510
 msgid "Local"
 msgstr "Lokal"
 
-#: Gtk/ClamScanBox.vala:505 Gtk/CreateArchiveWindow.vala:404
+#: Gtk/ClamScanBox.vala:501 Gtk/CreateArchiveWindow.vala:404
 #: Gtk/FilePropertiesBox.vala:125
 msgid "Location"
 msgstr "Plats"
@@ -2431,15 +2371,15 @@ msgstr "Lås"
 msgid "Lock Path"
 msgstr "Lås sökväg"
 
-#: Gtk/MainMenubar.vala:1609
+#: Gtk/MainMenubar.vala:1603
 msgid "Login to cloud storage account"
 msgstr "Logga in på molnlagringskonto"
 
-#: Gtk/MainMenubar.vala:1634
+#: Gtk/MainMenubar.vala:1628
 msgid "Logout from cloud storage account"
 msgstr "Logga ut från molnlagringskonto"
 
-#: Gtk/FileViewList.vala:1178
+#: Gtk/FileViewList.vala:1183
 msgid "MD5"
 msgstr "MD5"
 
@@ -2452,10 +2392,6 @@ msgstr "SAKNAS"
 #, c-format
 msgid "Major"
 msgstr "Större"
-
-#: Gtk/FileViewToolbar.vala:499
-msgid "Make a donation"
-msgstr "Donera"
 
 #: Gtk/DevicePopover.vala:687
 msgid "Manage"
@@ -2499,7 +2435,7 @@ msgstr "Maximera terminal till att fylla fliken"
 msgid "Maximum"
 msgstr "Maximum"
 
-#: Gtk/FileViewToolbar.vala:412 Gtk/Settings.vala:1334 Gtk/ViewPopover.vala:148
+#: Gtk/FileViewToolbar.vala:408 Gtk/Settings.vala:1334 Gtk/ViewPopover.vala:148
 msgid "Media"
 msgstr "Ikoner stora"
 
@@ -2507,7 +2443,7 @@ msgstr "Ikoner stora"
 msgid "MediaInfo"
 msgstr "MediaInfo"
 
-#: Gtk/FileViewList.vala:3402
+#: Gtk/FileViewList.vala:3430
 msgid "Menubar: File > New Admin Window"
 msgstr "Menyfält: Arkiv > Nytt administratörsfönster"
 
@@ -2532,7 +2468,7 @@ msgstr "Metod"
 msgid "Mime"
 msgstr "Mime"
 
-#: Gtk/FileViewList.vala:411
+#: Gtk/FileViewList.vala:416
 #, c-format
 msgid "Mime type"
 msgstr "Mime-typ"
@@ -2546,23 +2482,23 @@ msgstr "Minimera"
 msgid "Minor"
 msgstr "Mindre"
 
-#: Gtk/ToolsWindow.vala:155
+#: Gtk/ToolsWindow.vala:147
 msgid "Missing"
 msgstr "Saknas"
 
-#: Common/Main.vala:1345 Gtk/MainWindow.vala:606
+#: Common/Main.vala:1345 Gtk/MainWindow.vala:595
 msgid "Missing Dependencies"
 msgstr "Saknade beroenden"
 
-#: Gtk/DeviceContextMenu.vala:579 Gtk/FileViewList.vala:5785
+#: Gtk/DeviceContextMenu.vala:579 Gtk/FileViewList.vala:5761
 msgid "Missing Dependency"
 msgstr "Saknat beroende"
 
-#: Utility/Gtk/GtkHelper.vala:382
+#: Utility/Gtk/GtkHelper.vala:380
 msgid "Missing Icon"
 msgstr "Saknad ikon"
 
-#: Gtk/FileViewList.vala:5806
+#: Gtk/FileViewList.vala:5782
 msgid "Missing Plugin"
 msgstr "Saknad insticksmodul"
 
@@ -2571,9 +2507,9 @@ msgstr "Saknad insticksmodul"
 msgid "Model"
 msgstr "Modell"
 
-#: Gtk/ClamScanBox.vala:731 Gtk/FileConflictDialog.vala:543
+#: Gtk/ClamScanBox.vala:727 Gtk/FileConflictDialog.vala:543
 #: Gtk/FileConflictDialog.vala:555 Gtk/FilePropertiesBox.vala:269
-#: Gtk/FileViewList.vala:834 Utility/FileItem.vala:730
+#: Gtk/FileViewList.vala:839 Utility/FileItem.vala:730
 #, c-format
 msgid "Modified"
 msgstr "Modifierad"
@@ -2612,7 +2548,7 @@ msgstr "Montera den här volymen"
 msgid "MountPath"
 msgstr "Monteringssökväg"
 
-#: Gtk/FileViewList.vala:5124
+#: Gtk/FileViewList.vala:5100
 #, c-format
 msgid "Mounted ISO"
 msgstr "Monterad ISO"
@@ -2659,7 +2595,7 @@ msgstr "Flytta markerat objekt neråt"
 msgid "Move selected item up"
 msgstr "Flytta markerat objekt uppåt"
 
-#: Gtk/ClamScanBox.vala:218
+#: Gtk/ClamScanBox.vala:214
 msgid "Move to Quarantine"
 msgstr "Flytta till karantän"
 
@@ -2671,12 +2607,12 @@ msgstr "Flytta till annan plats"
 msgid "Move to other pane"
 msgstr "Flytta till annan panel"
 
-#: Gtk/ClamScanBox.vala:281
+#: Gtk/ClamScanBox.vala:277
 #, c-format
 msgid "Moved to quarantine"
 msgstr "Flyttad till karantän"
 
-#: Utility/FileTask.vala:789
+#: Utility/FileTask.vala:790
 #, c-format
 msgid "Moving file"
 msgstr "Flyttar fil"
@@ -2705,12 +2641,12 @@ msgstr "Ej tillgängligt"
 msgid "NETBIOS Name"
 msgstr "NETBIOS-namn"
 
-#: Gtk/FileViewList.vala:402
+#: Gtk/FileViewList.vala:407
 msgid "NTD = Rename Trash Delete"
 msgstr "NTD = Byt namn Papperskorg Ta bort"
 
 #: Gtk/ColumnSelectionBox.vala:111 Gtk/CreateArchiveWindow.vala:259
-#: Gtk/FilePropertiesBox.vala:115 Gtk/FileViewList.vala:676
+#: Gtk/FilePropertiesBox.vala:115 Gtk/FileViewList.vala:681
 #: Utility/FileItem.vala:727
 #, c-format
 msgid "Name"
@@ -2724,11 +2660,11 @@ msgstr "Nytt"
 msgid "New Admin Window"
 msgstr "Nytt administratörsfönster"
 
-#: Gtk/FileViewList.vala:4675
+#: Gtk/FileViewList.vala:4651
 msgid "New File"
 msgstr "Ny fil"
 
-#: Gtk/FileViewList.vala:4641
+#: Gtk/FileViewList.vala:4617
 msgid "New Folder"
 msgstr "Ny mapp"
 
@@ -2740,7 +2676,7 @@ msgstr "Ny flik"
 msgid "New Window"
 msgstr "Nytt fönster"
 
-#: Gtk/MainWindow.vala:1469
+#: Gtk/MainWindow.vala:1450
 msgid "New Workspace"
 msgstr "Ny arbetsyta"
 
@@ -2761,34 +2697,34 @@ msgstr ""
 "Ny disk kommer att skapas genom sammanslagning av innehållet i härledda och "
 "basfiler"
 
-#: Gtk/CloudLoginWindow.vala:217 Gtk/WizardWindow.vala:114
+#: Gtk/CloudLoginWindow.vala:216 Gtk/WizardWindow.vala:114
 msgid "Next"
 msgstr "Nästa"
 
 #: Gtk/FilePropertiesBox.vala:191 Gtk/FilePropertiesBox.vala:196
-#: Utility/Gtk/CustomMessageDialog.vala:180
+#: Utility/Gtk/CustomMessageDialog.vala:178
 msgid "No"
 msgstr "Nej"
 
-#: Gtk/FileViewList.vala:6179
+#: Gtk/FileViewList.vala:6155
 msgid "No Files Selected"
 msgstr "Inga filer valda"
 
-#: Gtk/FileViewList.vala:5615 Gtk/FileViewList.vala:5635
-#: Gtk/FileViewList.vala:5655 Gtk/FileViewList.vala:5675
-#: Gtk/FileViewList.vala:5695 Gtk/FileViewList.vala:5715
+#: Gtk/FileViewList.vala:5591 Gtk/FileViewList.vala:5611
+#: Gtk/FileViewList.vala:5631 Gtk/FileViewList.vala:5651
+#: Gtk/FileViewList.vala:5671 Gtk/FileViewList.vala:5691
 msgid "No Images Selected"
 msgstr "Inga bilder valda"
 
-#: Gtk/FileViewList.vala:5595
+#: Gtk/FileViewList.vala:5571
 msgid "No JPEGs Selected"
 msgstr "Inga JPEG-filer valda"
 
-#: Gtk/FileViewList.vala:5573
+#: Gtk/FileViewList.vala:5549
 msgid "No PNGs Selected"
 msgstr "Inga PNG-filer valda"
 
-#: Gtk/FileViewList.vala:4598
+#: Gtk/FileViewList.vala:4574
 msgid "No Permission"
 msgstr "Inga rättigheter"
 
@@ -2809,8 +2745,8 @@ msgstr "Icke flyttbar enhet"
 msgid "Normal"
 msgstr "Normal"
 
-#: Gtk/FileViewList.vala:5071 Gtk/FileViewList.vala:5078
-#: Gtk/FileViewList.vala:5976 Gtk/FileViewList.vala:6072
+#: Gtk/FileViewList.vala:5047 Gtk/FileViewList.vala:5054
+#: Gtk/FileViewList.vala:5952 Gtk/FileViewList.vala:6048
 msgid "Not Supported"
 msgstr "Stöds ej"
 
@@ -2819,7 +2755,7 @@ msgstr "Stöds ej"
 msgid "Notes"
 msgstr "Anteckningar"
 
-#: Gtk/ClamScanBox.vala:244 Gtk/ClamScanBox.vala:332 Gtk/ClamScanBox.vala:420
+#: Gtk/ClamScanBox.vala:240 Gtk/ClamScanBox.vala:328 Gtk/ClamScanBox.vala:416
 msgid "Nothing Selected"
 msgstr "Inget markerat"
 
@@ -2832,9 +2768,9 @@ msgstr ""
 "kärnor på värddatorn."
 
 #: Gtk/ChecksumBox.vala:349 Gtk/ChecksumBox.vala:1418 Gtk/ChecksumBox.vala:1477
-#: Gtk/FileConflictDialog.vala:254 Gtk/ProgressPanelArchiveTask.vala:373
-#: Utility/Gtk/CustomMessageDialog.vala:170
-#: Utility/Gtk/CustomMessageDialog.vala:174 Utility/Gtk/GtkHelper.vala:159
+#: Gtk/FileConflictDialog.vala:254 Gtk/ProgressPanelArchiveTask.vala:371
+#: Utility/Gtk/CustomMessageDialog.vala:168
+#: Utility/Gtk/CustomMessageDialog.vala:172 Utility/Gtk/GtkHelper.vala:158
 #: Utility/Gtk/LoadingWindow.vala:110
 #, c-format
 msgid "OK"
@@ -2878,7 +2814,7 @@ msgstr "Öppna med"
 msgid "Open a terminal window"
 msgstr "Öppna ett terminalfönster"
 
-#: Gtk/FileViewList.vala:3401
+#: Gtk/FileViewList.vala:3429
 msgid "Open an admin window to browse this folder"
 msgstr "Öppna ett administratörsfönster och bläddra i denna mapp"
 
@@ -2930,7 +2866,7 @@ msgstr "Öppna ny flik"
 msgid "Open new window"
 msgstr "Öppna nytt fönster"
 
-#: Gtk/FileViewToolbar.vala:222
+#: Gtk/FileViewToolbar.vala:218
 msgid "Open personal folder"
 msgstr "Öppna personlig mapp"
 
@@ -2950,7 +2886,7 @@ msgstr "Öppna mallmappen"
 msgid "Open the actual location of trashed item in a new tab"
 msgstr "Öppna den faktiska platsen för skräpobjekt i en ny flik"
 
-#: Gtk/FileViewToolbar.vala:181 Gtk/MainHeaderBar.vala:141
+#: Gtk/FileViewToolbar.vala:177 Gtk/MainHeaderBar.vala:141
 msgid "Open the next visited location"
 msgstr "Öppna nästa besökta plats"
 
@@ -2958,11 +2894,11 @@ msgstr "Öppna nästa besökta plats"
 msgid "Open the original location of trashed item in a new tab"
 msgstr "Öppna den ursprungliga platsen för skräpobjekt i en ny flik"
 
-#: Gtk/FileViewToolbar.vala:202 Gtk/MainHeaderBar.vala:157
+#: Gtk/FileViewToolbar.vala:198 Gtk/MainHeaderBar.vala:157
 msgid "Open the parent location"
 msgstr "Öppna överordnad plats"
 
-#: Gtk/FileViewToolbar.vala:160 Gtk/MainHeaderBar.vala:125
+#: Gtk/FileViewToolbar.vala:156 Gtk/MainHeaderBar.vala:125
 msgid "Open the previous visited location"
 msgstr "Öppna föregående besökta plats"
 
@@ -3028,11 +2964,11 @@ msgstr "Alternativ"
 msgid "Original Checksum"
 msgstr "Ursprunglig kontrollsumma"
 
-#: Gtk/FileViewList.vala:1264
+#: Gtk/FileViewList.vala:1269
 msgid "Original Location"
 msgstr "Ursprunglig plats"
 
-#: Gtk/ClamScanBox.vala:593
+#: Gtk/ClamScanBox.vala:589
 msgid "Original Path"
 msgstr "Ursprunglig sökväg"
 
@@ -3044,7 +2980,7 @@ msgstr "Annan"
 msgid "Others"
 msgstr "Annat"
 
-#: Gtk/FileViewList.vala:5814
+#: Gtk/FileViewList.vala:5790
 msgid "Outdated Plugin"
 msgstr "Utdaterad insticksmodul"
 
@@ -3052,7 +2988,7 @@ msgstr "Utdaterad insticksmodul"
 msgid "Overwrite existing file?"
 msgstr "Vill du skriva över befintlig fil?"
 
-#: Gtk/FilePropertiesBox.vala:338 Gtk/FileViewList.vala:920
+#: Gtk/FilePropertiesBox.vala:338 Gtk/FileViewList.vala:925
 msgid "Owner"
 msgstr "Ägare"
 
@@ -3064,7 +3000,7 @@ msgstr "PDF"
 msgid "PDF Actions"
 msgstr "PDF-åtgärder"
 
-#: Gtk/FilePropertiesBox.vala:215 Gtk/FileViewList.vala:877
+#: Gtk/FilePropertiesBox.vala:215 Gtk/FileViewList.vala:882
 msgid "Packed"
 msgstr "Komprimerad"
 
@@ -3082,7 +3018,7 @@ msgstr "Paneler"
 msgid "PartLabel"
 msgstr "DelEtikett"
 
-#: Gtk/FileViewList.vala:6073
+#: Gtk/FileViewList.vala:6049
 msgid "Partial extraction not supported for solid archives"
 msgstr "Partiell extrahering stöds inte för solida arkiv"
 
@@ -3102,7 +3038,7 @@ msgstr "Lösenord"
 msgid "Password Mismatch"
 msgstr "Lösenordet stämmer inte"
 
-#: Utility/ArchiveTask.vala:1066 Utility/ArchiveTask.vala:1223
+#: Utility/ArchiveTask.vala:1067 Utility/ArchiveTask.vala:1224
 msgid "Password not set for encrypted archive"
 msgstr "Lösenord saknas för krypterat arkiv"
 
@@ -3207,9 +3143,9 @@ msgstr "Sökvägen hittades inte"
 msgid "Pathbar"
 msgstr "Adressfält"
 
-#: Gtk/ProgressPanelArchiveTask.vala:312 Gtk/ProgressPanelArchiveTask.vala:315
-#: Gtk/ProgressPanelArchiveTask.vala:336 Gtk/ProgressPanelArchiveTask.vala:337
-#: Gtk/ProgressPanelArchiveTask.vala:482
+#: Gtk/ProgressPanelArchiveTask.vala:310 Gtk/ProgressPanelArchiveTask.vala:313
+#: Gtk/ProgressPanelArchiveTask.vala:334 Gtk/ProgressPanelArchiveTask.vala:335
+#: Gtk/ProgressPanelArchiveTask.vala:480
 msgid "Pause"
 msgstr "Paus"
 
@@ -3218,7 +3154,7 @@ msgid "Performance"
 msgstr "Prestanda"
 
 #: Gtk/FilePermissionsBox.vala:88 Gtk/FilePropertiesWindow.vala:329
-#: Gtk/FileViewList.vala:423 Gtk/FileViewList.vala:1006
+#: Gtk/FileViewList.vala:428 Gtk/FileViewList.vala:1011
 #, c-format
 msgid "Permissions"
 msgstr "Rättigheter"
@@ -3235,7 +3171,7 @@ msgstr "Platser"
 msgid "Please install required packages and try running again"
 msgstr "Installera nödvändiga paket och försök köra igen"
 
-#: Gtk/MainMenubar.vala:1957
+#: Gtk/MainMenubar.vala:1951
 msgid "Polo will be restarted with a fresh session"
 msgstr "Polo startas om med en ny session"
 
@@ -3254,8 +3190,8 @@ msgstr "Inställningar"
 #: Gtk/ProgressPanelDeviceWriterTask.vala:90 Gtk/ProgressPanelFileTask.vala:95
 #: Gtk/ProgressPanelImageTask.vala:80 Gtk/ProgressPanelKvmTask.vala:106
 #: Gtk/ProgressPanelPdfTask.vala:80 Gtk/ProgressPanelVideoDownloadTask.vala:410
-#: Utility/FileTask.vala:242 Utility/FileTask.vala:906
-#: Utility/FileTask.vala:1032
+#: Utility/FileTask.vala:242 Utility/FileTask.vala:907
+#: Utility/FileTask.vala:1033
 msgid "Preparing..."
 msgstr "Förbereder..."
 
@@ -3263,18 +3199,18 @@ msgstr "Förbereder..."
 msgid "Previous"
 msgstr "Föregående"
 
-#: Gtk/ProgressPanelArchiveTask.vala:219
+#: Gtk/ProgressPanelArchiveTask.vala:217
 msgid "Processed:"
 msgstr "Bearbetade:"
 
-#: Gtk/ProgressPanelArchiveTask.vala:263
+#: Gtk/ProgressPanelArchiveTask.vala:261
 #, fuzzy
 msgid "Progress:"
 msgstr "Komprimerad:"
 
 #: Gtk/DeviceContextMenu.vala:293 Gtk/DevicePopover.vala:641
 #: Gtk/FileContextMenu.vala:2852 Gtk/FilePropertiesWindow.vala:87
-#: Gtk/FileViewToolbar.vala:448 Gtk/MiddleToolbar.vala:309
+#: Gtk/FileViewToolbar.vala:444 Gtk/MiddleToolbar.vala:309
 #: Gtk/Settings.vala:497
 msgid "Properties"
 msgstr "Egenskaper"
@@ -3309,15 +3245,15 @@ msgstr "Offentlig"
 msgid "Quad"
 msgstr "Fyra"
 
-#: Gtk/FileViewToolbar.vala:370
+#: Gtk/FileViewToolbar.vala:366
 msgid "Quad Pane"
 msgstr "Fyra paneler"
 
-#: Gtk/ClamScanBox.vala:767
+#: Gtk/ClamScanBox.vala:763
 msgid "Quarantined"
 msgstr "Satt i karantän"
 
-#: Gtk/ClamScanBox.vala:971 Gtk/MainMenubar.vala:1968
+#: Gtk/ClamScanBox.vala:967 Gtk/MainMenubar.vala:1962
 msgid "Quarantined Files"
 msgstr "Filer i karantän"
 
@@ -3351,11 +3287,11 @@ msgstr "Snabbskanning"
 msgid "RAM (MB)"
 msgstr "RAM (MB)"
 
-#: Gtk/FileViewList.vala:402
+#: Gtk/FileViewList.vala:407
 msgid "RWX = Read Write Execute"
 msgstr "RWX = Läs Skriv Kör"
 
-#: Gtk/ProgressPanelArchiveTask.vala:243
+#: Gtk/ProgressPanelArchiveTask.vala:241
 msgid "Ratio:"
 msgstr "Proportion:"
 
@@ -3363,11 +3299,11 @@ msgstr "Proportion:"
 msgid "Raw Disk Image"
 msgstr "Raw diskavbild"
 
-#: Gtk/MainMenubar.vala:1616
+#: Gtk/MainMenubar.vala:1610
 msgid "Rclone Not Found"
 msgstr "Rclone hittades inte"
 
-#: Gtk/MainMenubar.vala:1617
+#: Gtk/MainMenubar.vala:1611
 msgid ""
 "Rclone is needed for cloud storage support.\n"
 "\n"
@@ -3382,7 +3318,7 @@ msgstr ""
 msgid "Read"
 msgstr "Läs"
 
-#: Gtk/FileViewList.vala:5238
+#: Gtk/FileViewList.vala:5214
 msgid ""
 "Read-only disks cannot be booted.\n"
 "\n"
@@ -3412,19 +3348,19 @@ msgstr ""
 msgid "ReadOnly"
 msgstr "Skrivskyddad"
 
-#: Gtk/ProgressPanelArchiveTask.vala:108
+#: Gtk/ProgressPanelArchiveTask.vala:106
 msgid "Reading"
 msgstr "Läser"
 
-#: Gtk/MainMenubar.vala:1888
+#: Gtk/MainMenubar.vala:1882
 msgid "Rebuild font cache"
 msgstr "Återskapa teckensnitts-cache"
 
-#: Gtk/MainWindow.vala:1015
+#: Gtk/MainWindow.vala:996
 msgid "Rebuilding Font Cache..."
 msgstr "Återskapar teckensnitts-cache..."
 
-#: Gtk/MainMenubar.vala:1889
+#: Gtk/MainMenubar.vala:1883
 msgid ""
 "Rebuilds the system font cache, so that newly installed fonts become visible "
 "to applications"
@@ -3480,15 +3416,15 @@ msgstr ""
 msgid "Reformat"
 msgstr "Formatera om"
 
-#: Gtk/FileViewToolbar.vala:241 Gtk/MainMenubar.vala:916 Gtk/Settings.vala:446
+#: Gtk/FileViewToolbar.vala:237 Gtk/MainMenubar.vala:916 Gtk/Settings.vala:446
 msgid "Reload"
 msgstr "Uppdatera"
 
-#: Gtk/FileViewToolbar.vala:242
+#: Gtk/FileViewToolbar.vala:238
 msgid "Reload current location"
 msgstr "Uppdatera aktuell plats"
 
-#: Gtk/ProgressPanelArchiveTask.vala:183
+#: Gtk/ProgressPanelArchiveTask.vala:181
 msgid "Remaining:"
 msgstr "Återstår:"
 
@@ -3513,7 +3449,7 @@ msgstr "Flyttbar"
 msgid "Remove"
 msgstr "Ta bort"
 
-#: Gtk/MainMenubar.vala:1633
+#: Gtk/MainMenubar.vala:1627
 msgid "Remove Account"
 msgstr "Ta bort konto"
 
@@ -3546,12 +3482,12 @@ msgstr "Ta bort färg"
 msgid "Remove colors from PDF document"
 msgstr "Ta bort färger från PDF-dokument"
 
-#: Utility/FileTask.vala:1178
+#: Utility/FileTask.vala:1179
 msgid "Removing items..."
 msgstr "Tar bort objekt..."
 
 #: Gtk/BookmarkContextMenu.vala:89 Gtk/FileContextMenu.vala:943
-#: Gtk/FileViewList.vala:4582 Gtk/MainMenubar.vala:741 Gtk/Sidebar.vala:1182
+#: Gtk/FileViewList.vala:4558 Gtk/MainMenubar.vala:741 Gtk/Sidebar.vala:1182
 msgid "Rename"
 msgstr "Byt namn"
 
@@ -3599,10 +3535,6 @@ msgstr "Ersätt valda filer"
 msgid "Replaced"
 msgstr "Ersatt"
 
-#: Gtk/FileViewList.vala:4448
-msgid "Requested operation is not possible"
-msgstr "Önskad åtgärd är inte möjlig"
-
 #: Gtk/ToolsWindow.vala:98
 msgid "Required for"
 msgstr "Krävs för"
@@ -3624,7 +3556,7 @@ msgstr "Återställ namn"
 msgid "Reset and clear"
 msgstr "Återställ och rensa"
 
-#: Gtk/MainMenubar.vala:1956
+#: Gtk/MainMenubar.vala:1950
 msgid "Reset session and restart"
 msgstr "Återställ session och starta om"
 
@@ -3653,7 +3585,7 @@ msgstr "Löser konflikter..."
 msgid "Restart Application ?"
 msgstr "Vill du starta om programmet?"
 
-#: Gtk/ClamScanBox.vala:306 Gtk/DevicePopover.vala:575
+#: Gtk/ClamScanBox.vala:302 Gtk/DevicePopover.vala:575
 #: Gtk/FileContextMenu.vala:1434 Gtk/TrashBar.vala:134
 msgid "Restore"
 msgstr "Återställ"
@@ -3675,7 +3607,7 @@ msgstr "Återställ objekt till ursprunglig plats"
 msgid "Restore selected items to original locations"
 msgstr "Återställ valda objekt till sin ursprungliga plats"
 
-#: Gtk/ClamScanBox.vala:369
+#: Gtk/ClamScanBox.vala:365
 #, c-format
 msgid "Restored"
 msgstr "Återställd"
@@ -3684,7 +3616,7 @@ msgstr "Återställd"
 msgid "Restoring device from disk image..."
 msgstr "Återställer enhet från diskavbild..."
 
-#: Gtk/MainWindow.vala:1269
+#: Gtk/MainWindow.vala:1250
 msgid "Restoring session..."
 msgstr "Återställer session..."
 
@@ -3692,7 +3624,7 @@ msgstr "Återställer session..."
 msgid "Restoring trashed files:"
 msgstr "Återställer kastade filer:"
 
-#: Gtk/ProgressPanelArchiveTask.vala:341 Gtk/ProgressPanelArchiveTask.vala:342
+#: Gtk/ProgressPanelArchiveTask.vala:339 Gtk/ProgressPanelArchiveTask.vala:340
 msgid "Resume"
 msgstr "Återuppta"
 
@@ -3714,7 +3646,7 @@ msgstr "Radavstånd"
 msgid "Run in Terminal"
 msgstr "Kör i terminal"
 
-#: Gtk/ClamScanBox.vala:296
+#: Gtk/ClamScanBox.vala:292
 msgid "Run scan as Admin to quarantine files not owned by you."
 msgstr ""
 "Kör sökning som administratör, för att sätta filer som inte ägs av dig, i "
@@ -3724,11 +3656,11 @@ msgstr ""
 msgid "Run the selected script in a terminal window"
 msgstr "Kör det valda skriptet i ett terminalfönster"
 
-#: Gtk/MainWindow.vala:1035 Gtk/MainWindow.vala:1053
+#: Gtk/MainWindow.vala:1016 Gtk/MainWindow.vala:1034
 msgid "Running Rclone Installation Script"
 msgstr "Kör installationsskriptet för Rclone"
 
-#: Gtk/MainWindow.vala:1043
+#: Gtk/MainWindow.vala:1024
 msgid "Running p7zip Installation Script"
 msgstr "Kör installationsskriptet för p7zip"
 
@@ -3755,7 +3687,7 @@ msgstr "Spara som"
 msgid "Save As..."
 msgstr "Spara som..."
 
-#: Gtk/MainWindow.vala:1474
+#: Gtk/MainWindow.vala:1455
 msgid "Save Workspace"
 msgstr "Spara arbetsyta"
 
@@ -3776,7 +3708,7 @@ msgstr "Sparar enhet som diskavbild..."
 msgid "Saving results..."
 msgstr "Sparar resultat..."
 
-#: Gtk/ClamScanBox.vala:937
+#: Gtk/ClamScanBox.vala:933
 msgid "Scan Summary"
 msgstr "Sökningssammandrag"
 
@@ -3784,7 +3716,7 @@ msgstr "Sökningssammandrag"
 msgid "Scan for Malware"
 msgstr "Sök efter skadlig programvara"
 
-#: Gtk/ClamScanBox.vala:902
+#: Gtk/ClamScanBox.vala:898
 msgid "Scanning files..."
 msgstr "Skannar filer..."
 
@@ -3804,11 +3736,11 @@ msgstr "Välj arkivplats"
 msgid "Select Columns"
 msgstr "Välj kolumner"
 
-#: Gtk/FileViewList.vala:4342
+#: Gtk/FileViewList.vala:4340
 msgid "Select Copy Destination"
 msgstr "Välj kopieringsmål"
 
-#: Gtk/FileViewList.vala:6017
+#: Gtk/FileViewList.vala:5993
 msgid "Select Destination"
 msgstr "Välj målmapp"
 
@@ -3816,7 +3748,7 @@ msgstr "Välj målmapp"
 msgid "Select Disk Image"
 msgstr "Välj diskavbild"
 
-#: Utility/Gtk/GtkHelper.vala:753
+#: Utility/Gtk/GtkHelper.vala:751
 msgid "Select File(s)"
 msgstr "Välj fil(er)"
 
@@ -3824,7 +3756,7 @@ msgstr "Välj fil(er)"
 msgid "Select Files to Replace"
 msgstr "Välj filer att ersätta"
 
-#: Utility/Gtk/GtkHelper.vala:757
+#: Utility/Gtk/GtkHelper.vala:755
 msgid "Select Folder(s)"
 msgstr "Välj mapp(ar)"
 
@@ -3836,7 +3768,7 @@ msgstr "Välj teckensnitt"
 msgid "Select Format"
 msgstr "Välj format"
 
-#: Gtk/FileViewList.vala:5266
+#: Gtk/FileViewList.vala:5242
 msgid "Select ISO File"
 msgstr "Välj ISO-fil"
 
@@ -3848,7 +3780,7 @@ msgstr "Välj layout-stil"
 msgid "Select ListView Columns"
 msgstr "Välj listvykolumner"
 
-#: Gtk/FileViewList.vala:4342
+#: Gtk/FileViewList.vala:4340
 msgid "Select Move Destination"
 msgstr "Välj flyttmål"
 
@@ -3859,10 +3791,6 @@ msgstr "Avmarkera alla"
 #: Gtk/FileConflictDialog.vala:260
 msgid "Select Older"
 msgstr "Välj äldre"
-
-#: Utility/Gtk/GtkHelper.vala:934
-msgid "Select Path"
-msgstr "Välj sökväg"
 
 #: Gtk/FileContextMenu.vala:1137
 msgid "Select Second File..."
@@ -3876,7 +3804,7 @@ msgstr "Markera alla filer i listan"
 msgid "Select file to view properties"
 msgstr "Välj fil för att visa egenskaper"
 
-#: Gtk/MainMenubar.vala:1944
+#: Gtk/MainMenubar.vala:1938
 msgid "Select layout and style"
 msgstr "Välj layout och stil"
 
@@ -3892,25 +3820,25 @@ msgstr "Välj en andra fil för jämförelse"
 msgid "Select single item to move"
 msgstr "Välj enskilt objekt att flytta"
 
-#: Gtk/ClamScanBox.vala:244 Gtk/ClamScanBox.vala:332 Gtk/ClamScanBox.vala:420
+#: Gtk/ClamScanBox.vala:240 Gtk/ClamScanBox.vala:328 Gtk/ClamScanBox.vala:416
 msgid "Select some items"
 msgstr "Välj några objekt"
 
-#: Gtk/FileViewList.vala:5595
+#: Gtk/FileViewList.vala:5571
 msgid "Select the JPEG image files to convert"
 msgstr "Välj JPEG-filer att konvertera"
 
-#: Gtk/FileViewList.vala:5573
+#: Gtk/FileViewList.vala:5549
 msgid "Select the PNG image files to convert"
 msgstr "Välj PNG-filer att konvertera"
 
-#: Gtk/FileViewList.vala:5615 Gtk/FileViewList.vala:5635
-#: Gtk/FileViewList.vala:5655 Gtk/FileViewList.vala:5675
-#: Gtk/FileViewList.vala:5695 Gtk/FileViewList.vala:5715
+#: Gtk/FileViewList.vala:5591 Gtk/FileViewList.vala:5611
+#: Gtk/FileViewList.vala:5631 Gtk/FileViewList.vala:5651
+#: Gtk/FileViewList.vala:5671 Gtk/FileViewList.vala:5691
 msgid "Select the image files to convert"
 msgstr "Välj bildfiler att konvertera"
 
-#: Gtk/FileViewList.vala:5072 Gtk/FileViewList.vala:5079
+#: Gtk/FileViewList.vala:5048 Gtk/FileViewList.vala:5055
 #, c-format
 msgid "Selected item is not a text file"
 msgstr "Det valda objektet är ingen textfil"
@@ -3956,7 +3884,7 @@ msgstr "Använd bilden som skrivbordsbakgrund"
 msgid "Sets the default application for opening folders"
 msgstr "Ange standardprogram för att öppna mappar"
 
-#: Gtk/FileViewToolbar.vala:478 Gtk/SettingsWindow.vala:49
+#: Gtk/FileViewToolbar.vala:474 Gtk/SettingsWindow.vala:49
 #: Gtk/TermContextMenu.vala:222
 msgid "Settings"
 msgstr "Inställningar"
@@ -3969,7 +3897,7 @@ msgstr "Dela"
 msgid "Share Name Not Specified"
 msgstr "Utdelningsnamn ospecificerat"
 
-#: Gtk/FileViewList.vala:3403
+#: Gtk/FileViewList.vala:3431
 msgid "Shortcut: [Super] + N"
 msgstr "Genväg: [Super] + N"
 
@@ -4009,7 +3937,7 @@ msgstr "Visa dolda"
 msgid "Show Other Files"
 msgstr "Visa andra filer"
 
-#: Gtk/MainMenubar.vala:1969
+#: Gtk/MainMenubar.vala:1963
 msgid "Show Quarantined Files"
 msgstr "Visa filer satta i karantän"
 
@@ -4126,7 +4054,7 @@ msgstr "Visar bilder och video i mediavy"
 msgid "Sidebar"
 msgstr "Sidofält"
 
-#: Gtk/ClamScanBox.vala:664
+#: Gtk/ClamScanBox.vala:660
 msgid "Signature"
 msgstr "Signatur"
 
@@ -4134,7 +4062,7 @@ msgstr "Signatur"
 msgid "Single"
 msgstr "Enkel"
 
-#: Gtk/FileViewToolbar.vala:340
+#: Gtk/FileViewToolbar.vala:336
 msgid "Single Pane"
 msgstr "Enkelpanel"
 
@@ -4142,10 +4070,10 @@ msgstr "Enkelpanel"
 msgid "Single window mode"
 msgstr "Enkelfönsterläge"
 
-#: Gtk/ClamScanBox.vala:700 Gtk/DevicePopover.vala:253
+#: Gtk/ClamScanBox.vala:696 Gtk/DevicePopover.vala:253
 #: Gtk/FileConflictDialog.vala:542 Gtk/FileConflictDialog.vala:554
 #: Gtk/FilePropertiesBox.vala:151 Gtk/FilePropertiesWindow.vala:218
-#: Gtk/FileViewList.vala:778 Gtk/Sidebar.vala:1290 Gtk/Statusbar.vala:359
+#: Gtk/FileViewList.vala:783 Gtk/Sidebar.vala:1290 Gtk/Statusbar.vala:359
 #: Utility/Device.vala:2559 Utility/FileItem.vala:728
 #: Utility/VideoDownloadTask.vala:319
 #, c-format
@@ -4181,15 +4109,11 @@ msgstr "Sortera fallande"
 msgid "Source"
 msgstr "Källa"
 
-#: Gtk/FileViewList.vala:4447 Gtk/FileViewList.vala:4453
-msgid "Source and destination are same"
-msgstr "Källa och mål är samma"
-
 #: Gtk/FilePermissionsBox.vala:159
 msgid "Special"
 msgstr "Special"
 
-#: Gtk/ProgressPanelArchiveTask.vala:194
+#: Gtk/ProgressPanelArchiveTask.vala:192
 msgid "Speed:"
 msgstr "Hastighet:"
 
@@ -4221,7 +4145,7 @@ msgstr "Status"
 msgid "Statusbar"
 msgstr "Statusfält"
 
-#: Gtk/ProgressPanelArchiveTask.vala:351 Gtk/ProgressPanelArchiveTask.vala:354
+#: Gtk/ProgressPanelArchiveTask.vala:349 Gtk/ProgressPanelArchiveTask.vala:352
 msgid "Stop"
 msgstr "Stopp"
 
@@ -4241,13 +4165,9 @@ msgstr "Stil"
 msgid "Style Wizard"
 msgstr "Stilguide"
 
-#: Gtk/MainMenubar.vala:1943
+#: Gtk/MainMenubar.vala:1937
 msgid "Style wizard"
 msgstr "Stilguide"
-
-#: Utility/Gtk/DonationWindow.vala:85
-msgid "Support"
-msgstr "Support"
 
 #: Gtk/Settings.vala:920
 msgid "Swap"
@@ -4257,7 +4177,7 @@ msgstr "Växla"
 msgid "Swap directory path with opposite pane"
 msgstr "Växla mappsökväg med motstående panel"
 
-#: Gtk/FileViewList.vala:1221
+#: Gtk/FileViewList.vala:1226
 msgid "Symlink Target"
 msgstr "Symbolisk länkmål"
 
@@ -4265,7 +4185,7 @@ msgstr "Symbolisk länkmål"
 msgid "Syntax"
 msgstr "Syntax"
 
-#: Gtk/ClamScanBox.vala:529
+#: Gtk/ClamScanBox.vala:525
 msgid "System"
 msgstr "System"
 
@@ -4300,7 +4220,7 @@ msgstr "Flikar i underkant"
 msgid "Target"
 msgstr "Mål"
 
-#: Gtk/FileContextMenu.vala:678 Gtk/FileViewToolbar.vala:428
+#: Gtk/FileContextMenu.vala:678 Gtk/FileViewToolbar.vala:424
 #: Gtk/Settings.vala:480 Gtk/Settings.vala:1367
 msgid "Terminal"
 msgstr "Terminal"
@@ -4309,15 +4229,15 @@ msgstr "Terminal"
 msgid "Terminal emulator to use for terminal panes"
 msgstr "Terminalemulator att användas i terminalpaneler"
 
-#: Gtk/ProgressPanelArchiveTask.vala:111
+#: Gtk/ProgressPanelArchiveTask.vala:109
 msgid "Testing"
 msgstr "Testar"
 
-#: Gtk/FileViewList.vala:6179
+#: Gtk/FileViewList.vala:6155
 msgid "There are no files selected for compression"
 msgstr "Inga filer har valts för komprimering"
 
-#: Gtk/ProgressPanelArchiveTask.vala:640
+#: Gtk/ProgressPanelArchiveTask.vala:638
 msgid "There were errors while processing the archive."
 msgstr "Fel inträffade när arkivet bearbetades."
 
@@ -4333,23 +4253,6 @@ msgstr ""
 "Detta program är designat för Arc GTK-temat. Det kanske inte ser riktigt ut "
 "med andra teman."
 
-#: Utility/Gtk/DonationWindow.vala:110
-msgid ""
-"This application was created for my own use in my spare time. It's not "
-"practical for me to work for free, on every change that is requested. If you "
-"need new features or changes to the application, consider making a donation "
-"to sponsor the work. If you are a developer, consider contributing to the "
-"project, by picking up items from the issue tracker and submitting code "
-"changes."
-msgstr ""
-
-#: Utility/Gtk/DonationWindow.vala:67
-msgid ""
-"This software is free for personal and commercial use. It is distributed in "
-"the hope that it is useful but without any warranty. See the GNU General "
-"Public License v2 or later for more information"
-msgstr ""
-
 #: Gtk/Settings.vala:1853 Gtk/Settings.vala:2039 Gtk/Settings.vala:2240
 msgid "Thumbnails"
 msgstr "Miniatyrer"
@@ -4358,7 +4261,7 @@ msgstr "Miniatyrer"
 msgid "Tile View"
 msgstr "Rutvy"
 
-#: Gtk/FileViewToolbar.vala:405 Gtk/Settings.vala:1332 Gtk/ViewPopover.vala:141
+#: Gtk/FileViewToolbar.vala:401 Gtk/Settings.vala:1332 Gtk/ViewPopover.vala:141
 msgid "Tiles"
 msgstr "Ikoner mellan"
 
@@ -4383,11 +4286,11 @@ msgstr "Visa/Dölj sidofält"
 msgid "Toggle Terminal Pane"
 msgstr "Visa/Dölj terminalpanel"
 
-#: Gtk/FileViewToolbar.vala:449 Gtk/Statusbar.vala:473
+#: Gtk/FileViewToolbar.vala:445 Gtk/Statusbar.vala:473
 msgid "Toggle file properties panel"
 msgstr "Visa/Dölj panel för filegenskaper"
 
-#: Gtk/FileViewToolbar.vala:429 Gtk/MiddleToolbar.vala:366
+#: Gtk/FileViewToolbar.vala:425 Gtk/MiddleToolbar.vala:366
 #: Gtk/Statusbar.vala:451
 msgid "Toggle terminal panel"
 msgstr "Visa/Dölj terminalpanel"
@@ -4396,7 +4299,7 @@ msgstr "Visa/Dölj terminalpanel"
 msgid "Toolbar"
 msgstr "Verktygsfält"
 
-#: Gtk/MainMenubar.vala:1820
+#: Gtk/MainMenubar.vala:1814
 msgid "Tools"
 msgstr "Verktyg"
 
@@ -4412,7 +4315,7 @@ msgstr "Rekursiv tryckkänslig"
 msgid "Touch Recursive (Follow Symlinks)"
 msgstr "Rekursiv tryckkänslig (följ symboliska länkar)"
 
-#: Utility/Gtk/AboutWindow.vala:450
+#: Utility/Gtk/AboutWindow.vala:448
 msgid "Translations"
 msgstr "Översättningar"
 
@@ -4435,11 +4338,11 @@ msgstr ""
 "\n"
 "Flytta markerade objekt till papperskorgen"
 
-#: Gtk/FileViewList.vala:4466
+#: Gtk/FileViewList.vala:4442
 msgid "Trash selected items?"
 msgstr "Vill du flytta markerade objekt till papperskorgen?"
 
-#: Gtk/FileViewList.vala:1307
+#: Gtk/FileViewList.vala:1312
 msgid "Trashed On"
 msgstr "Flyttad till papperskorgen"
 
@@ -4449,7 +4352,7 @@ msgstr "Försök klistra in URL:en igen."
 
 #: Gtk/ConnectServerWindow.vala:219 Gtk/FileConflictDialog.vala:541
 #: Gtk/FileConflictDialog.vala:553 Gtk/FilePropertiesBox.vala:179
-#: Gtk/FilePropertiesBox.vala:247 Gtk/FileViewList.vala:1135
+#: Gtk/FilePropertiesBox.vala:247 Gtk/FileViewList.vala:1140
 #: Utility/FileItem.vala:732 Utility/VideoDownloadTask.vala:318
 #, c-format
 msgid "Type"
@@ -4514,7 +4417,7 @@ msgstr "Okänd"
 msgid "Unknown File Format"
 msgstr "Okänt filformat"
 
-#: Gtk/ProgressPanelArchiveTask.vala:626 Gtk/ProgressPanelArchiveTask.vala:630
+#: Gtk/ProgressPanelArchiveTask.vala:624 Gtk/ProgressPanelArchiveTask.vala:628
 msgid "Unknown Format"
 msgstr "Okänt format"
 
@@ -4558,7 +4461,7 @@ msgstr "Uppackad"
 msgid "Unprotect the PDF document by removing password"
 msgstr "Ta bort PDF-skyddet genom att ta bort lösenordet"
 
-#: Gtk/FileViewToolbar.vala:201 Gtk/MainMenubar.vala:1347 Gtk/Settings.vala:429
+#: Gtk/FileViewToolbar.vala:197 Gtk/MainMenubar.vala:1347 Gtk/Settings.vala:429
 #: Gtk/Settings.vala:860
 msgid "Up"
 msgstr "Upp"
@@ -4567,7 +4470,7 @@ msgstr "Upp"
 msgid "Update recursively for all items inside the folder"
 msgstr "Uppdatera rekursivt för alla objekt i mappen"
 
-#: Gtk/FileViewList.vala:5815
+#: Gtk/FileViewList.vala:5791
 msgid "Update required packages and try again"
 msgstr "Uppdatera nödvändiga paket och försök igen"
 
@@ -4585,15 +4488,9 @@ msgstr "Uppdatera youtube-dl till en nyare version."
 msgid "Uploading files to cloud storage:"
 msgstr "Laddar upp filer till molnlagring:"
 
-#: Utility/FileTask.vala:467
+#: Utility/FileTask.vala:468
 msgid "Uploading items..."
 msgstr "Laddar upp objekt..."
-
-#: Utility/Gtk/DonationWindow.vala:89
-msgid ""
-"Use the issue tracker for reporting issues, asking questions, and requesting "
-"features. Please avoid reporting issues by email."
-msgstr ""
 
 #: Gtk/FilePropertiesWindow.vala:225 Gtk/Sidebar.vala:1292
 #: Gtk/Statusbar.vala:361 Utility/Device.vala:2562
@@ -4601,7 +4498,7 @@ msgstr ""
 msgid "Used"
 msgstr "Använt"
 
-#: Gtk/FilePermissionsBox.vala:114 Gtk/FileViewList.vala:417
+#: Gtk/FilePermissionsBox.vala:114 Gtk/FileViewList.vala:422
 #, c-format
 msgid "User"
 msgstr "Användare"
@@ -4653,7 +4550,7 @@ msgstr "Videoupplösning"
 msgid "Videos"
 msgstr "Video"
 
-#: Gtk/FileViewToolbar.vala:266 Gtk/MainMenubar.vala:887
+#: Gtk/FileViewToolbar.vala:262 Gtk/MainMenubar.vala:887
 #: Gtk/MainMenubar.vala:1048 Gtk/Settings.vala:548 Gtk/Settings.vala:1621
 #: Gtk/ViewPopover.vala:116
 msgid "View"
@@ -4679,7 +4576,7 @@ msgstr "Webbsida"
 msgid "Width"
 msgstr "Bredd"
 
-#: Gtk/MainMenubar.vala:2077 Utility/Gtk/DonationWindow.vala:100
+#: Gtk/MainMenubar.vala:2069
 msgid "Wiki"
 msgstr "Wiki"
 
@@ -4699,7 +4596,7 @@ msgstr "Ordstorlek"
 msgid "Workspace"
 msgstr "Arbetsyta"
 
-#: Gtk/MainMenubar.vala:1523
+#: Gtk/MainMenubar.vala:1520
 msgid "Workspace Removed"
 msgstr "Arbetsyta borttagen"
 
@@ -4721,11 +4618,11 @@ msgid "Wrong password"
 msgstr "Fel lösenord"
 
 #: Gtk/FilePropertiesBox.vala:191 Gtk/FilePropertiesBox.vala:196
-#: Utility/Gtk/CustomMessageDialog.vala:179
+#: Utility/Gtk/CustomMessageDialog.vala:177
 msgid "Yes"
 msgstr "Ja"
 
-#: Gtk/FileViewList.vala:4598
+#: Gtk/FileViewList.vala:4574
 msgid "You do not have permission to rename this item"
 msgstr "Du saknar rättighet att byta namn på detta objekt"
 
@@ -4773,11 +4670,11 @@ msgstr "objekt"
 msgid "items"
 msgstr "objekt"
 
-#: Gtk/FileViewList.vala:4532
+#: Gtk/FileViewList.vala:4508
 msgid "selected item(s) will be deleted permanently"
 msgstr "markerade objekt kommer att tas bort permanent"
 
-#: Gtk/FileViewList.vala:4467
+#: Gtk/FileViewList.vala:4443
 msgid "selected item(s) will be moved to trash"
 msgstr "markerade objekt flyttas till papperskorgen"
 
@@ -4793,6 +4690,69 @@ msgstr "överfört"
 #: Utility/FileTask.vala:1379
 msgid "trashed"
 msgstr "kastat"
+
+#~ msgid "Become a Patron"
+#~ msgstr "Bli en beskyddare"
+
+#~ msgid "Copying..."
+#~ msgstr "Kopierar..."
+
+#~ msgid "Create copies of selected items?"
+#~ msgstr "Vill du skapa kopior av markerade objekt?"
+
+#~ msgid "Donate"
+#~ msgstr "Donera"
+
+#~ msgid "Donation Features"
+#~ msgstr "Donationsfunktioner"
+
+#~ msgid "Enter path or browse for directory"
+#~ msgstr "Ange sökväg eller bläddra efter mappen"
+
+#~ msgid "Feature Requests"
+#~ msgstr "Funktionsönskemål"
+
+#, fuzzy
+#~ msgid "Get Plugins ($10)"
+#~ msgstr "Hämta donationsinstick ($10)"
+
+#~ msgid ""
+#~ "I sometimes create exclusive plugins to encourage people to contribute. "
+#~ "You can make a contribution by translating the application to other "
+#~ "languages, by submitting code changes, or by making a donation for $10 "
+#~ "with PayPal. Contributors are added to an email distribution list, and "
+#~ "plugins are sent by email. These plugins are open-source. You can request "
+#~ "the source code after receiving the plugins."
+#~ msgstr ""
+#~ "Ibland skapar jag exklusiva insticksmoduler för att uppmuntra folk att "
+#~ "bidra. Du kan bidra genom att översätta programmet till andra språk, "
+#~ "genom att skicka in kodbidrag, eller genom att donera $10 via PayPal. "
+#~ "Bidragsgivare läggs till i en e-postlista och insticken skickas med e-"
+#~ "post. Insticken är öppen källkod. Du kan be om källkoden efter att du "
+#~ "mottagit insticken."
+
+#, fuzzy
+#~ msgid ""
+#~ "If you find this application useful, consider making a donation to "
+#~ "support the development."
+#~ msgstr ""
+#~ "Om du finner det här programmet användbart och vill stödja dess "
+#~ "utveckling, kan du använda nedanstående knapp och donera via payPal."
+
+#~ msgid "Make a donation"
+#~ msgstr "Donera"
+
+#~ msgid "Requested operation is not possible"
+#~ msgstr "Önskad åtgärd är inte möjlig"
+
+#~ msgid "Select Path"
+#~ msgstr "Välj sökväg"
+
+#~ msgid "Source and destination are same"
+#~ msgstr "Källa och mål är samma"
+
+#~ msgid "Support"
+#~ msgstr "Support"
 
 #~ msgid "Close Window"
 #~ msgstr "Stäng fönstret"

@@ -954,7 +954,7 @@ public class ArchiveTask : AsyncTask {
 						FileAttribute.STANDARD_SIZE, FileAttribute.TIME_MODIFIED), 0);
 
 					archive.archive_size = finfo.get_size();
-					archive.archive_modified = (new DateTime.from_timeval_utc(finfo.get_modification_time())).to_local();
+					archive.archive_modified = finfo.get_modification_date_time()?.to_local();
 				}
 				catch (Error e) {
 					log_error(e.message);
@@ -1293,15 +1293,6 @@ public class ArchiveTask : AsyncTask {
 		mutex_parser.unlock();
 
 		return true;
-	}
-
-	private void wait_for_threads_to_finish(){
-		log_debug("ArchiveTask: wait_for_pending_threads");
-		while (threads_are_pending()){
-			sleep(200);
-			gtk_do_events();
-		}
-		log_debug("ArchiveTask: wait_for_pending_threads: done");
 	}
 
 	protected override void finish_task(){

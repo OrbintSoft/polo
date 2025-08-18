@@ -253,7 +253,7 @@ public class ClamScanBox : Gtk.Box {
 
 			if (clamav.admin_mode){
 				string std_out, std_err;
-				(void)App.exec_admin(cmd, out std_out, out std_err);
+				App.exec_admin(cmd, out std_out, out std_err);
 			}
 			else{
 				Posix.system(cmd);
@@ -341,7 +341,7 @@ public class ClamScanBox : Gtk.Box {
 
 			if (clamav.admin_mode){
 				string std_out, std_err;
-				(void)App.exec_admin(cmd, out std_out, out std_err);
+				App.exec_admin(cmd, out std_out, out std_err);
 			}
 			else{
 				Posix.system(cmd);
@@ -429,7 +429,7 @@ public class ClamScanBox : Gtk.Box {
 
 			if (clamav.admin_mode){
 				string std_out, std_err;
-				(void)App.exec_admin(cmd, out std_out, out std_err);
+				App.exec_admin(cmd, out std_out, out std_err);
 			}
 			else{
 				Posix.system(cmd);

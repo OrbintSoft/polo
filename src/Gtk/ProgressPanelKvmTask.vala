@@ -48,7 +48,7 @@ public class ProgressPanelKvmTask : ProgressPanel {
 	public Gtk.ProgressBar progressbar;
 
 	public ProgressPanelKvmTask(FileViewPane _pane, FileActionType _action){
-		init(_pane, null, _action);
+		base(_pane, null, _action);
 	}
 
 	public void set_parameters(string _file_path, string _base_file, string _derived_file, double _disk_size){

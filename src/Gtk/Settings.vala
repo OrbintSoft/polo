@@ -706,7 +706,7 @@ public class Settings : Gtk.Box, IPaneActive {
 		hbox.add(label);
 
 		var link = new Gtk.LinkButton(App.pathbar_style.to_string());
-		link.xalign = 0.0f;
+		
 		hbox.add(link);
 
 		gtk_apply_css( { link }, "padding-left: 0px; padding-right: 0px; margin-left: 0px; margin-right: 0px;");

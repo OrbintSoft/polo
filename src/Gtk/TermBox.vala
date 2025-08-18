@@ -111,8 +111,6 @@ public class TermBox : Gtk.Box {
 		term.backspace_binding = Vte.EraseBinding.AUTO;
 		term.cursor_blink_mode = Vte.CursorBlinkMode.SYSTEM;
 		term.cursor_shape = Vte.CursorShape.UNDERLINE;
-		term.rewrap_on_resize = true;
-		term.allow_bold = false;
 		//#endif
 
 		term.scroll_on_keystroke = true;
@@ -177,17 +175,20 @@ public class TermBox : Gtk.Box {
 		try{
 
 			is_running = true;
+			
 
-			term.spawn_sync(
-				Vte.PtyFlags.DEFAULT, //pty_flags
-				App.user_home, //working_directory
-				argv, //argv
-				env, //env
-				GLib.SpawnFlags.SEARCH_PATH, //spawn_flags
-				null, //child_setup
-				out child_pid,
+			term.spawn_async(
+				Vte.PtyFlags.DEFAULT,   // pty_flags
+				App.user_home,          // working_directory
+				argv,                   // argv
+				env,                    // environment
+				GLib.SpawnFlags.SEARCH_PATH, // flags
+				null,                   // child setup
+				30,                     // timeout
+				null,                   // cancellable
 				null
 			);
+
 
 			term.child_exited.connect((status)=>{
 				log_debug("TermBox: child_exited(): pid=%d, status=%d".printf(child_pid, status));
