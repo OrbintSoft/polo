@@ -1,3 +1,9 @@
+# Fork notes
+
+This forks aims revive polo if supported by community, create a pull request and will be integrated.
+
+Don't expect that I will work actively on this repository if there is no community support.
+
 # Polo File Manager
 
 Polo is a modern, light-weight file manager for Linux with support for multiple
