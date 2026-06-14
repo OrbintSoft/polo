@@ -44,12 +44,33 @@ endif
 
 define_symbols  = $(shell { echo "${vte_symbol} ${gtk3_symbol}"; } )
 
+# warning suppression for Vala-generated C (GCC 14+) -------------------
+# valac 0.56 (the GTK3-era series) emits C with implicit pointer
+# conversions and const-discarding that older GCC accepted silently but
+# GCC 14+ surfaces loudly. These are codegen artifacts, not logic bugs in
+# polo's .vala sources, so mute the known-noisy categories to keep the
+# build clean and avoid Portage's "severe warnings" QA notice (only
+# -Wincompatible-pointer-types is QA-"severe"; the rest are just noise).
+#
+# -DVALA_STRICT_C is the non-obvious part: every generated .c carries an
+# in-source `#pragma GCC diagnostic warning "-Wincompatible-pointer-types"`
+# that valac adds to downgrade GCC 14+'s new default *error* back to a
+# warning. An in-source pragma overrides the command line, so on its own
+# --Xcc=-Wno-incompatible-pointer-types is silently ineffective. valac
+# wraps that pragma in `#if !defined(VALA_STRICT_C)`, so defining the macro
+# drops the pragma and lets the -Wno- flags below actually take effect
+# (GCC 14+ would otherwise make it a hard error -- hence -Wno is required
+# alongside the macro). See BUILD_WARNINGS.txt for the full rationale.
+cc_warning_flags ::= --Xcc="-DVALA_STRICT_C" \
+	--Xcc="-Wno-incompatible-pointer-types" --Xcc="-Wno-incompatible-function-pointer-types" \
+	--Xcc="-Wno-discarded-qualifiers" --Xcc="-Wno-unused-result"
+
 all: app-gtk app-translations app-util-disk app-util-gtk3
 
 app-gtk:
 	#polo-gtk
 	valac -X -D'GETTEXT_PACKAGE="${app_name}"' \
-		--Xcc="-lm" ${define_symbols} --Xcc="-Os" \
+		--Xcc="-lm" ${define_symbols} --Xcc="-Os" ${cc_warning_flags} \
 		Common/Main.vala \
 		Gtk/*.vala \
 		Utility/*.vala \
@@ -62,11 +83,11 @@ app-gtk:
 		--pkg gdk-x11-3.0
 
 app-util-gtk3:
-	valac "polo-gtk3-helper.vala" --Xcc="-Os" -o polo-gtk3-helper --pkg gtk+-3.0
+	valac "polo-gtk3-helper.vala" --Xcc="-Os" ${cc_warning_flags} -o polo-gtk3-helper --pkg gtk+-3.0
 
 app-util-disk:
 	valac --Xcc="-lm" -X -D'GETTEXT_PACKAGE="${app_name}"' \
-		"polo-disk.vala" Console/*.vala --Xcc="-Os" -o polo-disk --pkg posix --pkg gio-unix-2.0 --pkg gee-0.8
+		"polo-disk.vala" Console/*.vala --Xcc="-Os" ${cc_warning_flags} -o polo-disk --pkg posix --pkg gio-unix-2.0 --pkg gee-0.8
 
 app-translations:
 	# update translation template

@@ -1,0 +1,107 @@
+Build warnings under modern GCC (>= 14) — Gentoo packaging QA
+=============================================================
+
+Summary
+-------
+When polo is built from source with GCC 14/15 (for example through the
+OrbintSoft Gentoo overlay's x11-misc/polo ebuild), the compiler emits many
+warnings on the valac-generated C. Portage then raises:
+
+    QA Notice: Package triggers severe warnings which indicate that it
+               may exhibit random runtime failures.
+
+The package still builds, links and installs correctly — these are warnings,
+not errors. The notice is purely about compiler warning noise; clearing it
+makes the package "clean" for a published overlay.
+
+What the warnings are
+---------------------
+All of them are in the *generated* C (the src/**/*.vala.c files produced by
+valac), not in the hand-written .vala sources. Counts from one full build:
+
+    77 x  -Wincompatible-pointer-types
+   163 x  -Wdiscarded-qualifiers
+    16 x  -Wunused-result
+     1 x  -Wpointer-to-int-cast
+     1 x  -Wdeprecated-declarations
+
+Representative examples (repo-relative paths):
+
+  src/Gtk/BookmarksMenu.vala.c
+      passing argument 2 of 'gtk_menu_shell_append' from incompatible pointer type
+  src/Gtk/FileContextMenu.vala.c
+      passing argument 2 of 'gtk_menu_item_set_submenu' from incompatible pointer type
+  src/Gtk/CreateArchiveWindow.vala.c
+      assignment to 'GtkBox *' from incompatible pointer type 'GtkWidget *'
+  src/Gtk/DevicesMenu.vala.c, src/Gtk/ConnectServerWindow.vala.c,
+  src/Gtk/FileConflictDialog.vala.c, src/Gtk/DevicePopoverSettingsWindow.vala.c
+      same family of warnings.
+
+Root cause
+----------
+These come from Vala 0.56 code generation (the GTK3-era Vala series). The
+generated C contains implicit pointer conversions and const-discarding that
+older GCC accepted silently; GCC 14+ surfaces them prominently. This is a
+characteristic of the Vala->C codegen, NOT a logic bug in polo's .vala code,
+and it affects most GTK3/Vala applications built with current GCC.
+
+Fix as applied (src/makefile)
+-----------------------------
+DONE: a `cc_warning_flags` variable was added to src/makefile and threaded
+into all three valac invocations (app-gtk, app-util-gtk3, app-util-disk).
+The flags passed to the C compiler via valac's --Xcc are:
+
+    -DVALA_STRICT_C
+    -Wno-incompatible-pointer-types -Wno-incompatible-function-pointer-types
+    -Wno-discarded-qualifiers -Wno-unused-result
+
+Why -DVALA_STRICT_C is required (the non-obvious bit)
+----------------------------------------------------
+The obvious fix -- just adding -Wno-incompatible-pointer-types -- does NOT
+work, and that is the most important category (77 of the warnings, and the
+only one Portage actually treats as "severe"). The reason: valac 0.56 emits,
+at the top of every generated .c file, an in-source pragma:
+
+    #if !defined(VALA_STRICT_C)
+    #if !defined(__clang__) && defined(__GNUC__) && (__GNUC__ >= 14)
+    #pragma GCC diagnostic warning "-Wincompatible-pointer-types"
+    ...
+    #endif
+    #endif
+
+valac adds this to downgrade GCC 14+'s new default *error* back to a warning
+so the generated C still builds. But an in-source `#pragma GCC diagnostic`
+overrides the command line, so --Xcc=-Wno-incompatible-pointer-types is
+silently ineffective on its own.
+
+Defining VALA_STRICT_C drops that pragma (it is guarded by
+`#if !defined(VALA_STRICT_C)`), which then exposes GCC 14+'s default -- a
+hard *error* -- so the -Wno-* flags above become both effective AND required.
+The macro + -Wno- pair together is the working combination. (The
+-Wno-incompatible-function-pointer-types flag is the clang counterpart; GCC
+silently ignores it, so the same flag set works under both compilers.)
+
+Notes:
+  - Prefer the targeted -Wno-* flags over a blanket "-w": -w hides every
+    warning, including ones worth keeping; the targeted form only mutes the
+    known Vala-codegen noise.
+  - -Wpointer-to-int-cast (x1) and -Wdeprecated-declarations (x1) are left
+    visible on purpose: neither is QA-"severe" and the deprecation notice is
+    useful signal for future GTK API work.
+  - ~56 -Wformat= warnings (e.g. %lld used for gint64/guint64) are pre-
+    existing, benign on 64-bit (same width, different type name) and NOT
+    QA-severe. Fixing them properly means using the right format macros
+    (G_GINT64_FORMAT etc.) in the .vala sources -- a separate cleanup.
+
+Alternatives (not recommended)
+------------------------------
+  - Regenerate with a newer Vala, or hand-patch each call site with explicit
+    casts. The codegen issue is broad and version-driven, so this is much more
+    work for no behavioural gain.
+
+Impact on the Gentoo overlay
+----------------------------
+No ebuild change is required: x11-misc/polo already builds and installs. This
+fix only removes the "severe warnings" QA notice. Because the overlay ships a
+live -9999 ebuild that tracks github.com/OrbintSoft/polo, once this is fixed
+and pushed upstream the ebuild picks it up automatically on the next build.

@@ -1,3 +1,99 @@
+================================================================================
+                          Polo File Manager — AUTHORS
+================================================================================
 
-Copyright (C) 2012-2017 Tony George (teejeetech@gmail.com)
+Polo is free software, licensed under the GNU General Public License v3.0 or
+later (GPL-3.0-or-later). See the LICENSE file for the full text.
 
+The rights of the original author and of every contributor listed below are
+fully acknowledged and must always be preserved. See CLAUDE.md for the
+project's commitments regarding licensing and attribution.
+
+
+--------------------------------------------------------------------------------
+ORIGINAL AUTHOR & CREATOR
+--------------------------------------------------------------------------------
+
+Tony George
+    The original creator and copyright holder of Polo File Manager.
+    All credit for the original design and implementation belongs to him.
+
+    Copyright (C) 2012-2018 Tony George
+
+    Email:      teejeetech@gmail.com
+                tony.george.kol@gmail.com
+                teejee2008@gmail.com
+    GitHub:     @teejee2008  (https://github.com/teejee2008)
+    Repository: https://github.com/teejee2008/polo
+    Website:    https://teejeetech.in
+                https://teejeetech.com
+                https://teejeetech.blogspot.com   (legacy blog)
+
+    Heartfelt thanks to Tony George for creating Polo and for releasing it as
+    free software for the whole community. This fork exists only thanks to his
+    original work, and aims to honour and continue it with respect.
+
+
+--------------------------------------------------------------------------------
+MAINTAINER OF THIS FORK
+--------------------------------------------------------------------------------
+
+Stefano Balzarotti (Orbintsoft)
+    Maintainer and author of this fork.
+
+    Copyright (C) 2025-2026 Stefano Balzarotti
+
+    Email:      stefano.balzarotti@orbintsoft.net
+    Org:        Orbintsoft
+
+    This fork aims to revive Polo with community support. Contributions and
+    pull requests are welcome and will be integrated upstream where possible.
+
+
+--------------------------------------------------------------------------------
+AI SUPPORT
+--------------------------------------------------------------------------------
+
+Claude (Anthropic) — Claude Opus
+    AI assistant supporting the maintenance of this specific fork.
+    Used to help analyse, refactor, document and maintain the codebase under
+    human direction and review. All work is supervised by the fork maintainer.
+
+    https://www.anthropic.com
+
+
+--------------------------------------------------------------------------------
+CONTRIBUTORS
+--------------------------------------------------------------------------------
+
+The following people have contributed to Polo, as recorded in the project's
+git history (ordered by number of commits). The rights of every contributor
+are acknowledged and preserved.
+
+    Tony George               <teejeetech@gmail.com> / <tony.george.kol@gmail.com>
+    ZIzA                      <@XZVB12>
+    Timo Reichl               <timo.reichl@mailbox.org>
+    Peter J. Mello            <@RogueScholar> / <admin@petermello.net>
+    kirua / zlita             <kirua@linux.home>
+    Stefano Balzarotti        <stefano.balzarotti@orbintsoft.net>
+    yasarciv67                <yasarciv67@gmail.com>
+    ave4                      <@ave4>
+    mitigd                    <mitigd@outlook.com>
+    Fabeuss                   <@Fabeuss>
+    Heimen Stoffels           <vistausss@outlook.com>
+    Jourdan Luca              <luca.jourdan@etu.univ-lyon1.fr>
+    Phil Roggenbuck           <ceo@roggstar.euk>
+    Zach Steele               <zcsteele@gmail.com>
+    essys                     <@essys>
+    oleg.shaposhnikov         <oleg.shaposhnikov@red-soft.ru>
+    sheychen                  <contact@wadza.fr>
+    Åke Engelbrektson         <@eson57>
+
+Automated tools that produced commits in the history (listed for completeness):
+
+    Restyled.io               <commits@restyled.io>
+    ImgBotApp                 <ImgBotHelp@gmail.com>
+
+If you have contributed and are missing, misattributed, or wish to update your
+details, please open an issue or a pull request — every contribution matters
+and will be credited.

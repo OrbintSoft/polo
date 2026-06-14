@@ -1,8 +1,19 @@
-# Fork notes
+# About this fork
 
-This forks aims revive polo if supported by community, create a pull request and will be integrated.
+This is a fork of **Polo File Manager**, originally created by
+**[Tony George](https://github.com/teejee2008)**. The original project is now
+archived, and this fork aims to keep it alive — though it is expected to
+**diverge significantly** from the original over time, following the
+maintainer's plans.
 
-Don't expect that I will work actively on this repository if there is no community support.
+It is maintained by **Stefano Balzarotti (Orbintsoft)**, with
+[Claude](https://www.anthropic.com) as an AI support tool under human review.
+The project stays free software under **[GPL-3.0-or-later](LICENSE)**; author
+and contributor credits are kept in [AUTHORS](AUTHORS).
+
+**Contributions are welcome** and will be credited. The long-term hope is to
+hand the project back to the community, should someone one day wish to maintain
+it.
 
 # Polo File Manager
 
@@ -66,3 +77,15 @@ PPA and DEB files are available for Ubuntu and Ubuntu-based distributions.
 Binary installers are available for all Linux distributions.
 
 **[Installation](https://github.com/RogueScholar/polo/wiki/Installation)**
+
+## License
+
+Polo is free software, released under the
+**[GNU General Public License v3.0 or later](LICENSE)** (GPL-3.0-or-later).
+
+The project was originally created by **Tony George**
+(`teejeetech@gmail.com`) and distributed under GPL-2.0-or-later. As permitted
+by the "or later" clause of that license, this fork is now distributed under
+GPL-3.0-or-later. The original copyright notices are retained in every source
+file, and all credit for the original work belongs to Tony George and the
+Polo community of contributors.

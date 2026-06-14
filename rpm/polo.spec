@@ -7,7 +7,7 @@ Version:        %{vermaj}
 Release:        3_beta%{?dist}
 Summary:        Advanced file manager for Linux written in Vala.
 
-License:        LGPLv3+
+License:        GPLv3+
 URL:            https://github.com/teejee2008/%{name}
 Source0:        https://github.com/teejee2008/%{name}/archive/v%{vermaj}.%{vermin}.tar.gz
 

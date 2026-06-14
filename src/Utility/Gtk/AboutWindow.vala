@@ -414,10 +414,10 @@ public class AboutWindow : Dialog {
 		lbl_copyright.label = "<span>%s</span>".printf(copyright);
 
 		if (license.length > 0){
-			lbl_license.label = license + "\n\n" + escape_html(GPLv2LicenseText);
+			lbl_license.label = license + "\n\n" + escape_html(GPLv3LicenseText);
 		}
 		else{
-			lbl_license.label = escape_html(GPLv2LicenseText);
+			lbl_license.label = escape_html(GPLv3LicenseText);
 		}
 
 		if (authors.length > 0){
