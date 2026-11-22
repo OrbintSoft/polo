@@ -296,7 +296,6 @@ public class FileViewList : Gtk.Box, IFileViewList {
 
 		// mouse forward & backward connect
 		treeview.button_press_event.connect(on_mbutton_press_event);
-		iconview.button_press_event.connect(on_mbutton_press_event);
 
 
 		// context menu will be connected in connect_file_context_menu()
@@ -631,6 +630,9 @@ public class FileViewList : Gtk.Box, IFileViewList {
 			menu_file = new FileContextMenu(pane);
 			return menu_file.show_menu(null);
 		});
+
+		// mouse forward & backward connect
+		iconview.button_press_event.connect(on_mbutton_press_event);
 
         // connect signal for right-click
 		iconview.button_press_event.connect(iconview_button_press_event);
