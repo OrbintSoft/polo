@@ -85,6 +85,7 @@ public class ArchiveTask : AsyncTask {
 	private double dblVal;
 
 	private static string 7zip_version_name;
+	private static bool sevenzip_version_warned = false;
 
 	private Gtk.Window? window = null;
 
@@ -144,36 +145,54 @@ public class ArchiveTask : AsyncTask {
 		}
 	}
 
+	// -1 when 7z is missing or its version cannot be detected.
 	public static double sevenzip_version {
 		get {
 			if ((7zip_version_name == null) || (7zip_version_name.length == 0)){
-
-				string std_out, std_err;
-				exec_sync("7z", out std_out, out std_err);
-
-				foreach(string line in std_out.split("\n")){
-					if ((line == null) || (line.strip().length == 0)){ continue; }
-
-					// Regex matches the following likely patterns:
-					// 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
-					// 7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
-					string expression = """^[^ \t]+[ ]+(\[\d+\][ ]+)?([0-9.]*)[ ]+""";
-
-					MatchInfo match = regex_match(expression, line);
-					if (match != null){
-						7zip_version_name = match.fetch(2);
-					}
-					break;
-				}
+				7zip_version_name = detect_sevenzip_version();
 			}
 
-			if (7zip_version_name.length > 0){
-				return double.parse(7zip_version_name);
-			}
-			else{
+			if ((7zip_version_name == null) || (7zip_version_name.length == 0)){
 				return -1;
 			}
+
+			return double.parse(7zip_version_name);
 		}
+	}
+
+	// Not cached on failure, so a 7z installed while Polo is running is picked up.
+	private static string? detect_sevenzip_version(){
+
+		string? version = null;
+
+		if (Environment.find_program_in_path("7z") != null){
+
+			string? std_out, std_err;
+			exec_sync("7z", out std_out, out std_err);
+
+			// The version is the first dotted number after "7-Zip", e.g.:
+			// 7-Zip [64] 9.20  Copyright (c) 1999-2010 Igor Pavlov  2010-11-18
+			// 7-Zip 23.01 (x64) : Copyright (c) 1999-2023 Igor Pavlov : 2023-06-20
+			// 7-Zip (z) 26.06 (x64) : Copyright (c) 1999-2026 Igor Pavlov : 2026-11-06
+			string expression = """^\s*7-Zip\b.*?\s(\d+\.\d+)\b""";
+
+			if (std_out != null){
+				foreach(string line in std_out.split("\n")){
+					MatchInfo? match = regex_match(expression, line);
+					if (match != null){
+						version = match.fetch(1);
+						break;
+					}
+				}
+			}
+		}
+
+		if ((version == null) && !sevenzip_version_warned){
+			log_warning("Could not detect the 7-Zip version: '7z' is missing or its banner is not recognized");
+			sevenzip_version_warned = true;
+		}
+
+		return version;
 	}
 
 	// build command string --------------
